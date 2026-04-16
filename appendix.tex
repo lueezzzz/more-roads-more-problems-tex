@@ -1,0 +1,65 @@
+\appendix
+\chapter{Source Codes} \label{app:source_codes}
+
+\lstset{captionpos=b, breaklines=true, breakatwhitespace=true}
+\begin{lstlisting}[language=Python, caption={Intersection Data Structure for Iloilo City Network}, label={lst:intersection_data}]
+
+intersections = [
+    {
+        "id": "villa - 1", # for referencing
+        "name": "Osmena St - Jocson St",
+        "latitude": 10.688897, 
+        "longitude": 122.516400,
+        "connections": ["villa - 2", "villa - 4", "villa - 6"],
+    },
+]
+\end{lstlisting}
+
+\lstset{captionpos=b, breaklines=true, breakatwhitespace=true}
+\begin{lstlisting}[language=Python, caption={Road Segment Structure for Iloilo City Network}, label={lst:road_data}]
+
+roads = [
+    {
+        "name": "Osmena St",
+        "A": "villa - 1",
+        "B": "villa - 6",
+        "distance": 2000,
+        "lanes": 2,
+        "one_way": False,
+    },
+]
+\end{lstlisting}
+
+\lstset{captionpos=b, breaklines=true, breakatwhitespace=true}
+\begin{lstlisting}[language=Python, caption={Constructing the Iloilo City Network}, label={lst:construction_iloilo_network}]
+
+G = nx.MultiDiGraph()
+G.graph["crs"] = "EPSG:4326"
+
+for node in intersections:
+    G.add_node(node["id"], x=node["x"], y=node["y"])
+
+for road in roads:
+    G.add_edge(road["A"], road["B"], length=road["distance"])
+    if not road["oneway"]:
+        G.add_edge(road["B"], road["A"], length=road["distance"])
+
+fig, ax = ox.plot_graph(G, show=False, close=False, edge_color="black", node_color="black", bgcolor="none")
+
+fig.patch.set_alpha(0)
+ax.set_facecolor((0, 0, 0, 0))  
+
+plt.savefig(
+    "iloilo_network_map.png",
+    dpi=300,
+    bbox_inches="tight",
+    transparent=True, 
+    pad_inches=0,
+)
+
+plt.close(fig)
+\end{lstlisting}
+
+\section{Network Data Files} \label{app:network_data_files}
+
+To facilitate reproducibility and further research, the raw datasets used for the Iloilo City network construction are hosted on GitHub. These files include the primary node data (\texttt{intersections.csv}) and edge data (\texttt{roads.csv}) utilized in the computational modeling phase. The repository containing these files can be accessed at: \\\url{https://github.com/lueezzzz/iloilo-city-network-data}

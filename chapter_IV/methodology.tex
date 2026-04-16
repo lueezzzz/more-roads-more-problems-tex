@@ -1,0 +1,73 @@
+\chapter{Methodology}
+\label{chap:methodology}
+
+This chapter outlines the specific procedures and activities carried out to develop, test, and analyze the simulation model of the Braess Paradox within Iloilo City’s traffic network.
+
+\section{Research Activities}
+\label{sec:research_activities}
+
+As illustrated in Figure 4.1, the researchers conducted a series of research activities. The process begins with Data Gathering, where the researchers collected information and parameters necessary for the study. These findings then serve as inputs for the computational modeling phase. Finally, the researchers analyzed the results of the previous phase to identify and evaluate the presence of the Braess Paradox in the Iloilo City network. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{figures/figure-3.png}
+    \caption{Research Activities Flowchart} 
+    \label{fig:research_activities}
+\end{figure}
+
+\section{Data Gathering}
+\label{sec:data_gathering}
+
+The researchers identified and mapped the primary arteries and intersections based on the DPWH Atlas 2024 for the Iloilo City Network (Department of Public Works and Highways, 2026). This process was then categorized into node identification and edge attribution to provide a digital representation of the city’s road infrastructure.  Additionally, Origin-Destination (OD) matrix pairs were identified for defining traffic demand. 
+
+\subsection{Node Identification}
+\label{sec:node_identification}
+
+During node identification,  the researchers identified key intersections within the Iloilo City network utilizing Google Maps (Google, n.d). These intersections served as nodes for the network. For each node, specific metadata was collected. The metadata structure can be found in Listing~\ref{lst:intersection_data} of Appendix~\ref{app:source_codes}.
+
+
+\subsection{Edge Attribution}
+\label{sec:edge_attribution}
+
+Road segments connecting the identified nodes were defined as edges. Specific roadway characteristics were then gathered for each edge. The structure can be found in Listing~\ref{lst:road_data} of Appendix~\ref{app:source_codes}.
+
+
+\subsection{OD Matrix Pair Identification}
+\label{sec:pair_identification}
+
+The researchers gathered data for OD matrix pairs based on the Master Plan Study on the Strategic Road Network Development project report (Japan International Cooperation Agency, 2003). These OD matrix pairs define the volume and direction of travel demand within the Iloilo City network. 
+
+\subsection{Empirical Traffic Volume Integration}
+\label {sec:empirical_volume_integration}
+
+To ensure that the mode accurately reflected the physical saturation levels of the city, the Annual Average Daily Traffic (AADT) data was integrated into the network. The data was obtained from the DPWH through a request to their office. These values serve as empirical weights to help identify the primary arterial corridors. This is to ensure that subsequent routing behaviors were driven by realistic volume dynamics rather than theoretical approximations.
+
+
+\section{Computational Modeling}
+\label{sec:computational_modeling}
+
+This section details the utilization of the gathered data into a functional computational model
+
+\subsection{Graph Based Network Construction}
+\label{sec:network_construction}
+To transform the data gathered in Section \ref{sec:data_gathering} into a representation of the Iloilo City network, the researchers manually coded the network data for seven key districts: City Proper, Jaro, La Paz, Lapuz, Mandurriao, Molo, and Villa-Arevalo which was based on DPWH's Atlas for Iloilo City of year 2024. Once the data for each individual district were completed, the researchers utilized Gemini (Google, n.d) to assist in combining these district datasets into one unified network. The unified network was then converted to two Comma-Separated Values (CSV) files: \texttt{intersections.csv} and \texttt{roads.csv}. These files served as the primary input for building the network graph using the \texttt{NetworkX} and \texttt{OSMnx} Python libraries. The implementation can be found in Listing~\ref{lst:construction_iloilo_network} of Appendix~\ref{app:source_codes}.
+
+
+
+Here, the \texttt{intersections.csv} file was read and each entry was added as a node. Each node was then assigned its respective Geospatial coordinates. \texttt{roads.csv} was then loaded and added as directed edges, the directionality of each segment was checked and if a road was two-way, two directed edges were added, meaning one for each direction. Finally, the network was rendered using \texttt{OSMnx} and \texttt{matplotlib.plt}. 
+
+% \subsection{Price of Anarchy Calculation}
+% \label{sec:poa_calculation}
+% With the digital network established, the researchers proceeded to calculate the Price of Anarchy (PoA) to measure the inefficiency of selfish routing within the Iloilo City Network. The matrix pairs identified in Section \ref{sec:data_gathering} was utilized to define the traffic flow volume ($f_{ij}$) across the network. To determine the travel time or delay for each specified road segment, the researchers utilized the BPR function. 
+
+% To distribute the traffic demand across the network, the researchers utilized the Franke-Wolfe algorithm to iteratively solve for the User Equilibrium (UE) and the System Optimum (SO). After computing for the User Equilibrium (UE) and System Optimum (SO), the researchers calculated for the PoA.
+
+% A PoA value greater than 1 indicates that the selfish routing of drivers result in a socially suboptimal state. This means that if the researchers calculate a PoA of 1.20 for a specific part of Iloilo City, the selfish driving is making the commute 20\% longer than it would be if traffic were perfectly coordinated.
+
+% \subsection{Traffic Volume Estimation}
+% \label{sec:volume_estimation}
+
+\subsection{Experimental Setup and Zonal Demand Allocation}
+\label{experimental_setup}
+
+Traffic demand, as defined in Section \ref{sec:pair_identification}, must be injected into the graph utilizing a centroid-connector topology. Virtual centroid nodes were created to represent the demand generation for each zone. Three distinct connector topologies were tested to determine how spatial aggregation influences the formation of artificial bottlenecks versus realistic arterial saturation. 

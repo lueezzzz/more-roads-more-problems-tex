@@ -1,0 +1,57 @@
+%  Filename   : preamble.tex
+%  Description: Cleaned Preamble for Research Thesis
+
+%-- Packages
+\usepackage{pdfpages}
+\usepackage{caption}
+\captionsetup[table]{justification=centering,singlelinecheck=false,position=top}
+
+\usepackage{float}       % for [H]
+% \usepackage[natbibapa]{apacite} 
+\usepackage{amsmath, amsfonts, amssymb} % Grouped math packages
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage{color}
+\usepackage{adjustbox}
+\usepackage{setspace}
+\usepackage{pdflscape}
+\usepackage{tabularx}
+\usepackage{subcaption}
+\usepackage[left]{lineno}
+\usepackage{etoolbox}
+\usepackage{url}
+
+\usepackage{listings}
+\usepackage[english]{babel} 
+\usepackage{csquotes}       
+\usepackage[backend=biber, style=apa,]{biblatex}
+
+\addbibresource{references.bib} 
+
+%-- Margins & Layout
+\topmargin 0.0in
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\voffset 0.0in
+\hoffset 0.5625in
+\textwidth 5.75in
+\textheight 8.5in
+\parskip 1em
+\parindent 0.25in
+
+
+%-- Custom Commands
+\hyphenation{ana-lysis know-ledge}
+\newcommand{\degree}{^{\circ}}
+\newcommand{\etal}{et al.}
+\newcommand{\figref}[1]{Figure \ref{#1}}
+\newcommand{\appref}[1]{Appendix \ref{#1}}
+\newcommand{\thestitle}[1]{{\Large \textsc{#1}}}
+
+\setcounter{secnumdepth}{4}
+
+%-- Load hyperref LAST
+\usepackage[hidelinks]{hyperref}
+
+%-- Graphics Path
+\graphicspath{ {./figures/} }
