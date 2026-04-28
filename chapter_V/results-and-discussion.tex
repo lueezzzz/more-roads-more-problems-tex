@@ -1,0 +1,250 @@
+\chapter{Results and Discussion}
+\label{chap:results_discussion}
+
+\section{Iloilo Road Network Representation}
+\label{chap:iloilo_representation}
+
+The final network was rendered using OSMnx and Matplotlib, as shown in Figure 5.1. The graph captures the connectivity of the districts, including the complex bridging segments between Mandurriao and the City Proper that is based on the DPWH Atlas of Iloilo 2024.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.5]{figures/figure-4.png}
+    \caption{Iloilo Network Graph} 
+    \label{fig:network_map}
+\end{figure}
+
+
+\begin{table}[H]
+    \centering
+    \label{tab:network_stats}
+    \begin{tabular}{|l|c|}
+        \hline
+        \textbf{Metric} & \textbf{Value} \\ \hline
+        Total Number of Nodes (Intersections) & 92 \\ \hline
+        Total Number of Directed Edges (Road Segments) & 218 \\ \hline
+    \end{tabular}
+        \caption{Total Number of Nodes and Directed Edges of the Unified Iloilo City Network}
+\end{table}
+
+Table \ref{fig:network_map} Shows the total number of nodes and directed edges in the unified network. Here, the total number of nodes are 82 while the total number of directed edges are 218.
+
+\section{Topological Impacts of Full Bidirectional Closures}
+\label{chap:full_bidirectional_closures}
+
+This section analyzes Setups 1, 2, and 3.
+
+\subsection{Setup 1}
+
+
+{
+\small 
+\setlength{\tabcolsep}{3pt} 
+\begin{longtable}{|p{3.5cm}|p{2.2cm}|p{2.2cm}|p{1.4cm}|p{1.5cm}|p{1.5cm}|p{1.4cm}|} 
+
+\hline
+\textbf{Road Name} & \textbf{From Node} & \textbf{To Node} & \textbf{Closure Type} & \textbf{Baseline TSTT (hrs)} & \textbf{New TSTT (hrs)} & \textbf{Braess Link?} \\ \hline
+\endfirsthead
+
+
+
+
+\hline
+\endfoot
+
+
+\hline
+\caption{Top ten least disruptive closures under Setup 1}
+\label{tab:setup1_results}
+\endlastfoot
+
+Buhang Flyover & jaro - 12 & jaro -13 & Two-Way & 3468.84 & 3495.95 & No \\ \hline
+Timawa St & Molo - 5 & Proper - 2 & Two-Way & 3468.84 & 3496.16 & No \\ \hline
+Quezon St & villa - 3 & villa - 4 & Two-Way & 3468.84 & 3499.31 & No \\ \hline
+Jocson St & villa - 1 & villa - 2 & Two-Way & 3468.84 & 3500.53 & No \\ \hline
+M.H. Del Pilar St & Molo - 10 & Molo - 7 & One-Way & 3468.84 & 3500.69 & No \\ \hline
+Delgado St & Proper - 2 & Proper - 10 & Two-Way & 3468.84 & 3502.73 & No \\ \hline
+Muelle Loney St 4 & Proper - 19 & Proper - 21 & Two-Way & 3468.84 & 3503.05 & No \\ \hline
+Ledesma St & Proper - 6 & Proper - 11 & Two-Way & 3468.84 & 3503.07 & No \\ \hline
+Lopez Jaena St - Old Lopez Jaena St & jaro - 8 & jaro - 18 & Two-Way & 3468.84 & 3503.20 & No \\ \hline
+Old Lopez Jaena St - Old Iloilo-Capiz Rd & jaro - 17 & jaro - 18 & Two-Way & 3468.84 & 3503.45 & No \\ \hline
+
+\end{longtable}
+}
+
+Table \ref{tab:setup1_results} shows the top ten least disruptive full closures under the first setup. This setup generated a high baseline TSTT of 3468.84 hours, which indicated severe localized gridlock. Since this is sorted for the smallest changes in delays, these results show the best-case scenarios for road removal. However, the most optimal candidate of Buhang Flyover still added to the travel time on the network when removed. Since there were no improvements found on any of the modified networks, no Braess link was found. 
+
+
+\subsection{Setup 2}
+
+{
+\small 
+\setlength{\tabcolsep}{3pt} 
+\begin{longtable}{|p{3.5cm}|p{2.2cm}|p{2.2cm}|p{1.4cm}|p{1.5cm}|p{1.5cm}|p{1.4cm}|} 
+
+\hline
+\textbf{Road Name} & \textbf{From Node} & \textbf{To Node} & \textbf{Closure Type} & \textbf{Baseline TSTT (hrs)} & \textbf{New TSTT (hrs)} & \textbf{Braess Link?} \\ \hline
+\endfirsthead
+
+\hline
+\endfoot
+
+\hline
+\caption{Top ten least disruptive closures under Setup 2}
+\label{tab:setup2_results}
+\endlastfoot
+
+Mandurriao - Sn Miguel Rd - R Mapa St & mandurriao - 3 & mandurriao - 4 & One-Way & 2661.00 & 2662.22 & No \\ \hline
+Infante St 3 & Proper - 3 & Proper -4 & One-Way & 2661.00 & 2662.64 & No \\ \hline
+El 98 St - Plaza Rizal St - E Lopez St & jaro - 7 & jaro - 4 & One-Way & 2661.00 & 2662.77 & No \\ \hline
+Commission Civil St - Plaza Rizal St - Iloilo-Capiz Rd & jaro - 5 & jaro - 6 & One-Way & 2661.00 & 2662.77 & No \\ \hline
+E Lopez St - Plaza Rizal St - Commission Civil St & jaro - 4 & jaro - 5 & One-Way & 2661.00 & 2662.77 & No \\ \hline
+Lopez Jaena St - Plaza Rizal S & jaro - 8 & jaro - 6 & One-Way & 2661.00 & 2662.93 & No \\ \hline
+Iloilo-Capiz Rd - Plaza Rizal St - El 98 St & jaro - 6 & jaro - 7 & One-Way & 2661.00 & 2662.93 & No \\ \hline
+Iloilo-Capiz Rd - Iloilo Circumferential Rd 1 - Monfort Blvd & jaro - 10 & jaro - 11 & Two-Way & 2661.00 & 2663.10 & No \\ \hline
+Balabago Rd & jaro - 9 & jaro - 10 & Two-Way & 2661.00 & 2663.10 & No \\ \hline
+Mandurriao - Jaro Rd - Mandurriao - Sn Miguel Rd & mandurriao - 2 & mandurriao - 3 & One-Way & 2661.00 & 2663.50 & No \\ \hline
+
+\end{longtable}
+}
+
+Table \ref{tab:setup2_results} shows the top ten least disruptive full closures under the second setup. In contrast to the first setup, this generated a low baseline TSTT of 2661 hours. Since the virtual centroids were able to have an infinite access to every node, the assignment algorithm was free to choose the best routes, bypassing real-world checkpoints. The least disruptive removals produced negligible systemic impact. Since there were no improvements found on any of the modified networks, no Braess link was found.
+
+\subsection{Setup 3}
+
+{
+\small 
+\setlength{\tabcolsep}{3pt} 
+\begin{longtable}{|p{3.5cm}|p{2.2cm}|p{2.2cm}|p{1.4cm}|p{1.5cm}|p{1.5cm}|p{1.4cm}|} 
+
+\hline
+\textbf{Road Name} & \textbf{From Node} & \textbf{To Node} & \textbf{Closure Type} & \textbf{Baseline TSTT (hrs)} & \textbf{New TSTT (hrs)} & \textbf{Braess Link?} \\ \hline
+\endfirsthead
+
+\hline
+\endfoot
+
+\hline
+\caption{Top ten least disruptive closures under Setup 3}
+\label{tab:setup3_results}
+\endlastfoot
+
+Ruperto Montinola St 1 & Proper - 8 & Proper - 10 & Two-Way & 3324.21 & 3334.08 & No \\ \hline
+Ruperto Montinola St 2 & Proper - 10 & Proper - 11 & Two-Way & 3324.21 & 3335.20 & No \\ \hline
+Luna St & jaro - 1 & lapaz - 3 & Two-Way & 3324.21 & 3335.68 & No \\ \hline
+E Lopez St & jaro - 1 & jaro - 4 & Two-Way & 3324.21 & 3335.68 & No \\ \hline
+Delgado St & Proper - 2 & Proper - 10 & Two-Way & 3324.21 & 3348.83 & No \\ \hline
+R Mapa St - Extension & mandurriao - 6 & mandurriao - 7 & Two-Way & 3324.21 & 3349.97 & No \\ \hline
+E Lopez St - Plaza Rizal St - Commission Civil St & jaro - 4 & jaro - 5 & One-Way & 3324.21 & 3351.23 & No \\ \hline
+Circumferential Rd 1 & villa - 2 & villa - 3 & Two-Way & 3324.21 & 3352.26 & No \\ \hline
+R Mapa St - Mandurriao - Jaro Rd & mandurriao - 4 & mandurriao - 2 & One-Way & 3324.21 & 3352.55 & No \\ \hline
+Luna St - Huervana St & lapaz - 1 & lapaz - 3 & Two-Way & 3324.21 & 3352.67 & No \\ \hline
+
+\end{longtable}
+}
+
+Table \ref{tab:setup3_results} shows the top ten least disruptive full closures under the third setup. By restricting zonal access exclusive to the strategic gates, the baseline TSTT generated was 3324.21 hours. The results reveal that even closing the roads, no improvement was done. Since there were no improvements found on any of the modified networks, no Braess link was found.
+
+\subsection{Setup 4}
+
+{
+\small 
+\setlength{\tabcolsep}{3pt} 
+\begin{longtable}{|p{4.5cm}|p{2.4cm}|p{2.4cm}|p{1.6cm}|p{1.6cm}|p{1.4cm}|} 
+
+\hline
+\textbf{Road Name} & \textbf{From Node} & \textbf{To Node} & \textbf{Baseline TSTT (hrs)} & \textbf{New TSTT (hrs)} & \textbf{Braess Link?} \\ \hline
+\endfirsthead
+
+\hline
+\endfoot
+
+\hline
+\caption{Top ten least disruptive closures under Setup 4}
+\label{tab:setup4_results}
+\endlastfoot
+
+Muelle Loney St 1 & Proper - 9 & Proper - 12 & 3468.84 & 3494.87 & No \\ \hline
+Delgado St & Proper - 2 & Proper - 10 & 3468.84 & 3495.17 & No \\ \hline
+Timawa St (Rev) & Proper - 2 & Molo - 5 & 3468.84 & 3495.30 & No \\ \hline
+Buhang Flyover & jaro - 12 & jaro - 13 & 3468.84 & 3495.95 & No \\ \hline
+Buhang Flyover (Rev) & jaro - 13 & jaro - 12 & 3468.84 & 3495.95 & No \\ \hline
+Muelle Loney St 1 (Rev) & Proper - 12 & Proper - 9 & 3468.84 & 3495.95 & No \\ \hline
+M.H. Del Pilar St (Rev) & Molo - 9 & Molo - 4 & 3468.84 & 3496.50 & No \\ \hline
+Old Lopez Jaena St - Old Iloilo-Capiz Rd & jaro - 18 & jaro - 17 & 3468.84 & 3496.78 & No \\ \hline
+Timawa St & Molo - 5 & Proper - 2 & 3468.84 & 3496.82 & No \\ \hline
+Old Iloilo-Capiz Rd - Old Lopez Jaena St & jaro - 17 & jaro - 16 & 3468.84 & 3496.84 & No \\ \hline
+
+\end{longtable}
+}
+
+Table \ref{tab:setup4_results} shows the top ten least disruptive full closures under the fourth setup. Just like the first setup, it has the same TSTT. The table did not reveal any improvements to the network. Since there were no improvements found on any of the modified networks, no Braess link was found.
+
+\subsection{Setup 5}
+
+{
+\small 
+\setlength{\tabcolsep}{3pt} 
+\begin{longtable}{|p{4.5cm}|p{2.4cm}|p{2.4cm}|p{1.6cm}|p{1.6cm}|p{1.4cm}|} 
+
+\hline
+\textbf{Road Name} & \textbf{From Node} & \textbf{To Node} & \textbf{Baseline TSTT (hrs)} & \textbf{New TSTT (hrs)} & \textbf{Braess Link?} \\ \hline
+\endfirsthead
+
+\hline
+\endfoot
+
+\hline
+\caption{Top ten least disruptive closures under Setup 5}
+\label{tab:setup5_results}
+\endlastfoot
+
+Mandurriao - Sn Miguel Rd - R Mapa St & mandurriao - 3 & mandurriao - 4 & 2661.00 & 2662.22 & No \\ \hline
+Iloilo-Capiz Rd - Iloilo Circumferential Rd 1 - Monfort Blvd & jaro - 10 & jaro - 11 & 2661.00 & 2662.45 & No \\ \hline
+Balabago Rd & jaro - 9 & jaro - 10 & 2661.00 & 2662.45 & No \\ \hline
+Iloilo-Capiz Rd - Iloilo Circumferential Rd 1 - Monfort Blvd (Rev) & jaro - 11 & jaro - 10 & 2661.00 & 2662.50 & No \\ \hline
+Balabago Rd (Rev) & jaro - 10 & jaro - 9 & 2661.00 & 2662.50 & No \\ \hline
+Infante St 1 & Proper - 1 & Proper - 2 & 2661.00 & 2662.64 & No \\ \hline
+Infante St 2 & Proper - 2 & Proper - 3 & 2661.00 & 2662.64 & No \\ \hline
+Infante St 3 & Proper - 3 & Proper - 4 & 2661.00 & 2662.64 & No \\ \hline
+El 98 St - Plaza Rizal St - E Lopez St & jaro - 7 & jaro - 4 & 2661.00 & 2662.77 & No \\ \hline
+Commission Civil St - Plaza Rizal St - Iloilo-Capiz Rd & jaro - 5 & jaro - 6 & 2661.00 & 2662.77 & No \\ \hline
+
+\end{longtable}
+}
+
+Table \ref{tab:setup5_results} shows the top ten least disruptive full closures under the fifth setup. Just like the second setup, it has the same TSTT. The table did not reveal any improvements to the network. Since there were no improvements found on any of the modified networks, no Braess link was found.
+
+\subsection{Setup 6}
+
+{
+\small 
+\setlength{\tabcolsep}{3pt} 
+\begin{longtable}{|p{4.5cm}|p{2.4cm}|p{2.4cm}|p{1.6cm}|p{1.6cm}|p{1.4cm}|} 
+
+\hline
+\textbf{Road Name} & \textbf{From Node} & \textbf{To Node} & \textbf{Baseline TSTT (hrs)} & \textbf{New TSTT (hrs)} & \textbf{Braess Link?} \\ \hline
+\endfirsthead
+
+\hline
+\endfoot
+
+\hline
+\caption{Top ten least disruptive closures under Setup 6}
+\label{tab:setup6_results}
+\endlastfoot
+
+Ruperto Montinola St 2 & Proper - 10 & Proper - 11 & 3324.21 & 3332.73 & No \\ \hline
+Infante St 1 (Rev) & Proper - 2 & Proper - 1 & 3324.21 & 3348.07 & No \\ \hline
+Bonifacio Drive (Rev) & lapaz - 10 & Proper - 7 & 3324.21 & 3348.49 & No \\ \hline
+Luna St (Rev) & jaro - 1 & lapaz - 3 & 3324.21 & 3348.49 & No \\ \hline
+E Lopez St (Rev) & jaro - 4 & jaro - 1 & 3324.21 & 3348.49 & No \\ \hline
+Luna St - Huervana St & lapaz - 3 & lapaz - 1 & 3324.21 & 3348.49 & No \\ \hline
+Luna St - Esplanade 5 & lapaz - 1 & lapaz - 10 & 3324.21 & 3348.49 & No \\ \hline
+R Mapa St - Extension & mandurriao - 6 & mandurriao - 7 & 3324.21 & 3348.67 & No \\ \hline
+Delgado St & Proper - 2 & Proper - 10 & 3324.21 & 3348.83 & No \\ \hline
+R Mapa St - Extension (Rev) & mandurriao - 7 & mandurriao - 6 & 3324.21 & 3348.84 & No \\ \hline
+
+\end{longtable}
+}
+
+Table \ref{tab:setup6_results} shows the top ten least disruptive full closures under the sixth setup. Just like the third setup, it has the same TSTT. The table did not reveal any improvements to the network. Since there were no improvements found on any of the modified networks, no Braess link was found.

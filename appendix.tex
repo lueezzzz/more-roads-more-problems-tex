@@ -1,0 +1,100 @@
+\appendix
+\chapter{Program Codes} \label{app:source_codes}
+
+\lstset{captionpos=b, breaklines=true, breakatwhitespace=true}
+\begin{lstlisting}[language=Python, caption={Intersection Data Structure for Iloilo City Network}, label={lst:intersection_data}]
+
+intersections = [
+    {
+        "id": "villa - 1", # for referencing
+        "name": "Osmena St - Jocson St",
+        "latitude": 10.688897, 
+        "longitude": 122.516400,
+        "connections": ["villa - 2", "villa - 4", "villa - 6"],
+    },
+]
+\end{lstlisting}
+
+\lstset{captionpos=b, breaklines=true, breakatwhitespace=true}
+\begin{lstlisting}[language=Python, caption={Road Segment Structure for Iloilo City Network}, label={lst:road_data}]
+
+roads = [
+    {
+        "name": "Osmena St",
+        "A": "villa - 1",
+        "B": "villa - 6",
+        "distance": 2000,
+        "lanes": 2,
+        "one_way": False,
+    },
+]
+\end{lstlisting}
+
+\lstset{captionpos=b, breaklines=true, breakatwhitespace=true}
+\begin{lstlisting}[language=Python, caption={Constructing the Iloilo City Network}, label={lst:construction_iloilo_network}]
+
+G = nx.MultiDiGraph()
+G.graph["crs"] = "EPSG:4326"
+
+for node in intersections:
+    G.add_node(node["id"], x=node["x"], y=node["y"])
+
+for road in roads:
+    G.add_edge(road["A"], road["B"], length=road["distance"])
+    if not road["oneway"]:
+        G.add_edge(road["B"], road["A"], length=road["distance"])
+
+fig, ax = ox.plot_graph(G, show=False, close=False, edge_color="black", node_color="black", bgcolor="none")
+
+fig.patch.set_alpha(0)
+ax.set_facecolor((0, 0, 0, 0))  
+
+plt.savefig(
+    "iloilo_network_map.png",
+    dpi=300,
+    bbox_inches="tight",
+    transparent=True, 
+    pad_inches=0,
+)
+
+plt.close(fig)
+\end{lstlisting}
+
+\section{Data Files} \label{app:network_data_files}
+
+To facilitate reproducibility and further research, the raw datasets used for the Iloilo City network construction are hosted on GitHub. These files include the primary node data (\texttt{intersections.csv}), edge data (\texttt{roads.csv}), and the origin-destination pairs (\texttt{od-matrix.xlsx}) utilized in the computational modeling phase. The repository containing these files can be accessed at: \url{https://github.com/lueezzzz/iloilo-city-network-data}
+
+
+\begin{landscape}
+\begin{table}[p] 
+    \centering
+    \hspace*{1cm}
+    \begin{minipage}{\linewidth}
+        \centering
+        \footnotesize 
+        \setlength{\tabcolsep}{2pt} 
+        \begin{tabularx}{\linewidth}{|c|*{15}{>{\centering\arraybackslash}X|}}
+        \hline
+        \textbf{Zone} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} & \textbf{13} & \textbf{14} & \textbf{15} \\ \hline
+        1 & 20 & 22317 & 1187 & 160 & 66 & 2237 & 68 & 180 & 2517 & 2775 & 355 & 474 & 1852 & 5448 & 74 \\ \hline
+        2 & 22317 & 44 & 3690 & 4298 & 178 & 8136 & 818 & 612 & 7024 & 686 & 949 & 278 & 922 & 3004 & 40 \\ \hline
+        3 & 1187 & 3690 & 88 & 4126 & 202 & 4481 & 282 & 146 & 2183 & 115 & 130 & 45 & 176 & 566 & 28 \\ \hline
+        4 & 160 & 4298 & 4126 & 248 & 45 & 453 & 148 & 228 & 3248 & 1630 & 650 & 39 & 79 & 241 & 26 \\ \hline
+        5 & 66 & 178 & 202 & 45 & 16 & 105 & 3223 & 1156 & 84 & 52 & 39 & 991 & 40 & 142 & 19 \\ \hline
+        6 & 2237 & 8136 & 4481 & 453 & 105 & 122 & 2779 & 483 & 2304 & 335 & 492 & 624 & 736 & 306 & 87 \\ \hline
+        7 & 68 & 818 & 282 & 148 & 3223 & 2779 & 10 & 9948 & 692 & 70 & 70 & 45 & 101 & 79 & 31 \\ \hline
+        8 & 180 & 612 & 146 & 228 & 1156 & 483 & 9948 & 744 & 559 & 178 & 186 & 2260 & 282 & 290 & 86 \\ \hline
+        9 & 2517 & 7024 & 2183 & 3248 & 84 & 2304 & 692 & 559 & 50 & 312 & 64 & 3162 & 2064 & 2564 & 64 \\ \hline
+        10 & 2775 & 686 & 115 & 1630 & 52 & 335 & 70 & 178 & 312 & 66 & 675 & 68 & 123 & 78 & 53 \\ \hline
+        11 & 355 & 949 & 130 & 650 & 39 & 492 & 70 & 186 & 64 & 675 & 194 & 194 & 272 & 397 & 353 \\ \hline
+        12 & 474 & 278 & 45 & 39 & 991 & 624 & 45 & 2260 & 3162 & 68 & 194 & 46 & 1738 & 2642 & 32 \\ \hline
+        13 & 1852 & 922 & 176 & 79 & 40 & 736 & 101 & 282 & 2064 & 123 & 272 & 1738 & 18 & 22832 & 268 \\ \hline
+        14 & 5448 & 3004 & 566 & 241 & 142 & 306 & 79 & 290 & 2564 & 78 & 397 & 2642 & 22832 & 528 & 10367 \\ \hline
+        15 & 74 & 40 & 28 & 26 & 19 & 87 & 31 & 86 & 64 & 53 & 353 & 32 & 268 & 10367 & 18 \\ \hline
+        \end{tabularx}
+        \caption{First 15 rows and columns of the Origin-Destination Matrix}
+        \label{tab:od_matrix_15}
+    \end{minipage}
+
+\end{table}
+\end{landscape}
