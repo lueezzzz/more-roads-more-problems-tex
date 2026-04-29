@@ -18,7 +18,10 @@ As illustrated in Figure \ref{fig:research_activities}, the researchers conducte
 \section{Data Gathering}
 \label{sec:data_gathering}
 
-The researchers identified and mapped the primary arteries and intersections based on the DPWH Atlas 2024 for the Iloilo City Network (Department of Public Works and Highways, 2026). This process was then categorized into node identification and edge attribution to provide a digital representation of the city’s road infrastructure.  Additionally, Origin-Destination (OD) matrix pairs were identified for defining traffic demand. 
+The researchers identified and mapped the primary highways and intersections based on the DPWH Atlas 2024 for the Iloilo City Network (Department of Public Works and Highways, 2026). 
+The scope of the map was also limited strictly to major highways (See Figure~\ref{fig:dpwh_atlas} of Appendix~\ref{app:network_data_files}) 
+
+This process was then categorized into node identification and edge attribution to provide a digital representation of the city’s road infrastructure.  Additionally, Origin-Destination (OD) matrix pairs were identified for defining traffic demand. 
 
 \subsection{Node Identification}
 \label{sec:node_identification}
@@ -44,16 +47,15 @@ This socio-economic framework is used as explanatory variables for multi-step de
 .
 
 
-\subsection{Empirical Traffic Volume Integration}
-\label {sec:empirical_volume_integration}
+\subsection{Annual Average Data Traffic}
+\label {sec:aadt}
 
-To ensure that the mode accurately reflected the physical saturation levels of the city, the Annual Average Daily Traffic (AADT) data was integrated into the network. The data was obtained from the DPWH through a request to their office. These values serve as empirical weights to help identify the primary arterial corridors. This is to ensure that subsequent routing behaviors were driven by realistic volume dynamics rather than theoretical approximations.
-
+Annual Average Data Traffic (AADT) is a metric in transportation planning calculated by dividing the total annual vehicular volume on specific road segments by 365 to establish the mean daily traffic flow (Dishin, 2024). The data utilized for this study was obtained through a formal request to the Department of Public Works and Highways (DPWH). The AADT was then used as weights to identify primary highways. 
 
 \section{Computational Modeling}
 \label{sec:computational_modeling}
 
-This section details the utilization of the gathered data into a functional computational model
+This section details the utilization of the gathered data into a functional computational model. The model framework is heavily grounded in the methodology established by Youn et al. (2008). To mathematically identify Braess’s Paradox, the framework requires calculating the Price of Anarchy (PoA), which is the ratio between human selfishness and perfect system efficiency. Following this model, the travel cost for each edge during User Equilibrium (UE) was dynamically updated using the standard Bureau of Public Roads (BPR) function. Conversely, to establish the System Optimum baseline (SO), the algorithm routed traffic using the Marginal Cost function, the mathematical derivative of the BPR function, which forces vehicles to account for the systemic delay they inflict on the network. Comparing these two states allows for the precise isolation of topological paradoxes.
 
 \subsection{Graph Based Network Construction}
 \label{sec:network_construction}
