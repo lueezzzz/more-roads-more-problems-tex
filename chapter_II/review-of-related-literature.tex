@@ -5,7 +5,7 @@ This chapter discusses the foundational theories, real-world applications, and m
 
 
 \section{Traffic Congestion in Urbanized Cities}
-\label{chap:traffic_congestion}
+\label{sec:traffic_congestion}
 
 Traffic congestion does not have a single definition. Aftabuzzaman (2007) categorized the definitions into three groups: demand capacity, delay-travel time, and cost. This study notes the definition of congestion by Akthar \& Modipour (2021) as the imbalance between increased traffic flow and limited road capacity, with greater emphasis on demand capacity-related considerations.
 Traffic congestion can be triggered by various factors, including traffic incidents, road works, weather conditions, and special events. These causes are classified into recurring and nonrecurring congestions as shown in Figure 1 (Jilani et al., 2023).
@@ -36,7 +36,10 @@ Currently, about 38 choking points have been identified by the Iloilo City Plann
 
 According to Jarobilla (as cited in Marzan and Castor, 2024), these chokepoints have also been affected by several factors, such as vehicle volume, accessibility of businesses to the roads, common pedestrian crossings, and circulation of vehicles. Currently, the city planning and development office is expecting an ordinance to be created that includes an enforcement and information campaign, which starts by gathering feedback from the public. These traffic challenges in Iloilo City, such as the rapid increase in registered vehicles and the ongoing implementation of an improved traffic management plan, underscore the immediate need for a specialized intervention.
 
+\subsection{Transportation Modelling}
+\label{sec:transportation_modelling}
 
+In addressing traffic congestion, transportation modelling serves as a significant predictive and analytical tool for city planners. Alghamdi et al. (2022) argues that traffic modelling and simulation techniques offer a controlled, computational environment in predicting traffic behavior, evaluate infrastructural changes, and test transportation policies before being implemented in real-world settings. Furthermore, this approach has been widely used in recent years for analyzing, simulating, and forecasting traffic behavior under varying degrees of complexity which ranges from congested urban areas to rural systems at micro and macro scales.
 
 \section{Graph Theory}
 \label{chap:graph_theory}
@@ -54,7 +57,7 @@ Graphs serve as foundational tools for mapping complex networks, like data organ
 The rise of urban populations and the complexity of increasing road networks makes it hard for city planners to manage and mitigate the flow of vehicles and congestion. Thus, finding traffic control strategies that are efficient is more significant than ever. One popular approach is the use of graph theory in traffic management which simplifies transportation systems by modelling road networks as graphs which represents the actual intersections as nodes and the connecting streets as edges (Reddy et al., 2024). Moreover, Reddy et al. (2024) argues that this mathematical framework enables the use of algorithms like Djikstra's and the A* to determine the shortest path available for drivers. Additionally, network flow techniques can also be used in maximizing road capacity to prevent bottlenecks.  
 
 
-The applications of such frameworks can be seen within Intelligent Transport Systems (ITS).As defined by Chowdhury and Sadek (n.d.), ITS utilizes information and communication technologies, such as control and information systems, to integrate communications and data processing technologies in traffic. Ultimately, these integrated systems aim to improve public mobilit and mitigate congestion. 
+The applications of such frameworks can be seen within Intelligent Transport Systems (ITS). As defined by Chowdhury and Sadek (n.d.), ITS utilizes information and communication technologies, such as control and information systems, to integrate communications and data processing technologies in traffic. Ultimately, these integrated systems aim to improve public mobilit and mitigate congestion. 
 
 Specific to the Philippines, the Metropolitan Manila Development Authority inaugurated an urban traffic management system from INDRA in 2014 (Indra, 2014). INDRA incorporated a system core in INDRA’s 997 Hermes smart traffic management system. The intelligent transport system comprises a centralized stoplight system with 90 stoplight intersections having over 600 detectors at each intersection, and a CCTV system. These systems are then managed by a software based on an algorithm that uses real-time data to optimize a traffic plan. The CCTV system is then used to project in the control center of 35- 50-inch monitors. According to the MMDA, the intelligent traffic system by INDRA has observed cost savings, reduced polluting elements, improved road safety, and decreased hold-up times within Metro Manila (Indra, 2014a).
 
@@ -63,7 +66,7 @@ A study by Cueto et al. (2024) incorporated prediction and simulation through pr
 So far, the application of the Braess Paradox in the traffic management system is an area that needs exploration and improvement. A relevant study conducted by Joseph (2022) has implemented Braess’ paradox in a traffic management software that provides the driver with the most efficient route to decrease traffic and minimize commute time, as opposed to giving the same detour route if traffic congestion exists. The study showed that by using the Franke Wolfe algorithm to train its Neural Network, the software identified new routes according to the Braess paradox, which then maximizes efficiency and decreases travel time for the driver. While the study shows the efficiency in the application of the Braess’ Paradox to finding an optimal route, its application is limited in treating the road network as a fixed entity. Thus, it does not observe the principle of the paradox in which structural modification, such as a permanent removal of a road, improves the flow of traffic.
 
 \section{Theoretical Framework of the Braess Paradox}
-\label{chap:theoretical_bp}
+\label{sec:theoretical_bp}
 
 Transportation and communication networks serve as primary examples of physical networks. In this framework, nodes represent locations in space, while links represent the pathways between them. These networks provide the foundational infrastructure on which a portion of social and economic activities rely. While it may appear intuitive that expanding the capacity of a traffic or communication network, by introducing new edges or expanding existing ones, would improve efficiency, this assumption does not always hold. In 1968, Braess demonstrated that, paradoxically, the addition of a new link that connects two parallel routes between the same origin and destination can actually increase the overall travel cost experienced by all network users. This counterintuitive result was later identified as the Braess Paradox (Rapoport et al., 2009).  
 
@@ -190,7 +193,7 @@ Taken together, these various approaches demonstrate the complex nature of urban
 Taken together, the methodology of this study is primarily grounded in the computational network modeling approach established by Youn et al. (2008). Following their framework, the research utilized a computational model to calculate the Nash Equilibrium of traffic flows and assess the Price of Anarchy. By Simulating road closures, the study aimed to examine how uncoordinated driver behavior and link modifications might reduce or worsen travel times. Furthermore, this study extended the application of the Braess Paradox to the Philippine context by modeling these traffic and rerouting dynamics across the urban network of Iloilo City's primary districts: City Proper, Jaro, La Paz, Lapuz, Mandurriao, and Villa-Arevalo.
 
 \section{Transportation Network Equilibrium Models}
-\label{chap:equilibrium_models}
+\label{sec:equilibrium_models}
 
 Transportation Network Models (TNM) is the classical approach for traffic flow analysis, which is rooted in optimization, and treats traffic as a divisible, static flow moving through a system seeking a stable state. The primary goal is to mathematically calculate the User Equilibrium (UE) (1968, as translated by Braess et al., 2005).
 
