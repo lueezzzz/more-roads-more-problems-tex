@@ -27,8 +27,8 @@ The final network was rendered using OSMnx and Matplotlib, as shown in Figure 5.
 
 % Table \ref{fig:network_map} Shows the total number of nodes and directed edges in the unified network. Here, the total number of nodes are 82 while the total number of directed edges are 218.
 
-\section{Theoretical Topological Baseline}
-\label{chap:topological_baseline}
+\section{Analysis of Critical Volume Thresholds and Peak Inefficiency}
+\label{sec:topological_baseline}
 
 Results show that there is an existence of possible Braess’s Paradox links within the Iloilo City network. Across the simulated permutations, the algorithm identified 8289 distinct Origin-Destination routing scenarios where the removal or directional restriction of a road mathematically improved Total System Travel Time (TSTT) within the model. Specifically, 4627 of these candidate links were unidirectional closures, while 3662 links were found in bidirectional closures. The severity of these inefficiencies is substantial, with the maximum record PoA being 1.5815. These metrics indicate that under specific volume thresholds, uncoordinated selfish routing performs 58,15\% worse than system optimal routing, suggesting that the current physical topology allows for counterintuitive shortcuts.
 
@@ -92,6 +92,163 @@ Huervana St - Rizal St & Proper - 7 & Proper - 11 & 1.4747 & 8000 & 794.81 & 785
 
 \subsection{Bidirectional Road Closures}
 \label{sec:bidirectional_closures}
+
+Table~\ref{tab:5.1b} shows the top segments where bidirectional closures yielded the highest frequencies of roads closed that improved the system when removed. On the other hand, Table~\ref{tab:5.2b} 
+
+\begin{table}[htbp]
+    \centering
+    \renewcommand{\thetable}{5.1b}
+
+    \begin{tabular}{|l|l|l|c|c|}
+    \hline
+    \textbf{Road Name} & \textbf{From} & \textbf{To} & \textbf{Frequency} & \textbf{Max PoA} \\ \hline
+    Gen Luna St 3 & Proper - 8 & Proper - 9 & 363 & 1.5815 \\ \hline
+    Gen Luna St 2 & Proper - 7 & Proper - 8 & 255 & 1.3886 \\ \hline
+    Infante St 1 & Proper - 1 & Proper - 2 & 245 & 1.4540 \\ \hline
+    Arroyo St & Proper - 11 & Proper - 12 & 197 & 1.4547 \\ \hline
+    Rizal St - Huervana St & Lapaz - 2 & Lapuz - 2 & 166 & 1.4747 \\ \hline
+    \end{tabular}
+    \caption{}
+    \label{tab:5.1b}
+\end{table}
+
+{
+\small 
+\setlength{\tabcolsep}{3pt} 
+\renewcommand{\thetable}{5.2b}
+\begin{longtable}{|p{2.3cm}|p{1.5cm}|p{1.6cm}|p{1.2cm}|p{1.3cm}|p{1.4cm}|p{1.4cm}|p{1.3cm}|p{1.3cm}|} 
+
+\hline
+\textbf{Road Name} & \textbf{Origin of Trip} & \textbf{Dest. of Trip} & \textbf{Max PoA} & \textbf{Crit. Vol.} & \textbf{Base. TSTT} & \textbf{New TSTT} & \textbf{Time Saved} & \textbf{Avg. Saved} \\ \hline
+\endfirsthead
+
+
+\caption{}
+\label{tab:5.2b}
+\endlastfoot
+
+Gen Luna St 3 & Lapaz - 3 & Proper - 7 & 1.5815 & 7500 & 992.51 & 989.95 & 153.56 & 0.02 \\ \hline
+Gen Luna St 2 & Lapuz - 4 & Proper - 2 & 1.3886 & 5500 & 1045.25 & 998.57 & 2800.96 & 0.51 \\ \hline
+Infante St 1 & Proper - 3 & Jaro - 9 & 1.4540 & 3500 & 838.94 & 834.07 & 291.87 & 0.08 \\ \hline
+Arroyo St & Lapaz - 2 & Proper - 11 & 1.4547 & 8500 & 1336.77 & 1330.35 & 385.58 & 0.05 \\ \hline
+Rizal St - Huervana St & Proper - 7 & Proper - 11 & 1.4747 & 8000 & 794.81 & 785.08 & 583.92 & 0.07 \\ \hline
+
+\end{longtable}
+}
+
+\section{Evaluation of Network Performance Across the 6 Topologies}
+\label{sec:eval_6}
+
+The results from adding the OD matrix pairs shows a significant shift in how the paradox appears. By introducing the OD matrix to the model, the network showed less Braess links . Table~\ref{tab:5.3} shows the macroscopic network performance across the six topologies. The data reveals a change in how Braess links appear depending on how the demand moves through the network.
+
+
+{
+\small 
+\setlength{\tabcolsep}{4pt} 
+\renewcommand{\thetable}{5.3}
+\begin{longtable}{|p{3.8cm}|p{2.5cm}|p{2cm}|p{2.5cm}|p{2.5cm}|} 
+
+\hline
+\textbf{Connector Topology} & \textbf{Closure Type} & \textbf{Baseline TSTT (hrs)} & \textbf{Braess Link Cand. Identified} & \textbf{Max Systemic Time Saved (mins)} \\ \hline
+\endfirsthead
+
+\hline
+\textbf{Connector Topology} & \textbf{Closure Type} & \textbf{Baseline TSTT (hrs)} & \textbf{Braess Link Cand. Identified} & \textbf{Max Systemic Time Saved (mins)} \\ \hline
+\endhead
+
+\hline
+\endfoot
+
+\hline
+\caption{}
+\label{tab:5.3}
+\endlastfoot
+
+Uniform Disaggregation & Bidirectional & 3585.28 & 0 & 0.00 \\ \hline
+Unrestricted Connector & Bidirectional & 3002.82 & 1 & 61.19 \\ \hline
+AADT-prioritized & Bidirectional & 3555.67 & 7 & 475.07 \\ \hline
+Uniform Disaggregation & Unidirectional & 3585.28 & 0 & 0.00 \\ \hline
+Unrestricted Connector & Unidirectional & 3002.82 & 1 & 61.19 \\ \hline
+AADT-prioritized & Unidirectional & 3555.67 & 21 & 475.07 \\ \hline
+
+\end{longtable}
+}
+
+\subsection{Uniform Disaggregation Topology Results}
+\label{sec:uniform_disaggregation_results}
+
+Under Uniform Disaggregation to evenly distribute zonal demand across all intersections, the simulation identified zero Braess link. Consequently, the maximum systemic travel time saved for both setups remained at 0 minutes, with a baseline TSTT of 3585.28 hours.
+
+
+\subsection{Unrestricted Connector Topology Results}
+\label{sec:unrestricted_results}
+
+Using an Unrestricted Connector topology, both closure types yielded one Braess link. As shown in Tables~\ref{tab:5.4} and \ref{tab:5.5}, both closure types showed the same link along VM Basa St. 
+
+\begin{table}[H]
+    \centering
+    \renewcommand{\thetable}{5.4}
+    \begin{tabular}{|l|l|l|c|p{2.5cm}|}
+    \hline
+    \textbf{Braess Link} & \textbf{From Node} & \textbf{To Node} & \textbf{New TSTT (hrs)} & \textbf{Time Saved (mins)} \\ \hline
+    JM Basa St 2 & Proper - 13 & Proper - 14 & 3001.80 & 61.19 \\ \hline
+    \end{tabular}
+    \caption{Bidirectional Unrestricted Connector Setup Results}
+    \label{tab:5.4}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \renewcommand{\thetable}{5.5}
+    \begin{tabular}{|l|l|l|c|p{2.5cm}|}
+    \hline
+    \textbf{Braess Link} & \textbf{From Node} & \textbf{To Node} & \textbf{New TSTT (hrs)} & \textbf{Time Saved (mins)} \\ \hline
+    JM Basa St 2 & Proper - 13 & Proper - 14 & 3001.80 & 61.19 \\ \hline
+    \end{tabular}
+    \caption{Unidirectional Unrestricted Connector Setup Results}
+    \label{tab:5.5}
+\end{table}
+
+\subsection{AADT-prioritized Topology Results}
+\label{sec:aadt-prioritized}
+
+Unlike the other setups, the AADT-prioritized topologies have limited demand to specific nodes which forces traffic through the selected nodes based on highest-volume AADT intersections. These configurations showed the presence of Braess links. Tables \ref{tab:5.6} and \ref{tab:5.7} shows the top five Braess links found from the setups
+
+\begin{table}[H]
+    \centering
+    \small 
+    \setlength{\tabcolsep}{4pt} 
+    \renewcommand{\thetable}{5.6}
+    \begin{tabular}{|p{4.2cm}|l|l|c|c|}
+    \hline
+    \textbf{Braess Link} & \textbf{From Node} & \textbf{To Node} & \textbf{\parbox{2cm}{\centering Baseline TSTT (hrs)}} & \textbf{\parbox{2cm}{\centering Time Saved (mins)}} \\ \hline
+    Ledesma St & Proper - 6 & Proper - 11 & 3547.75 & 475.07 \\ \hline
+    Rizal St - Huervana St & Lapaz - 2 & Lapuz - 2 & 3549.27 & 384.24 \\ \hline
+    San Marcos St & Molo - 8 & Molo - 3 & 3550.72 & 297.05 \\ \hline
+    Blumentritt 2 & Proper - 17 & Proper - 19 & 3550.88 & 287.39 \\ \hline
+    Gen Luna - Molo Connector & Proper - 1 & Molo - 7 & 3553.21 & 147.50 \\ \hline
+    \end{tabular}
+    \caption{Bidirectional AADT-Prioritized Setup Results}
+    \label{tab:5.6}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \small
+    \setlength{\tabcolsep}{4pt}
+    \renewcommand{\thetable}{5.7}
+    \begin{tabular}{|p{5.2cm}|l|l|c|c|}
+    \hline
+    \textbf{Braess Link} & \textbf{From Node} & \textbf{To Node} & \textbf{\parbox{2cm}{\centering Baseline TSTT (hrs)}} & \textbf{\parbox{2cm}{\centering Time Saved (mins)}} \\ \hline
+    Ledesma St & Proper - 6 & Proper - 11 & 3547.75 & 475.07 \\ \hline
+    Blumentritt 2 & Proper - 17 & Proper - 19 & 3548.29 & 442.87 \\ \hline
+    Iloilo-Capiz Rd - Iloilo Circumferential Rd 1 (Rev) & Jaro - 21 & Jaro - 14 & 3548.84 & 409.85 \\ \hline
+    Rizal St - Huervana St & Lapaz - 2 & Lapuz - 2 & 3549.27 & 384.24 \\ \hline
+    Locsin St & Molo - 5 & Molo - 4 & 3549.58 & 374.08 \\ \hline
+    \end{tabular}
+    \caption{Unidirectional AADT-Prioritized Setup Results}
+    \label{tab:5.7}
+\end{table}
 
 
 % On the other hand, 
