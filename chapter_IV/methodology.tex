@@ -47,7 +47,7 @@ This socio-economic framework is used as explanatory variables for multi-step de
 .
 
 
-\subsection{Annual Average Data Traffic}
+\subsection{The Annual Average Data Traffi (AADT)}
 \label {sec:aadt}
 
 Annual Average Data Traffic (AADT) is a metric in transportation planning calculated by dividing the total annual vehicular volume on specific road segments by 365 to establish the mean daily traffic flow (Dishin, 2024). The data utilized for this study was obtained through a formal request to the Department of Public Works and Highways (DPWH). The AADT was then used as weights to identify primary highways. 
@@ -59,7 +59,7 @@ This section details the utilization of the gathered data into a functional comp
 
 \subsection{Network Construction}
 \label{sec:network_construction}
-To transform the data gathered in Section \ref{sec:data_gathering} into a representation of the Iloilo City network, the researchers manually coded the network data for seven key districts: City Proper, Jaro, La Paz, Lapuz, Mandurriao, Molo, and Villa-Arevalo which was based on DPWH's Atlas for Iloilo City of year 2024. Once the data for each individual district were completed, the researchers utilized Gemini (Google, n.d) to assist in combining these district datasets into one unified network. The unified network was then converted to two Comma-Separated Values (CSV) files: \texttt{intersections.csv} and \texttt{roads.csv}. These files served as the primary input for building the network graph using the \texttt{NetworkX} and \texttt{OSMnx} Python libraries. The implementation can be found in Listing~\ref{lst:construction_iloilo_network} of Appendix~\ref{app:source_codes}.
+To transform the data gathered in Section \ref{sec:data_gathering} into a representation of the Iloilo City network, the researchers manually coded the network data for seven key districts: City Proper, Jaro, La Paz, Lapuz, Mandurriao, Molo, and Villa-Arevalo which was based on DPWH's Atlas for Iloilo City of year 2024. Once the data for each individual district were completed, the researchers utilized Gemini (Google, n.d) to assist in combining these district datasets into one unified network. The unified network was then converted to two Comma-Separated Values (CSV) files: \texttt{intersections.csv} and \texttt{roads.csv}. These files served as the primary input for building the network graph using the \texttt{NetworkX} Python library. The implementation can be found in Listing~\ref{lst:construction_iloilo_network} of Appendix~\ref{app:source_codes}.
 
 
 
@@ -134,8 +134,8 @@ $TSTT \gets 0.0$\;
 This was then applied to all experimental setups in Section \ref{sec:experimental_setup}.
 
 
-\subsection{Iterative Network Pertubation Algorithm}
-\label{sec:pertubation_algo}
+\subsection{Iterative Network Modification Algorithm}
+\label{sec:inm_algo}
 
 An automated script was created to systematically test for the presence of Braess’s Paradox. The algorithm (see \textit{Algorithm \ref{alg:edge_removal}}) cataloged all physical road segments (excluding virtual centroid connectors) within the network. For each identified segment, the script executed a bidirectional topological removal, effectively simulating a complete street closure. Following the removal, the algorithm recalculated the UE for the disrupted network, recorded the results, and immediately restored the removed edge to test the next links.
 
@@ -181,18 +181,24 @@ This section details the experimental setups done using the computational model 
 \subsection{Determining Critical Volume Through the PoA}
 \label{sec:baseline_analysis}
 
-Following the framework of Youn et al. (2008), traffic was simulated across all possible origin-destination (O-D) pairs. For each OD pair, the critical volume was obtained by using the Price of Anarchy (PoA) where it reaches its maximum. This exact volume was then applied to road closure simulations to identify the presence of Braess links.
+Following the framework of Youn et al. (2008), traffic was simulated across all possible origin-destination (O-D) pairs. For each OD pair, the critical volume was obtained by using the Price of Anarchy (PoA) where it reaches its maximum. This exact volume was then applied to road closure simulations to identify the presence of Braess links. 
 
 \subsection{Integration of Zonal OD Pairs Across Different Network Topologies}
 \label{sec:setups}
 
-Traffic demand 
 
+Jiang \& Luo (2022) defines traffic demand as the potential need for travel that may or may not always be satisfied. For instance, on ride-hailing platforms, the demand is the total number of ride requests requested. However, due to driver shortages, especially rush hours, only a subset of those requests are fulfilled. According to Benito (2025), travel demand is captured through an Origin-Destination (OD) matrix, which maps the number of trips between origins and destinations. In transportation planning, it is standard practice to use centroid nodes in representing traffic analysis zones (TAZ) (Qian \& Zhang, 2012). These centroids acts as the virtual locations where traffic starts and ends (Bloy, 2007). To implement this in the directed graph of Iloilo City, virtual centroids were created to represent the demand generation for each zone.  Three distinct connector topologies were then tested across two closure methods to determine the influence of spatial aggregation in the formation of simulated choke points and network-wide congestion. 
+
+The three topologies were designed to simulate different levels of network connectivity. The unrestricted connector topology acts as a control group that allows the virtual centroid to connect to every intersection without capacity constraints. This means that routing will be purely based on teh shortest-path. Moreover, the uniform spatial dissagregration topology distributes demand equally across all nodes within a zone. This simulates a highly connected residential network characterized by multiple entry points into the primary road network. Finally, the AADT-prioritized topology which serves as the model that limits connectors based on nodes with highest volumes from the AADT (Ortúzar \& Willumsen, 2011).
+
+Across these topologies, two types of structual modifications were applied. Bidirectional road closures simulates complete removal of a road regment from the network which effectively deletes the edge from the graph to prevent travelling in either direction. Conversely, unidirectional road closures were tested to adress the assymetric nature of traffic networks. A road can be a braess link in one direction but be highly efficient in its opposite direction. Thus, testing unidirectional road closures can simulate traffic management policies like converting a congested two-way street into a one-way street to relieve traffic (Ortigosa, et al, 2017; Youn, et al., 2008).
+
+These combinations resulted into the following six topological configurations:
 
 \subsubsection{Uniform spatial disaggregation with full bidirectional closure}
 \label{sec:setup_1}
 
-In this configuration, demands were equally distributed across all physical nodes within a given zone. For bidirectional roads, both the forward and reverse directed edges were simultaneously removed from the network during testing. A visual representation of this is provided in Figure \ref{fig:setup_1}.
+In this topology, demands were equally distributed across all physical nodes within a given zone. For bidirectional roads, both the forward and reverse directed edges were simultaneously removed from the network during testing. A visual representation of this is provided in Figure \ref{fig:setup_1}.
 
 \begin{figure}[H]
     \centering
@@ -205,7 +211,7 @@ In this configuration, demands were equally distributed across all physical node
 \subsubsection{Unrestricted Connector Topology with Full Bidirectional Closure}
 \label{sec:setup_2}
 
-In this configuration, virtual centroids were connected to every physical intersection within their zones without capacity constraints. For bidirectional roads, both the forward and reverse directed edges were simultaneously removed from the network during testing. A visual representation of this is provided in Figure \ref{fig:setup_2}.
+In this topology, virtual centroids were connected to every physical intersection within their zones without capacity constraints. For bidirectional roads, both the forward and reverse directed edges were simultaneously removed from the network during testing. A visual representation of this is provided in Figure \ref{fig:setup_2}.
 
 \begin{figure}[H]
     \centering
@@ -215,10 +221,10 @@ In this configuration, virtual centroids were connected to every physical inters
 \end{figure}
 
 
-\subsubsection{Connector Topology with Full Bidirectional Closure}
+\subsubsection{AADT-Prioritized Topology with Full Bidirectional Closure}
 \label{sec:setup_3}
 
-In this configuration, the number of nodes connected to the centroid are limited to certain nodes that have the highest volume based on the given AADT. For bidirectional roads, both the forward and reverse directed edges were simultaneously removed from the network during testing. A visual representation of this is provided in Figure \ref{fig:setup_3}.
+In this topology, the number of nodes connected to the centroid are limited to certain nodes that have the highest volume based on the given AADT. For bidirectional roads, both the forward and reverse directed edges were simultaneously removed from the network during testing. A visual representation of this is provided in Figure \ref{fig:setup_3}.
 
 \begin{figure}[H]
     \centering
@@ -229,7 +235,7 @@ In this configuration, the number of nodes connected to the centroid are limited
 
 \subsubsection{Uniform Spatial Disaggregation with Unidirectional Closure}
 \label{sec:setup_4}
-In this configuration, demands were equally distributed across all physical nodes within a given zone. Unidirectional removals were executed uniformly across all tested segments, without caring if the baseline road was originally bidirectional or one way. A visual representation of this is provided in Figure \ref{fig:setup_4}.
+In this topology, demands were equally distributed across all physical nodes within a given zone. Unidirectional removals were executed uniformly across all tested segments, without caring if the baseline road was originally bidirectional or one way. A visual representation of this is provided in Figure \ref{fig:setup_4}.
 
 \begin{figure}[H]
     \centering
@@ -242,7 +248,7 @@ In this configuration, demands were equally distributed across all physical node
 \subsubsection{Unrestricted Connector Topology with Unidirectional Closure}
 \label{sec:setup_5}
 
-In this configuration, virtual centroids were connected to every physical intersection within their zones without capacity constraints. A visual representation of this is provided in Figure \ref{fig:setup_5}.
+In this topology, virtual centroids were connected to every physical intersection within their zones without capacity constraints. A visual representation of this is provided in Figure \ref{fig:setup_5}.
 
 \begin{figure}[H]
     \centering
@@ -251,10 +257,10 @@ In this configuration, virtual centroids were connected to every physical inters
     \label{fig:setup_5}
 \end{figure}
 
-\subsubsection{Connector Topology with Unidirectional Closure}
+\subsubsection{AADT-Prioritized Topology with Unidirectional Closure}
 \label{sec:setup_6}
 
-In this configuration, the number of nodes connected to the centroid are limited to certain nodes that have the highest volume based on the given AADT. Unidirectional removals were executed uniformly across all tested segments, disregarding the baseline road's directionality. A visual representation of this is provided in Figure \ref{fig:setup_6}.
+In this topology, the number of nodes connected to the centroid are limited to certain nodes that have the highest volume based on the given AADT. Unidirectional removals were executed uniformly across all tested segments, disregarding the baseline road's directionality. A visual representation of this is provided in Figure \ref{fig:setup_6}.
 
 \begin{figure}[H]
     \centering
