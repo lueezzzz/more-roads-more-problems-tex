@@ -3,15 +3,15 @@
 
 This chapter outlines the specific procedures and activities carried out to develop, test, and analyze the simulation model of the Braess Paradox within Iloilo City’s traffic network.
 
-\section{Research Activities}
-\label{sec:research_activities}
+\section{Overview Of Methodology}
+\label{sec:overview_of_methodology}
 
 As illustrated in Figure \ref{fig:research_activities}, the researchers conducted three stages of research activities. The first research activity is through data gathering, where the researchers collected information and parameters necessary for the study, specifically the road network data within the primary arterial roads within Iloilo City. Then, these findings serve as inputs for the computational modeling phase. Finally, the researchers analyzed the results of the computational modeling phase to identify and evaluate the presence of the Braess Paradox in the Iloilo City network.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.7]{figures/figure-3.png}
-    \caption{Research Activities Flowchart} 
+    \includegraphics[scale=0.5]{figures/figure-3.png}
+    \caption{Overview Of Methodology Flowchart} 
     \label{fig:research_activities}
 \end{figure}
 
@@ -36,7 +36,7 @@ Here, ``\texttt{id}'' stands as a unique identifier for programmatic referencing
 
 Road segments connecting the identified nodes were defined as edges. Specific roadway characteristics were then gathered for each edge. The structure can be found in Listing~\ref{lst:road_data} of Appendix~\ref{app:source_codes}.
 
-Here, ``\texttt{distance}'' serves as the physical length of the road from point $A$ to point $B$, in meters, and used as a primary parameter for calculating travel time and cost functions. ``\texttt{lanes}'' as the number of available lanes, which influences the capacity of the road, and ``\texttt{one\_way}'' as a boolean constraint applied to each edge to represent the flow of traffic accurately.
+Here, ``\texttt{distance}'' serves as the physical length of the road from point $A$ to point $B$, in meters, and used as a primary parameter for calculating travel time and cost functions. ``\texttt{lanes}'' as the number of available lanes, which influences the capacity of the road, and ``\texttt{one\_way}'' as a boolean constraint applied to each edge to represent the flow of traffic accurately. To establish a standardized capacity metric across the network, a base capacity of 1,100 vehicles per hour per lane was used. This parameter is based on the standards outlined in the Highway Safety Design Standards Manual by the DPWH (2012), ensuring that the simulated capacity reflects local traffic conditions and infrastructure capabilities.
 
 \subsection{OD Matrix Pair Identification}
 \label{sec:pair_identification}
@@ -47,10 +47,10 @@ This socio-economic framework is used as explanatory variables for multi-step de
 .
 
 
-\subsection{The Annual Average Data Traffi (AADT)}
+\subsection{The Annual Average Daily Traffic (AADT) Data}
 \label {sec:aadt}
 
-Annual Average Data Traffic (AADT) is a metric in transportation planning calculated by dividing the total annual vehicular volume on specific road segments by 365 to establish the mean daily traffic flow (Dishin, 2024). The data utilized for this study was obtained through a formal request to the Department of Public Works and Highways (DPWH). The AADT was then used as weights to identify primary highways. The relevant data sheets from the DPWH are provided in Figure \ref{fig:aadt-1} and \ref{fig:aadt-2} of Appendix \ref{app:network_data_files}.
+Annual Average Daily Traffic (AADT) is a metric in transportation planning calculated by dividing the total annual vehicular volume on specific road segments by 365 to establish the mean daily traffic flow (Dishin, 2024). The data utilized for this study was obtained through a formal request to the Department of Public Works and Highways (DPWH). The AADT was then used as weights to identify primary highways. The relevant data sheets from the DPWH are provided in Figure \ref{fig:aadt-1} and \ref{fig:aadt-2} of Appendix \ref{app:network_data_files}.
 
 \section{Computational Modeling}
 \label{sec:computational_modeling}
