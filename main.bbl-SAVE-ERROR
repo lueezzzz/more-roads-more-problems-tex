@@ -193,6 +193,60 @@
       \verb https://www.atransociety.com/resources/pdf/5thSymposiumDownloadable/FullPaper/2B/SCS12-005.pdf
       \endverb
     \endentry
+    \entry{alghamdi_2022_a}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=27ff1b9197c81d5e750840e3ca89e94e}{%
+           family={Alghamdi},
+           familyi={A\bibinitperiod},
+           given={Taghreed},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11c4a42707332f21439eba482727193a}{%
+           family={Mostafi},
+           familyi={M\bibinitperiod},
+           given={Sifatul},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52f89841ff6c8dced7ad2620783af7e0}{%
+           family={Abdelkader},
+           familyi={A\bibinitperiod},
+           given={Ghadeer},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=044aa8efb0ae5aba93cd622d7f8adbe3}{%
+           family={Elgazzar},
+           familyi={E\bibinitperiod},
+           given={Khalid},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{075e29ffb896a0a73d31f7049f8372db}
+      \strng{fullhash}{913a41680bdccbce16f42949e8586c0a}
+      \strng{fullhashraw}{913a41680bdccbce16f42949e8586c0a}
+      \strng{bibnamehash}{913a41680bdccbce16f42949e8586c0a}
+      \strng{authorbibnamehash}{913a41680bdccbce16f42949e8586c0a}
+      \strng{authornamehash}{075e29ffb896a0a73d31f7049f8372db}
+      \strng{authorfullhash}{913a41680bdccbce16f42949e8586c0a}
+      \strng{authorfullhashraw}{913a41680bdccbce16f42949e8586c0a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Future Internet}
+      \field{month}{10}
+      \field{title}{A Comparative Study on Traffic Modeling Techniques for Predicting and Simulating Traffic Behavior}
+      \field{volume}{14}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{294}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/fi14100294
+      \endverb
+    \endentry
     \entry{adb2012philippines}{report}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=92d83ccd39e6a187466ef617c8cb8662}{%
@@ -263,6 +317,89 @@
       \range{pages}{62}
       \verb{doi}
       \verb 10.1007/978-1-4419-6142-6_1
+      \endverb
+    \endentry
+    \entry{benito_2025_in}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2b49189833386892de77b6ed289a8107}{%
+           family={Benito},
+           familyi={B\bibinitperiod},
+           given={Vicente\bibnamedelima L},
+           giveni={V\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Linkedin.com}%
+      }
+      \strng{namehash}{2b49189833386892de77b6ed289a8107}
+      \strng{fullhash}{2b49189833386892de77b6ed289a8107}
+      \strng{fullhashraw}{2b49189833386892de77b6ed289a8107}
+      \strng{bibnamehash}{2b49189833386892de77b6ed289a8107}
+      \strng{authorbibnamehash}{2b49189833386892de77b6ed289a8107}
+      \strng{authornamehash}{2b49189833386892de77b6ed289a8107}
+      \strng{authorfullhash}{2b49189833386892de77b6ed289a8107}
+      \strng{authorfullhashraw}{2b49189833386892de77b6ed289a8107}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{04}
+      \field{title}{In the field of traffic and mobility management, Origin-Destination (OD) Matrices play a crucial role in analysing and planning transport flows within a given geographical area. These matrices are powerful tools that help visualise and understand how people and vehicles move, which is essential for}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.linkedin.com/pulse/importance-origin-destination-matrices-traffic-benito-molina-qdrlf/
+      \endverb
+      \verb{url}
+      \verb https://www.linkedin.com/pulse/importance-origin-destination-matrices-traffic-benito-molina-qdrlf/
+      \endverb
+    \endentry
+    \entry{bloy_2007_an}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0e66468de6b60bba1fd86c25bbd674b5}{%
+           family={Bloy},
+           familyi={B\bibinitperiod},
+           given={Leisly\bibnamedelimb Arthur\bibnamedelima Keith},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Ecofine}%
+      }
+      \strng{namehash}{0e66468de6b60bba1fd86c25bbd674b5}
+      \strng{fullhash}{0e66468de6b60bba1fd86c25bbd674b5}
+      \strng{fullhashraw}{0e66468de6b60bba1fd86c25bbd674b5}
+      \strng{bibnamehash}{0e66468de6b60bba1fd86c25bbd674b5}
+      \strng{authorbibnamehash}{0e66468de6b60bba1fd86c25bbd674b5}
+      \strng{authornamehash}{0e66468de6b60bba1fd86c25bbd674b5}
+      \strng{authorfullhash}{0e66468de6b60bba1fd86c25bbd674b5}
+      \strng{authorfullhashraw}{0e66468de6b60bba1fd86c25bbd674b5}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Investigation Into Braess Paradox}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.ecofine.com/Articles-and-Studies-mentioning-Ecofine.com/An-Investigation-into-Braess-Paradox-by-Leslie-Arthur-Keith-Bloy.pdf?fbclid=IwY2xjawRfFoJleHRuA2FlbQIxMABicmlkETFpSHBZa2VNZG9rU2tpWFVLc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvGLOmzpQJ-PeDk5YIeent1j_MZCDiPhn-tXj8LU4dZo55l0qWSKbvU1UXBm_aem_cxflMZRYCb6EWuh0_hPixg
+      \endverb
+      \verb{url}
+      \verb https://www.ecofine.com/Articles-and-Studies-mentioning-Ecofine.com/An-Investigation-into-Braess-Paradox-by-Leslie-Arthur-Keith-Bloy.pdf?fbclid=IwY2xjawRfFoJleHRuA2FlbQIxMABicmlkETFpSHBZa2VNZG9rU2tpWFVLc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvGLOmzpQJ-PeDk5YIeent1j_MZCDiPhn-tXj8LU4dZo55l0qWSKbvU1UXBm_aem_cxflMZRYCb6EWuh0_hPixg
       \endverb
     \endentry
     \entry{boyd2012braess}{online}{}{}
@@ -1330,11 +1467,15 @@
       \verb https://openjicareport.jica.go.jp/pdf/11580446.pdf
       \endverb
     \endentry
-    \entry{jica2025jica}{online}{}{}
+    \entry{jica2004}{report}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8972fea3002f27deb2f36455c531fde5}{%
            family={{Japan International Cooperation Agency}},
            familyi={J\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Department of Public Works}%
+        {Highways, Republic of the Philippines}%
       }
       \strng{namehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{fullhash}{8972fea3002f27deb2f36455c531fde5}
@@ -1352,6 +1493,39 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{The Study on Road Network Improvement for Development of Regional Growth Centers in the Republic of the Philippines}
+      \field{year}{2004}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://openjicareport.jica.go.jp/614/614/614_118_11778537.html
+      \endverb
+      \verb{url}
+      \verb https://openjicareport.jica.go.jp/614/614/614_118_11778537.html
+      \endverb
+    \endentry
+    \entry{jica2025jica}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8972fea3002f27deb2f36455c531fde5}{%
+           family={{Japan International Cooperation Agency}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{8972fea3002f27deb2f36455c531fde5}
+      \strng{fullhash}{8972fea3002f27deb2f36455c531fde5}
+      \strng{fullhashraw}{8972fea3002f27deb2f36455c531fde5}
+      \strng{bibnamehash}{8972fea3002f27deb2f36455c531fde5}
+      \strng{authorbibnamehash}{8972fea3002f27deb2f36455c531fde5}
+      \strng{authornamehash}{8972fea3002f27deb2f36455c531fde5}
+      \strng{authorfullhash}{8972fea3002f27deb2f36455c531fde5}
+      \strng{authorfullhashraw}{8972fea3002f27deb2f36455c531fde5}
+      \field{extraname}{3}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{month}{2}
       \field{title}{JICA and MMDA commence a project on Intelligent Transportation System}
       \field{year}{2025}
@@ -1361,6 +1535,54 @@
       \endverb
       \verb{url}
       \verb https://www.jica.go.jp/english/overseas/philippine/information/press/2024/rdsigningctmp02212025.html
+      \endverb
+    \endentry
+    \entry{jiang_2022_graph}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7799808f676f2f50b373fb5cb7047be6}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Weiwei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=39a7b9eca792e9688dfbaab1c5528e99}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Jiayun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{096391b3d6c8fc448e1edb71dd42aadd}
+      \strng{fullhash}{096391b3d6c8fc448e1edb71dd42aadd}
+      \strng{fullhashraw}{096391b3d6c8fc448e1edb71dd42aadd}
+      \strng{bibnamehash}{096391b3d6c8fc448e1edb71dd42aadd}
+      \strng{authorbibnamehash}{096391b3d6c8fc448e1edb71dd42aadd}
+      \strng{authornamehash}{096391b3d6c8fc448e1edb71dd42aadd}
+      \strng{authorfullhash}{096391b3d6c8fc448e1edb71dd42aadd}
+      \strng{authorfullhashraw}{096391b3d6c8fc448e1edb71dd42aadd}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{month}{11}
+      \field{title}{Graph neural network for traffic forecasting: A survey}
+      \field{volume}{207}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{117921}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.eswa.2022.117921
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0957417422011654
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0957417422011654
       \endverb
     \endentry
     \entry{jilani2023systematic}{article}{}{}
@@ -1869,6 +2091,53 @@
       \verb 10.1007/s10288-023-00540-w
       \endverb
     \endentry
+    \entry{mou_2025_braess}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b1c3f158520e8b16cbfa1409f99e618e}{%
+           family={Mou},
+           familyi={M\bibinitperiod},
+           given={Minghao},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5fea1b1d390ddeeab59c3e1675cbe387}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Junjie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {arXiv.org}%
+      }
+      \strng{namehash}{81e9ec0367bac3f31e7b57b3520e6fb0}
+      \strng{fullhash}{81e9ec0367bac3f31e7b57b3520e6fb0}
+      \strng{fullhashraw}{81e9ec0367bac3f31e7b57b3520e6fb0}
+      \strng{bibnamehash}{81e9ec0367bac3f31e7b57b3520e6fb0}
+      \strng{authorbibnamehash}{81e9ec0367bac3f31e7b57b3520e6fb0}
+      \strng{authornamehash}{81e9ec0367bac3f31e7b57b3520e6fb0}
+      \strng{authorfullhash}{81e9ec0367bac3f31e7b57b3520e6fb0}
+      \strng{authorfullhashraw}{81e9ec0367bac3f31e7b57b3520e6fb0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Braess' Paradoxes in Coupled Power and Transportation Systems}
+      \field{urlday}{28}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2512.12197
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2512.12197
+      \endverb
+    \endentry
     \entry{nagurney2020braess}{online}{}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=c0bab0c35e62f61c0107b2f0ece95014}{%
@@ -1946,6 +2215,54 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.11648/j.bsi.20180302.11
+      \endverb
+    \endentry
+    \entry{ortigosa_2017_analysis}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=62f263566ff0d925585660fe98a14ec9}{%
+           family={Ortigosa},
+           familyi={O\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aed388c7f2bee006d4c8cdb6b21575a0}{%
+           family={Gayah},
+           familyi={G\bibinitperiod},
+           given={Vikash\bibnamedelima V.},
+           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9703027342238581f41b1d94e2c87649}{%
+           family={Menendez},
+           familyi={M\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{051814ca4c20742a49f8d79e57e2a749}
+      \strng{fullhash}{adbc581c524c943765a2fb77df3ac62c}
+      \strng{fullhashraw}{adbc581c524c943765a2fb77df3ac62c}
+      \strng{bibnamehash}{adbc581c524c943765a2fb77df3ac62c}
+      \strng{authorbibnamehash}{adbc581c524c943765a2fb77df3ac62c}
+      \strng{authornamehash}{051814ca4c20742a49f8d79e57e2a749}
+      \strng{authorfullhash}{adbc581c524c943765a2fb77df3ac62c}
+      \strng{authorfullhashraw}{adbc581c524c943765a2fb77df3ac62c}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transportmetrica B: Transport Dynamics}
+      \field{month}{06}
+      \field{title}{Analysis of one-way and two-way street configurations on urban grid networks}
+      \field{volume}{7}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{61\bibrangedash 81}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1080/21680566.2017.1337528
       \endverb
     \endentry
     \entry{ortuzar2024modelling}{book}{}{}
@@ -2198,6 +2515,55 @@
       \range{pages}{32}
       \verb{doi}
       \verb 10.1080/01441640601089988
+      \endverb
+    \endentry
+    \entry{qian_2012_on}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f480255c5183683b8784ad1e51adf029}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Zhen},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4ed2f4508e93a1c5d9f9a2b95f0b2e9}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={H.M.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{c6e5b39f3d7690fe7a17bcc907dee11f}
+      \strng{fullhash}{c6e5b39f3d7690fe7a17bcc907dee11f}
+      \strng{fullhashraw}{c6e5b39f3d7690fe7a17bcc907dee11f}
+      \strng{bibnamehash}{c6e5b39f3d7690fe7a17bcc907dee11f}
+      \strng{authorbibnamehash}{c6e5b39f3d7690fe7a17bcc907dee11f}
+      \strng{authornamehash}{c6e5b39f3d7690fe7a17bcc907dee11f}
+      \strng{authorfullhash}{c6e5b39f3d7690fe7a17bcc907dee11f}
+      \strng{authorfullhashraw}{c6e5b39f3d7690fe7a17bcc907dee11f}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transportation Research Part B: Methodological}
+      \field{month}{12}
+      \field{title}{On centroid connectors in static traffic assignment: Their effects on flow patterns and how to optimize their selections}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{46}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{1489\bibrangedash 1503}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.trb.2012.07.006
       \endverb
     \endentry
     \entry{ramos2025double}{report}{}{}
@@ -2561,6 +2927,104 @@
       \endverb
       \verb{url}
       \verb https://www.vox.com/2014/10/23/6994159/traffic-roads-induced-demand
+      \endverb
+    \endentry
+    \entry{suryani_2020_urban}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=9b5eb952d04de6d0b7217152d03c4766}{%
+           family={Suryani},
+           familyi={S\bibinitperiod},
+           given={Erma},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dabb1b09fd1a13f46ecf28e69bc80906}{%
+           family={Hendrawan},
+           familyi={H\bibinitperiod},
+           given={Rully\bibnamedelima Agus},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84cc8f9252432a0ce445367ea6a91c47}{%
+           family={Adipraja},
+           familyi={A\bibinitperiod},
+           given={Philip\bibnamedelimb Faster\bibnamedelima Eka},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c248c128d8727bf0d2c688638cf58ad}{%
+           family={Wibisono},
+           familyi={W\bibinitperiod},
+           given={Arif},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0867795d7a13d6cdcc2149c374cb4fba}{%
+           family={Dewi},
+           familyi={D\bibinitperiod},
+           given={Lily\bibnamedelima Puspa},
+           giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6bad17edcda12095c689a112df4682b9}
+      \strng{fullhash}{984985c18e6dbf303f3a59241fb00391}
+      \strng{fullhashraw}{984985c18e6dbf303f3a59241fb00391}
+      \strng{bibnamehash}{984985c18e6dbf303f3a59241fb00391}
+      \strng{authorbibnamehash}{984985c18e6dbf303f3a59241fb00391}
+      \strng{authornamehash}{6bad17edcda12095c689a112df4682b9}
+      \strng{authorfullhash}{984985c18e6dbf303f3a59241fb00391}
+      \strng{authorfullhashraw}{984985c18e6dbf303f3a59241fb00391}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Modelling in Management}
+      \field{month}{02}
+      \field{title}{Urban mobility modeling to reduce traffic congestion in Surabaya: a system dynamics framework}
+      \field{volume}{16}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{37\bibrangedash 69}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1108/jm2-03-2019-0055
+      \endverb
+    \endentry
+    \entry{dishint_2024_what}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=599bcb7a07768a262d2f55311bcb21ff}{%
+           family={T},
+           familyi={T\bibinitperiod},
+           given={Dishin},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Altitude by Geotab}%
+      }
+      \strng{namehash}{599bcb7a07768a262d2f55311bcb21ff}
+      \strng{fullhash}{599bcb7a07768a262d2f55311bcb21ff}
+      \strng{fullhashraw}{599bcb7a07768a262d2f55311bcb21ff}
+      \strng{bibnamehash}{599bcb7a07768a262d2f55311bcb21ff}
+      \strng{authorbibnamehash}{599bcb7a07768a262d2f55311bcb21ff}
+      \strng{authornamehash}{599bcb7a07768a262d2f55311bcb21ff}
+      \strng{authorfullhash}{599bcb7a07768a262d2f55311bcb21ff}
+      \strng{authorfullhashraw}{599bcb7a07768a262d2f55311bcb21ff}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{08}
+      \field{title}{What is annual average daily traffic and why is it so important for understanding total regional travel? | Altitude by Geotab}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://altitude.geotab.com/news-and-releases/what-is-annual-average-daily-traffic-aadt/
+      \endverb
+      \verb{url}
+      \verb https://altitude.geotab.com/news-and-releases/what-is-annual-average-daily-traffic-aadt/
       \endverb
     \endentry
     \entry{thunig2016braess}{article}{}{}
@@ -2907,6 +3371,60 @@
       \verb https://www.atransociety.com/resources/pdf/5thSymposiumDownloadable/FullPaper/2B/SCS12-005.pdf
       \endverb
     \endentry
+    \entry{alghamdi_2022_a}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=27ff1b9197c81d5e750840e3ca89e94e}{%
+           family={Alghamdi},
+           familyi={A\bibinitperiod},
+           given={Taghreed},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11c4a42707332f21439eba482727193a}{%
+           family={Mostafi},
+           familyi={M\bibinitperiod},
+           given={Sifatul},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52f89841ff6c8dced7ad2620783af7e0}{%
+           family={Abdelkader},
+           familyi={A\bibinitperiod},
+           given={Ghadeer},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=044aa8efb0ae5aba93cd622d7f8adbe3}{%
+           family={Elgazzar},
+           familyi={E\bibinitperiod},
+           given={Khalid},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{075e29ffb896a0a73d31f7049f8372db}
+      \strng{fullhash}{913a41680bdccbce16f42949e8586c0a}
+      \strng{fullhashraw}{913a41680bdccbce16f42949e8586c0a}
+      \strng{bibnamehash}{913a41680bdccbce16f42949e8586c0a}
+      \strng{authorbibnamehash}{913a41680bdccbce16f42949e8586c0a}
+      \strng{authornamehash}{075e29ffb896a0a73d31f7049f8372db}
+      \strng{authorfullhash}{913a41680bdccbce16f42949e8586c0a}
+      \strng{authorfullhashraw}{913a41680bdccbce16f42949e8586c0a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Future Internet}
+      \field{month}{10}
+      \field{title}{A Comparative Study on Traffic Modeling Techniques for Predicting and Simulating Traffic Behavior}
+      \field{volume}{14}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{294}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/fi14100294
+      \endverb
+    \endentry
     \entry{adb2012philippines}{report}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=92d83ccd39e6a187466ef617c8cb8662}{%
@@ -2977,6 +3495,89 @@
       \range{pages}{62}
       \verb{doi}
       \verb 10.1007/978-1-4419-6142-6_1
+      \endverb
+    \endentry
+    \entry{benito_2025_in}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2b49189833386892de77b6ed289a8107}{%
+           family={Benito},
+           familyi={B\bibinitperiod},
+           given={Vicente\bibnamedelima L},
+           giveni={V\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Linkedin.com}%
+      }
+      \strng{namehash}{2b49189833386892de77b6ed289a8107}
+      \strng{fullhash}{2b49189833386892de77b6ed289a8107}
+      \strng{fullhashraw}{2b49189833386892de77b6ed289a8107}
+      \strng{bibnamehash}{2b49189833386892de77b6ed289a8107}
+      \strng{authorbibnamehash}{2b49189833386892de77b6ed289a8107}
+      \strng{authornamehash}{2b49189833386892de77b6ed289a8107}
+      \strng{authorfullhash}{2b49189833386892de77b6ed289a8107}
+      \strng{authorfullhashraw}{2b49189833386892de77b6ed289a8107}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{04}
+      \field{title}{In the field of traffic and mobility management, Origin-Destination (OD) Matrices play a crucial role in analysing and planning transport flows within a given geographical area. These matrices are powerful tools that help visualise and understand how people and vehicles move, which is essential for}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.linkedin.com/pulse/importance-origin-destination-matrices-traffic-benito-molina-qdrlf/
+      \endverb
+      \verb{url}
+      \verb https://www.linkedin.com/pulse/importance-origin-destination-matrices-traffic-benito-molina-qdrlf/
+      \endverb
+    \endentry
+    \entry{bloy_2007_an}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0e66468de6b60bba1fd86c25bbd674b5}{%
+           family={Bloy},
+           familyi={B\bibinitperiod},
+           given={Leisly\bibnamedelimb Arthur\bibnamedelima Keith},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Ecofine}%
+      }
+      \strng{namehash}{0e66468de6b60bba1fd86c25bbd674b5}
+      \strng{fullhash}{0e66468de6b60bba1fd86c25bbd674b5}
+      \strng{fullhashraw}{0e66468de6b60bba1fd86c25bbd674b5}
+      \strng{bibnamehash}{0e66468de6b60bba1fd86c25bbd674b5}
+      \strng{authorbibnamehash}{0e66468de6b60bba1fd86c25bbd674b5}
+      \strng{authornamehash}{0e66468de6b60bba1fd86c25bbd674b5}
+      \strng{authorfullhash}{0e66468de6b60bba1fd86c25bbd674b5}
+      \strng{authorfullhashraw}{0e66468de6b60bba1fd86c25bbd674b5}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Investigation Into Braess Paradox}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.ecofine.com/Articles-and-Studies-mentioning-Ecofine.com/An-Investigation-into-Braess-Paradox-by-Leslie-Arthur-Keith-Bloy.pdf?fbclid=IwY2xjawRfFoJleHRuA2FlbQIxMABicmlkETFpSHBZa2VNZG9rU2tpWFVLc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvGLOmzpQJ-PeDk5YIeent1j_MZCDiPhn-tXj8LU4dZo55l0qWSKbvU1UXBm_aem_cxflMZRYCb6EWuh0_hPixg
+      \endverb
+      \verb{url}
+      \verb https://www.ecofine.com/Articles-and-Studies-mentioning-Ecofine.com/An-Investigation-into-Braess-Paradox-by-Leslie-Arthur-Keith-Bloy.pdf?fbclid=IwY2xjawRfFoJleHRuA2FlbQIxMABicmlkETFpSHBZa2VNZG9rU2tpWFVLc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvGLOmzpQJ-PeDk5YIeent1j_MZCDiPhn-tXj8LU4dZo55l0qWSKbvU1UXBm_aem_cxflMZRYCb6EWuh0_hPixg
       \endverb
     \endentry
     \entry{boyd2012braess}{online}{}{}
@@ -4044,11 +4645,15 @@
       \verb https://openjicareport.jica.go.jp/pdf/11580446.pdf
       \endverb
     \endentry
-    \entry{jica2025jica}{online}{}{}
+    \entry{jica2004}{report}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8972fea3002f27deb2f36455c531fde5}{%
            family={{Japan International Cooperation Agency}},
            familyi={J\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Department of Public Works}%
+        {Highways, Republic of the Philippines}%
       }
       \strng{namehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{fullhash}{8972fea3002f27deb2f36455c531fde5}
@@ -4066,6 +4671,39 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{The Study on Road Network Improvement for Development of Regional Growth Centers in the Republic of the Philippines}
+      \field{year}{2004}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://openjicareport.jica.go.jp/614/614/614_118_11778537.html
+      \endverb
+      \verb{url}
+      \verb https://openjicareport.jica.go.jp/614/614/614_118_11778537.html
+      \endverb
+    \endentry
+    \entry{jica2025jica}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8972fea3002f27deb2f36455c531fde5}{%
+           family={{Japan International Cooperation Agency}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{8972fea3002f27deb2f36455c531fde5}
+      \strng{fullhash}{8972fea3002f27deb2f36455c531fde5}
+      \strng{fullhashraw}{8972fea3002f27deb2f36455c531fde5}
+      \strng{bibnamehash}{8972fea3002f27deb2f36455c531fde5}
+      \strng{authorbibnamehash}{8972fea3002f27deb2f36455c531fde5}
+      \strng{authornamehash}{8972fea3002f27deb2f36455c531fde5}
+      \strng{authorfullhash}{8972fea3002f27deb2f36455c531fde5}
+      \strng{authorfullhashraw}{8972fea3002f27deb2f36455c531fde5}
+      \field{extraname}{3}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{month}{2}
       \field{title}{JICA and MMDA commence a project on Intelligent Transportation System}
       \field{year}{2025}
@@ -4075,6 +4713,54 @@
       \endverb
       \verb{url}
       \verb https://www.jica.go.jp/english/overseas/philippine/information/press/2024/rdsigningctmp02212025.html
+      \endverb
+    \endentry
+    \entry{jiang_2022_graph}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7799808f676f2f50b373fb5cb7047be6}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Weiwei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=39a7b9eca792e9688dfbaab1c5528e99}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Jiayun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{096391b3d6c8fc448e1edb71dd42aadd}
+      \strng{fullhash}{096391b3d6c8fc448e1edb71dd42aadd}
+      \strng{fullhashraw}{096391b3d6c8fc448e1edb71dd42aadd}
+      \strng{bibnamehash}{096391b3d6c8fc448e1edb71dd42aadd}
+      \strng{authorbibnamehash}{096391b3d6c8fc448e1edb71dd42aadd}
+      \strng{authornamehash}{096391b3d6c8fc448e1edb71dd42aadd}
+      \strng{authorfullhash}{096391b3d6c8fc448e1edb71dd42aadd}
+      \strng{authorfullhashraw}{096391b3d6c8fc448e1edb71dd42aadd}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{month}{11}
+      \field{title}{Graph neural network for traffic forecasting: A survey}
+      \field{volume}{207}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{117921}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.eswa.2022.117921
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0957417422011654
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0957417422011654
       \endverb
     \endentry
     \entry{jilani2023systematic}{article}{}{}
@@ -4583,6 +5269,53 @@
       \verb 10.1007/s10288-023-00540-w
       \endverb
     \endentry
+    \entry{mou_2025_braess}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b1c3f158520e8b16cbfa1409f99e618e}{%
+           family={Mou},
+           familyi={M\bibinitperiod},
+           given={Minghao},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5fea1b1d390ddeeab59c3e1675cbe387}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Junjie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {arXiv.org}%
+      }
+      \strng{namehash}{81e9ec0367bac3f31e7b57b3520e6fb0}
+      \strng{fullhash}{81e9ec0367bac3f31e7b57b3520e6fb0}
+      \strng{fullhashraw}{81e9ec0367bac3f31e7b57b3520e6fb0}
+      \strng{bibnamehash}{81e9ec0367bac3f31e7b57b3520e6fb0}
+      \strng{authorbibnamehash}{81e9ec0367bac3f31e7b57b3520e6fb0}
+      \strng{authornamehash}{81e9ec0367bac3f31e7b57b3520e6fb0}
+      \strng{authorfullhash}{81e9ec0367bac3f31e7b57b3520e6fb0}
+      \strng{authorfullhashraw}{81e9ec0367bac3f31e7b57b3520e6fb0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Braess' Paradoxes in Coupled Power and Transportation Systems}
+      \field{urlday}{28}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2512.12197
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2512.12197
+      \endverb
+    \endentry
     \entry{nagurney2020braess}{online}{}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=c0bab0c35e62f61c0107b2f0ece95014}{%
@@ -4660,6 +5393,54 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.11648/j.bsi.20180302.11
+      \endverb
+    \endentry
+    \entry{ortigosa_2017_analysis}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=62f263566ff0d925585660fe98a14ec9}{%
+           family={Ortigosa},
+           familyi={O\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aed388c7f2bee006d4c8cdb6b21575a0}{%
+           family={Gayah},
+           familyi={G\bibinitperiod},
+           given={Vikash\bibnamedelima V.},
+           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9703027342238581f41b1d94e2c87649}{%
+           family={Menendez},
+           familyi={M\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{051814ca4c20742a49f8d79e57e2a749}
+      \strng{fullhash}{adbc581c524c943765a2fb77df3ac62c}
+      \strng{fullhashraw}{adbc581c524c943765a2fb77df3ac62c}
+      \strng{bibnamehash}{adbc581c524c943765a2fb77df3ac62c}
+      \strng{authorbibnamehash}{adbc581c524c943765a2fb77df3ac62c}
+      \strng{authornamehash}{051814ca4c20742a49f8d79e57e2a749}
+      \strng{authorfullhash}{adbc581c524c943765a2fb77df3ac62c}
+      \strng{authorfullhashraw}{adbc581c524c943765a2fb77df3ac62c}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transportmetrica B: Transport Dynamics}
+      \field{month}{06}
+      \field{title}{Analysis of one-way and two-way street configurations on urban grid networks}
+      \field{volume}{7}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{61\bibrangedash 81}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1080/21680566.2017.1337528
       \endverb
     \endentry
     \entry{ortuzar2024modelling}{book}{}{}
@@ -4912,6 +5693,55 @@
       \range{pages}{32}
       \verb{doi}
       \verb 10.1080/01441640601089988
+      \endverb
+    \endentry
+    \entry{qian_2012_on}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f480255c5183683b8784ad1e51adf029}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Zhen},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4ed2f4508e93a1c5d9f9a2b95f0b2e9}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={H.M.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{c6e5b39f3d7690fe7a17bcc907dee11f}
+      \strng{fullhash}{c6e5b39f3d7690fe7a17bcc907dee11f}
+      \strng{fullhashraw}{c6e5b39f3d7690fe7a17bcc907dee11f}
+      \strng{bibnamehash}{c6e5b39f3d7690fe7a17bcc907dee11f}
+      \strng{authorbibnamehash}{c6e5b39f3d7690fe7a17bcc907dee11f}
+      \strng{authornamehash}{c6e5b39f3d7690fe7a17bcc907dee11f}
+      \strng{authorfullhash}{c6e5b39f3d7690fe7a17bcc907dee11f}
+      \strng{authorfullhashraw}{c6e5b39f3d7690fe7a17bcc907dee11f}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transportation Research Part B: Methodological}
+      \field{month}{12}
+      \field{title}{On centroid connectors in static traffic assignment: Their effects on flow patterns and how to optimize their selections}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{46}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{1489\bibrangedash 1503}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.trb.2012.07.006
       \endverb
     \endentry
     \entry{ramos2025double}{report}{}{}
@@ -5275,6 +6105,104 @@
       \endverb
       \verb{url}
       \verb https://www.vox.com/2014/10/23/6994159/traffic-roads-induced-demand
+      \endverb
+    \endentry
+    \entry{suryani_2020_urban}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=9b5eb952d04de6d0b7217152d03c4766}{%
+           family={Suryani},
+           familyi={S\bibinitperiod},
+           given={Erma},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dabb1b09fd1a13f46ecf28e69bc80906}{%
+           family={Hendrawan},
+           familyi={H\bibinitperiod},
+           given={Rully\bibnamedelima Agus},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84cc8f9252432a0ce445367ea6a91c47}{%
+           family={Adipraja},
+           familyi={A\bibinitperiod},
+           given={Philip\bibnamedelimb Faster\bibnamedelima Eka},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c248c128d8727bf0d2c688638cf58ad}{%
+           family={Wibisono},
+           familyi={W\bibinitperiod},
+           given={Arif},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0867795d7a13d6cdcc2149c374cb4fba}{%
+           family={Dewi},
+           familyi={D\bibinitperiod},
+           given={Lily\bibnamedelima Puspa},
+           giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6bad17edcda12095c689a112df4682b9}
+      \strng{fullhash}{984985c18e6dbf303f3a59241fb00391}
+      \strng{fullhashraw}{984985c18e6dbf303f3a59241fb00391}
+      \strng{bibnamehash}{984985c18e6dbf303f3a59241fb00391}
+      \strng{authorbibnamehash}{984985c18e6dbf303f3a59241fb00391}
+      \strng{authornamehash}{6bad17edcda12095c689a112df4682b9}
+      \strng{authorfullhash}{984985c18e6dbf303f3a59241fb00391}
+      \strng{authorfullhashraw}{984985c18e6dbf303f3a59241fb00391}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Modelling in Management}
+      \field{month}{02}
+      \field{title}{Urban mobility modeling to reduce traffic congestion in Surabaya: a system dynamics framework}
+      \field{volume}{16}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{37\bibrangedash 69}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1108/jm2-03-2019-0055
+      \endverb
+    \endentry
+    \entry{dishint_2024_what}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=599bcb7a07768a262d2f55311bcb21ff}{%
+           family={T},
+           familyi={T\bibinitperiod},
+           given={Dishin},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Altitude by Geotab}%
+      }
+      \strng{namehash}{599bcb7a07768a262d2f55311bcb21ff}
+      \strng{fullhash}{599bcb7a07768a262d2f55311bcb21ff}
+      \strng{fullhashraw}{599bcb7a07768a262d2f55311bcb21ff}
+      \strng{bibnamehash}{599bcb7a07768a262d2f55311bcb21ff}
+      \strng{authorbibnamehash}{599bcb7a07768a262d2f55311bcb21ff}
+      \strng{authornamehash}{599bcb7a07768a262d2f55311bcb21ff}
+      \strng{authorfullhash}{599bcb7a07768a262d2f55311bcb21ff}
+      \strng{authorfullhashraw}{599bcb7a07768a262d2f55311bcb21ff}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{08}
+      \field{title}{What is annual average daily traffic and why is it so important for understanding total regional travel? | Altitude by Geotab}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://altitude.geotab.com/news-and-releases/what-is-annual-average-daily-traffic-aadt/
+      \endverb
+      \verb{url}
+      \verb https://altitude.geotab.com/news-and-releases/what-is-annual-average-daily-traffic-aadt/
       \endverb
     \endentry
     \entry{thunig2016braess}{article}{}{}

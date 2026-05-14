@@ -30,7 +30,7 @@ The final network was rendered using OSMnx and Matplotlib, as shown in Figure 5.
 \section{Analysis of Critical Volume Thresholds and Peak Inefficiency}
 \label{sec:topological_baseline}
 
-Results show that there is an existence of possible Braess’s Paradox links within the Iloilo City network. Across the simulated permutations, the algorithm identified 8289 distinct Origin-Destination routing scenarios where the removal or directional restriction of a road mathematically improved Total System Travel Time (TSTT) within the model. Specifically, 4627 of these candidate links were unidirectional closures, while 3662 links were found in bidirectional closures. The severity of these inefficiencies is substantial, with the maximum record PoA being 1.5815. These metrics indicate that under specific volume thresholds, uncoordinated selfish routing performs 58,15\% worse than system optimal routing, suggesting that the current physical topology allows for counterintuitive shortcuts.
+Results show that there is an existence of possible Braess's Paradox links within the Iloilo City network. Across the simulated permutations, the algorithm identified 8289 distinct Origin-Destination routing scenarios where the removal or directional restriction of a road mathematically improved Total System Travel Time (TSTT) within the model. Specifically, 4627 of these candidate links were unidirectional closures, while 3662 links were found in bidirectional closures. The severity of these inefficiencies is substantial, with the maximum record PoA being 1.5815. These metrics indicate that under specific volume thresholds, uncoordinated selfish routing performs 58,15\% worse than system optimal routing, suggesting that the current physical topology allows for counterintuitive shortcuts.
 
 \subsection{Analysis of Network Inefficiencies and Price of Anarchy (PoA)}
 \label{sec:network_inefficiencies_PoA}
@@ -90,6 +90,10 @@ Huervana St - Rizal St & Proper - 7 & Proper - 11 & 1.4747 & 8000 & 794.81 & 785
 \end{longtable}
 }
 
+The presence of Braess links in unidirectional closures suggests the presence of directional sensitivity of Iloilo City's primary corridors. It suggests that certain roads, when restricted in one direction, can lead to improved overall traffic flow. The identified links, as seen in Table 5.1, particularly those involving Gen Luna St and Huervana St - Rizal St, indicate critical points in the network where traffic redistribution may yield significant time savings. The maximum PoA values highlight the potential inefficiencies that can arise from selfish routing, emphasizing the importance of strategic traffic management interventions at these locations.
+
+The presence of these paradoxes suggest that Iloilo's congestion is a results of directional imbalance. By restricting the flow in one direction on a primary link, the system forces a redistribution that mitigates the merging friction and turning conflicts typically found at major intersections, where two primary flows intersect.
+
 \subsection{Bidirectional Road Closures}
 \label{sec:bidirectional_closures}
 
@@ -136,11 +140,18 @@ Rizal St - Huervana St & Proper - 7 & Proper - 11 & 1.4747 & 8000 & 794.81 & 785
 \end{longtable}
 }
 
+In bidirectional closures, the paradox arises when a primary road is fundamentally redundant to the network's efficiency. The identification of Infante St 1 and Arroyo St as bidirectional Braess links suggests that these roads may be underutilized or create inefficient routing patterns when both directions are available. The maximum PoA values for these links indicate that their presence can lead to significant inefficiencies in the network, and their removal can yield substantial time savings for specific origin-destination pairs. This highlights the importance of considering bidirectional impacts when evaluating traffic management strategies, as certain roads may contribute to congestion and inefficiency when both directions are open.
+
+Removing these links entirely eliminates the temptation for selfish routing which forces a transition to a more socially optimal state where traffic is diverted to a robust, but longer skeleton.
+
+\subsection{Directional and Structural Paradoxes}
+\label{sec:directional_structural_paradoxes}
+Comparing the two closure types reveals that certain roads, such as Gen Luna St 3 and Gen Luna St 2, are critical to the network's performance regardless of the direction of closure. This suggests that these roads may have structural significance in the network, where their presence creates inefficient routing patterns that can be mitigated by their removal. The directional sensitivity observed in unidirectional closures indicates that certain roads may have a more pronounced impact on traffic flow when restricted in one direction, while bidirectional closures reveal roads that may be fundamentally redundant to the network's efficiency. The presence of Braess links in both closure types underscores the complexity of traffic dynamics in Iloilo City and highlights the need for strategic traffic management interventions that consider both directional and structural factors to optimize overall network performance.
+
 \section{Evaluation of Network Performance Across the 6 Topologies}
 \label{sec:eval_6}
 
 The results from adding the OD matrix pairs shows a significant shift in how the paradox appears. By introducing the OD matrix to the model, the network showed less Braess links. Table~\ref{tab:5.3} shows the macroscopic network performance across the six topologies. The data reveals a change in how Braess links appear depending on how the demand moves through the network.
-
 
 {
 \small 
@@ -174,11 +185,14 @@ AADT-prioritized & Unidirectional & 3555.67 & 21 & 475.07 \\ \hline
 \end{longtable}
 }
 
+Comparing the results across the six topologies, it is evident that the presence of Braess links and the potential time savings vary significantly based on the network configuration and closure type. The Uniform Disaggregation topology showed no Braess links for both closure types, indicating that this configuration may be more resilient to inefficiencies caused by selfish routing. In contrast, the Unrestricted Connector topology revealed one Braess link for both closure types, suggesting that certain roads may still contribute to inefficiencies even when demand is unrestricted. The AADT-prioritized topology exhibited the highest number of Braess links, particularly under unidirectional closures, which indicates that prioritizing high-traffic intersections can lead to significant inefficiencies in the network. These findings highlight the importance of considering network topology and demand patterns when evaluating traffic management strategies, as different configurations can yield varying levels of efficiency and potential for improvement through road closures.
+
 \subsection{Uniform Disaggregation Topology Results}
 \label{sec:uniform_disaggregation_results}
 
 Under Uniform Disaggregationn, the simulation identified zero Braess link. Consequently, the maximum systemic travel time saved for both setups remained at 0 minutes, with a baseline TSTT of 3585.28 hours.
 
+The lack of paradoxes in this setup may be attributed to the dilution of traffic, no single primary artery reaches the critical volume threshold where selfish routing becomes inefficient. The uniform distribution of demand across the network may have prevented the formation of bottlenecks and inefficient routing patterns that typically lead to Braess's Paradox. This suggests that a more balanced distribution of traffic can enhance the overall efficiency of the network and reduce the likelihood of counterintuitive outcomes from road closures.
 
 \subsection{Unrestricted Connector Topology Results}
 \label{sec:unrestricted_results}
@@ -209,6 +223,8 @@ Using an Unrestricted Connector topology, both closure types yielded one Braess 
     \label{tab:5.5}
 \end{table}
 
+This topology shows that when given freedom to choose any route, the traffic assignment algorithm identified a critical link along JM Basa St that, when closed, improved the overall system performance. The presence of this Braess link suggests that JM Basa St may have been a key route for certain origin-destination pairs, and its closure forced traffic to redistribute in a way that reduced overall congestion and travel time. The time saved of 61.19 minutes indicates that the closure of this link can lead to significant improvements in network efficiency, highlighting the importance of strategic road closures in managing traffic flow and mitigating congestion in urban networks. However, while this setups are the most efficient, it is also the least realistic as it ignores the constraints of how drivers actually enter and exit the network.
+
 The spatial redistribution of traffic for this link is visualized in Figures 5.2 and 5.3.
 
 \begin{figure}[H]
@@ -225,16 +241,58 @@ The spatial redistribution of traffic for this link is visualized in Figures 5.2
     \label{fig:jm_basa_delta}
 \end{figure}
 
-\subsection{AADT-prioritized Topology Results}
-\label{sec:aadt-prioritized}
-
-Unlike the other setups, the AADT-prioritized topologies have limited demand to specific nodes which forces traffic through the selected nodes based on highest-volume AADT intersections. These configurations showed the presence of Braess links. Tables \ref{tab:5.6} and \ref{tab:5.7} shows the top five Braess links found from the setups
+To show the shift in traffic, Tables~\ref{tab:5.6a} and \ref{tab:5.6b} show the changes in flow when JM Basa St 2 is closed.
 
 \begin{table}[H]
     \centering
     \small 
     \setlength{\tabcolsep}{4pt} 
-    \renewcommand{\thetable}{5.6}
+    \renewcommand{\thetable}{5.6a}
+    \begin{tabular}{|p{4.2cm}|l|l|c|c|c|}
+    \hline
+    \textbf{Road Name} & \textbf{From Node} & \textbf{To Node} & \textbf{Baseline Flow} & \textbf{New Flow} & \textbf{Delta} \\ \hline
+    Rizal St 2 (Rev) & Proper - 6 & Proper - 5 & 842.81 & 899.86 & 57.05 \\ \hline
+    Rizal St 1 & Proper - 5 & Proper - 3 & 1464.43 & 1520.51 & 56.08 \\ \hline
+    Infante St 2 (Rev) & Proper - 3 & Proper - 2 & 976.35 & 1031.98 & 55.63 \\ \hline
+    Rizal St 3 (Rev) & Proper - 14 & Proper - 6 & 836.69 & 886.28 & 49.59 \\ \hline
+    Dela Rama St 1 (Rev) & Proper - 17 & Proper - 13 & 67.73 & 82.09 & 14.36 \\ \hline
+    \end{tabular}
+    \caption{Top 5 Roads With Increase in Flow After Closure of JM Basa St 2}
+    \label{tab:5.6a}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \small 
+    \setlength{\tabcolsep}{4pt} 
+    \renewcommand{\thetable}{5.6b}
+    \begin{tabular}{|p{4.2cm}|l|l|c|c|c|}
+    \hline
+    \textbf{Road Name} & \textbf{From Node} & \textbf{To Node} & \textbf{Baseline Flow} & \textbf{New Flow} & \textbf{Delta} \\ \hline
+    Delgado St (Rev) & Proper - 10 & Proper - 2 & 930.39 & 873.34 & -57.05 \\ \hline
+    Ruperto Montinola St 2 (Rev) & Proper - 11 & Proper - 10 & 930.39 & 873.34 & -57.05 \\ \hline
+    JM Basa St 1 (Rev) & Proper - 13 & Proper - 11 & 30.70 & 0.00 & -30.70 \\ \hline
+    Muelle Loney St 2 (Rev) & Proper - 18 & Proper - 12 & 2196.11 & 2177.22 & -18.89 \\ \hline
+    Arroyo St & Proper - 12 & Proper - 11 & 905.81 & 886.92 & -13.55 \\ \hline
+    \end{tabular}
+    \caption{Top 5 Roads With Decrease in Flow After Closure of JM Basa St 2}
+    \label{tab:5.6b}
+\end{table}
+
+INSERT DISCUSSION
+
+Table~\ref{tab:5.6a} shows the top 5 roads that had an increase in flow after the closure of JM Basa St 2, while Table~\ref{tab:5.6b} shows the top 5 roads that had a decrease in flow. The closure of JM Basa St 2 led to a redistribution of traffic, with certain roads experiencing an increase in flow as drivers sought alternative routes, while others saw a decrease in flow as traffic was diverted away from them. This redistribution likely contributed to the overall improvement in system performance, as it may have alleviated congestion on certain routes and allowed for a more efficient use of the network's capacity.
+
+\subsection{AADT-prioritized Topology Results}
+\label{sec:aadt-prioritized}
+
+Unlike the other setups, the AADT-prioritized topologies have limited demand to specific nodes which forces traffic through the selected nodes based on highest-volume AADT intersections. These configurations showed the presence of Braess links. Tables \ref{tab:5.7} and \ref{tab:5.8} shows the top five Braess links found from the setups
+
+\begin{table}[H]
+    \centering
+    \small 
+    \setlength{\tabcolsep}{4pt} 
+    \renewcommand{\thetable}{5.7}
     \begin{tabular}{|p{4.2cm}|l|l|c|c|}
     \hline
     \textbf{Braess Link} & \textbf{From Node} & \textbf{To Node} & \textbf{\parbox{2cm}{\centering Baseline TSTT (hrs)}} & \textbf{\parbox{2cm}{\centering Time Saved (mins)}} \\ \hline
@@ -245,14 +303,14 @@ Unlike the other setups, the AADT-prioritized topologies have limited demand to 
     Gen Luna - Molo Connector & Proper - 1 & Molo - 7 & 3553.21 & 147.50 \\ \hline
     \end{tabular}
     \caption{Bidirectional AADT-Prioritized Setup Results}
-    \label{tab:5.6}
+    \label{tab:5.7}
 \end{table}
 
 \begin{table}[H]
     \centering
     \small
     \setlength{\tabcolsep}{4pt}
-    \renewcommand{\thetable}{5.7}
+    \renewcommand{\thetable}{5.8}
     \begin{tabular}{|p{5.2cm}|l|l|c|c|}
     \hline
     \textbf{Braess Link} & \textbf{From Node} & \textbf{To Node} & \textbf{\parbox{2cm}{\centering Baseline TSTT (hrs)}} & \textbf{\parbox{2cm}{\centering Time Saved (mins)}} \\ \hline
@@ -263,8 +321,12 @@ Unlike the other setups, the AADT-prioritized topologies have limited demand to 
     Locsin St & Molo - 5 & Molo - 4 & 3549.58 & 374.08 \\ \hline
     \end{tabular}
     \caption{Unidirectional AADT-Prioritized Setup Results}
-    \label{tab:5.7}
+    \label{tab:5.8}
 \end{table}
+
+This topology shows that when demand is forced through specific nodes, the traffic assignment algorithm identified multiple critical links that, when closed, improved the overall system performance. The presence of these Braess links suggests that certain roads may have been key routes for specific origin-destination pairs, and their closure forced traffic to redistribute in a way that reduced overall congestion and travel time. This setups identified 7 bidirectional and 21 unidirectional Braess links. 
+
+These links may be caused by volume dependency, where unlike in the Uniform setup, the AADT setup forces traffic through specific roads. As these links approach their limits, this begins to delay everyone else, which may confirm that the paradox is a peak-hour phenomenon where volume matters. It also shows that directional sensitivity matters. Since unidirectional paradoxes were more frequent that bidirectional ones indicates that the city's inefficiencies may largely be directional. This suggests that the transport problems are often caused by specific directional conflicts at critical intersections rather than a total lack of road space.
 
 Figures 5.4 and 5.5 shows the spatial redistribution of traffic for the top Braess link found in the setup under Bidirectional Closure, which is Ledesma St.
 
@@ -282,21 +344,160 @@ Figures 5.4 and 5.5 shows the spatial redistribution of traffic for the top Brae
     \label{fig:ledesma_delta}
 \end{figure}
 
-When checking the data, there was no difference between the unidirectional and bidirectional closure for Ledesma St. The traffic distribution and the time saved were the same for both closure types. Figures 5.6 and 5.7 shows the spatial redistribution of traffic for the 2nd top Braess link found in the setup under Unidirectional Closure, which is Blumentritt 2.
+To show the shift in traffic, Tables~\ref{tab:5.9a} and \ref{tab:5.9b} show the changes in flow when Ledesma St is closed.
+
+\begin{table}[H]
+    \centering
+    \small 
+    \setlength{\tabcolsep}{4pt} 
+    \renewcommand{\thetable}{5.9a}
+    \begin{tabular}{|p{4.2cm}|l|l|c|c|c|}
+    \hline
+    \textbf{Road Name} & \textbf{From Node} & \textbf{To Node} & \textbf{Baseline Flow} & \textbf{New Flow} & \textbf{Delta} \\ \hline
+    Rizal St 3 & Proper - 6 & Proper - 14 & 212.04 & 349.98 & 137.94 \\ \hline
+    Delgado St & Proper - 2 & Proper - 10 & 864.00 & 984.25 & 120.25 \\ \hline
+    Ruperto Montinola St 2 & Proper - 10 & Proper - 11 & 974.14 & 1089.39 & 115.25 \\ \hline
+    Timawa St & Molo - 5 & Proper - 2 & 0.00 & 97.62 & 97.62 \\ \hline
+    Fort San Pedro Dr (Rev) & Proper - 22 & Proper - 21 & 358.29 & 430.26 & 71.97 \\ \hline    \end{tabular}
+    \caption{Top 5 Roads With Increase in Flow After Closure of Ledesma St}
+    \label{tab:5.9a}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \small 
+    \setlength{\tabcolsep}{4pt} 
+    \renewcommand{\thetable}{5.9b}
+    \begin{tabular}{|p{4.2cm}|l|l|c|c|c|}
+    \hline
+    \textbf{Road Name} & \textbf{From Node} & \textbf{To Node} & \textbf{Baseline Flow} & \textbf{New Flow} & \textbf{Delta} \\ \hline
+    Locsin St & Molo - 5 & Molo - 6 & 470.20 & 372.58 & -97.62 \\ \hline
+    Molo Blvd 2 & Molo - 6 & Proper - 4 & 470.20 & 372.58 & -97.62 \\ \hline
+    JM Basa St 1 & Proper - 11 & Proper - 13 & 1772.59 & 1675.18 & -97.41 \\ \hline
+    Baluarte - Oton Blvd & Proper - 11 & Proper - 5 & 955.64 & 860.05 & -95.59 \\ \hline
+    Rizal St 2 & Proper - 4 & Proper - 6 & 955.64 & 860.05 & -95.59 \\ \hline    \end{tabular}
+    \caption{Top 5 Roads With Decrease in Flow After Closure of Ledesma St}
+    \label{tab:5.9b}
+\end{table}
+
+Tables ~\ref{tab:5.9a} and \ref{tab:5.9b} show the top 5 roads that had an increase in flow and decrease in flow, respectively, after the closure of Ledesma St. The closure of Ledesma St led to a significant redistribution of traffic, with certain roads experiencing a substantial increase in flow as drivers sought alternative routes, while others saw a decrease in flow as traffic was diverted away from them. This redistribution likely contributed to the overall improvement in system performance, as it may have alleviated congestion on certain routes and allowed for a more efficient use of the network's capacity. The significant time saved of 475.07 minutes indicates that the closure of Ledesma St can lead to substantial improvements in network efficiency. However, when checking the data, there was no difference between the unidirectional and bidirectional closure for Ledesma St. The traffic distribution and the time saved were the same for both closure types.
+
+To show another case where unidriectional and bidirectional closures differ, we can examine the 2nd top Braess link candidate, which is Bluementritt 2. Figures 5.6 and 5.7 shows the spatial redistribution of traffic for the 2nd top Braess link found in the setup under Unidirectional Closure.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth, height=7cm]{figures/blumentritt 2 uni volume.png}
-    \caption{Baseline vs. Closure Traffic Volume for Blumentritt 2} 
-    \label{fig:blumentritt_volume}
+    \caption{Baseline vs. Unidirectional Closure Traffic Volume for Blumentritt 2} 
+    \label{fig:blumentritt_volume_uni}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth, height=7cm]{figures/blumentritt 2 uni delta.png}
-    \caption{Traffic Delta Map for Blumentritt 2 Closure} 
-    \label{fig:blumentritt_delta}
+    \caption{Traffic Delta Map for Blumentritt 2 Unidirectional Closure} 
+    \label{fig:blumentritt_delta_uni}
 \end{figure}
+
+Tables~\ref{tab:5.10a} and \ref{tab:5.10b} show the changes in flow when Blumentritt 2 is closed.
+
+\begin{table}[H]
+    \centering
+    \small 
+    \setlength{\tabcolsep}{4pt} 
+    \renewcommand{\thetable}{5.10a}
+    \begin{tabular}{|p{4.2cm}|l|l|c|c|c|}
+    \hline
+    \textbf{Road Name} & \textbf{From Node} & \textbf{To Node} & \textbf{Baseline Flow} & \textbf{New Flow} & \textbf{Delta} \\ \hline
+    Blumentritt 1 & Proper - 17 & Proper - 18 & 1385.30 & 1589.88 & 204.58 \\ \hline
+    Rizal St 3 & Proper - 6 & Proper - 14 & 212.04 & 254.55 & 42.51 \\ \hline
+    General Hughes St 2 & Proper - 15 & Proper - 22 & 358.29 & 400.15 & 41.86 \\ \hline
+    Fort San Pedro Dr (Rev) & Proper - 22 & Proper - 21 & 358.29 & 400.15 & 41.86 \\ \hline
+    General Hughes St 1 & Proper - 14 & Proper - 15 & 358.29 & 400.15 & 41.86 \\ \hline
+    \end{tabular}
+    \caption{Top 5 Roads With Increase in Flow After Unidirectional Closure of Blumentritt 2}
+    \label{tab:5.10a}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \small 
+    \setlength{\tabcolsep}{4pt} 
+    \renewcommand{\thetable}{5.10b}
+    \begin{tabular}{|p{4.2cm}|l|l|c|c|c|}
+    \hline
+    \textbf{Road Name} & \textbf{From Node} & \textbf{To Node} & \textbf{Baseline Flow} & \textbf{New Flow} & \textbf{Delta} \\ \hline
+    Ledesma St & Proper - 6 & Proper - 11 & 235.56 & 193.05 & -42.51 \\ \hline
+    JM Basa St 1 & Proper - 11 & Proper - 13 & 1772.59 & 1735.49 & -37.10 \\ \hline
+    Dela Rama St 1 & Proper - 13 & Proper - 17 & 1626.34 & 1589.88 & -36.46 \\ \hline
+    Arroyo St (Rev) & Proper - 11 & Proper - 12 & 1668.82 & 1660.94 & -7.88 \\ \hline
+    Muelle Loney St 2 & Proper - 12 & Proper - 18 & 3310.57 & 3305.16 & -5.41 \\ \hline
+    \end{tabular}
+    \caption{Top 5 Roads With Decrease in Flow After Unidirectional Closure of Blumentritt 2}
+    \label{tab:5.10b}
+\end{table}
+
+Tables~\ref{tab:5.10a} and \ref{tab:5.10b} show the top 5 roads that had an increase in flow and decrease in flow, respectively, after the unidirectional closure of Blumentritt 2. The closure of Blumentritt 2 led to a significant redistribution of traffic, with certain roads experiencing an increase in flow as drivers sought alternative routes, while others saw a decrease in flow as traffic was diverted away from them. By restricting flow in just one direction, the intervention successfully reduced traffic on critical parallel roads, most notably Ledesma St and JM Basa St 1. The diverted traffic is primarily absorbed by Blumentritt 1 and General Hughes St. This redistribution likely contributed to the overall improvement in system performance, and shows that resolving a specific directional conflict might mitigate merging frictions without disrupting the surrounding grid.
+
+To show the difference between unidirectional and bidirectional closures, Figures 5.8 and 5.9 shows the spatial redistribution of traffic for the same link under bidirectional closure.   
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth, height=7cm]{figures/blumentritt 2 bi volume.png}
+    \caption{Baseline vs. Bidirectional Closure Traffic Volume for Blumentritt 2} 
+    \label{fig:blumentritt_volume_bi}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth, height=7cm]{figures/blumentritt 2 bi delta.png}
+    \caption{Traffic Delta Map for Blumentritt 2 Bidirectional Closure} 
+    \label{fig:blumentritt_delta_bi}
+\end{figure}
+
+Tables~\ref{tab:5.11a} and \ref{tab:5.11b} show the changes in flow when Blumentritt 2 is closed under bidirectional closure.
+
+\begin{table}[H]
+    \centering
+    \small 
+    \setlength{\tabcolsep}{4pt} 
+    \renewcommand{\thetable}{5.11a}
+    \begin{tabular}{|p{4.2cm}|l|l|c|c|c|}
+    \hline
+    \textbf{Road Name} & \textbf{From Node} & \textbf{To Node} & \textbf{Baseline Flow} & \textbf{New Flow} & \textbf{Delta} \\ \hline
+    Blumentritt 1 (Rev) & Proper - 18 & Proper - 17 & 1411.01 & 1680.93 & 269.92 \\ \hline
+    Blumentritt 1 & Proper - 17 & Proper - 18 & 1385.30 & 1586.38 & 201.08 \\ \hline
+    General Hughes St 2 & Proper - 15 & Proper - 22 & 358.29 & 398.23 & 39.94 \\ \hline
+    Fort San Pedro Dr (Rev) & Proper - 22 & Proper - 21 & 358.29 & 398.23 & 39.94 \\ \hline
+    General Hughes St 1 & Proper - 14 & Proper - 15 & 358.29 & 398.23 & 39.94 \\ \hline
+    \end{tabular}
+    \caption{Top 5 Roads With Increase in Flow After Bidirectional Closure of Blumentritt 2}
+    \label{tab:5.11a}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \small 
+    \setlength{\tabcolsep}{4pt} 
+    \renewcommand{\thetable}{5.11b}
+    \begin{tabular}{|p{4.2cm}|l|l|c|c|c|}
+    \hline
+    \textbf{Road Name} & \textbf{From Node} & \textbf{To Node} & \textbf{Baseline Flow} & \textbf{New Flow} & \textbf{Delta} \\ \hline
+    Delgado St (Rev) & Proper - 10 & Proper - 2 & 1236.25 & 1191.34 & -44.91 \\ \hline
+    Ruperto Montinola St (Rev) & Proper - 11 & Proper - 10 & 1346.39 & 1301.94 & -44.45 \\ \hline
+    Dela Rama St 1 & Proper - 13 & Proper - 17 & 1626.34 & 1586.38 & -39.96 \\ \hline
+    JM Basa St 1 & Proper - 11 & Proper - 13 & 1772.59 & 1733.25 & -39.34 \\ \hline
+    Ledesma St & Proper - 6 & Proper - 11 & 235.56 & 196.24 & -39.32 \\ \hline
+    \end{tabular}
+    \caption{Top 5 Roads With Decrease in Flow After Bidirectional Closure of Blumentritt 2}
+    \label{tab:5.11b}
+\end{table}
+
+In contrast, the bidirectional closure of Blumentritt 2 led to a more significant increase in flow on Blumentritt 1, as well as a more substantial decrease in flow on certain roads such as Delgado St and Ruperto Montinola St. This suggests that the bidirectional closure may have caused a more pronounced redistribution of traffic, potentially leading to increased congestion on certain routes while alleviating it on others. 
+
+While the unidirectional closure of Blumentritt 2 allowed for a more targeted intervention that reduced traffic on specific critical roads, the bidirectional closure may have had a broader impact on the network, leading to a more significant redistribution of traffic. This highlights the importance of considering the directional impacts of road closures, as they can lead to varying outcomes in terms of traffic redistribution and overall network performance. The unidirectional closure may be more effective in mitigating specific directional conflicts, while the bidirectional closure may have a more widespread impact on traffic patterns.
+
+Ultimately, the spatial and numerical data illustrate that Iloilo's primary network is highly sensitive to the mode of intervention. The differences in flow changes between the unidirectional and bidirectional closures highlight the importance of considering directional impacts when implementing road closures, as they can lead to varying outcomes in terms of traffic redistribution and overall network performance.
+
 
 % On the other hand, 
 
