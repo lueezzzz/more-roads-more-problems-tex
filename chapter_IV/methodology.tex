@@ -43,8 +43,7 @@ Here, ``\texttt{distance}'' serves as the physical length of the road from point
 
 The researchers gathered data for OD matrix pairs based on the Master Plan Study on the Strategic Road Network Development project report (Japan International Cooperation Agency, 2003). These OD matrix pairs define the volume and direction of travel demand within the Iloilo City network. The demands were derived by the Japan International Cooperation Agency (2003) based on future socio-economic projections for the year 2022 that included the population by city, employment, the vehicle ownership projection, and the Gross Regional Domestic Product (GRDP) of Region VI. The OD pairs in the Iloilo City network were partitioned into sixteen Traffic Analysis Zones (TAZs). 
 
-This socio-economic framework is used as explanatory variables for multi-step demand forecast models: traffic generation or attraction models, trip distribution models, and modal split models. For the traffic generation and attraction model, the employment variables were used to calculate the amount of passenger and cargo trips that each zone will produce and attract. For the modal split, it utilized the projection of vehicle ownership to determine how passenger trips are divided between private vehicles and public transport. It projected the future vehicle ownership rates that were derived from the GRDP growth.  The  first 15 rows and columns of the OD matrix can be found in Table {\ref{tab:od_matrix_15}} of Appendix~\ref{app:network_data_files}
-.
+This socio-economic framework is used as explanatory variables for multi-step demand forecast models: traffic generation or attraction models, trip distribution models, and modal split models. For the traffic generation and attraction model, the employment variables were used to calculate the amount of passenger and cargo trips that each zone will produce and attract. For the modal split, it utilized the projection of vehicle ownership to determine how passenger trips are divided between private vehicles and public transport. It projected the future vehicle ownership rates that were derived from the GRDP growth.  The  first 15 rows and columns of the OD matrix can be found in Table {\ref{tab:od_matrix_15}} of Appendix~\ref{app:network_data_files}.
 
 
 \subsection{The Annual Average Daily Traffic (AADT) Data}
@@ -137,7 +136,7 @@ This was then applied to all experimental setups in Section \ref{sec:experimenta
 \subsection{Iterative Network Modification Algorithm}
 \label{sec:inm_algo}
 
-An automated script was created to systematically test for the presence of Braess's Paradox. The algorithm (see \textit{Algorithm \ref{alg:edge_removal}}) cataloged all physical road segments (excluding virtual centroid connectors) within the network. For each identified segment, the script executed a bidirectional topological removal, effectively simulating a complete street closure. Following the removal, the algorithm recalculated the UE for the disrupted network, recorded the results, and immediately restored the removed edge to test the next links.
+An automated script was created to systematically test for the presence of Braess's Paradox. The algorithm (see \textit{Algorithm \ref{alg:edge_removal}}) catalogued all physical road segments (excluding virtual centroid connectors) within the network. For each identified segment, the script executed a bidirectional topological removal, effectively simulating a complete street closure. Following the removal, the algorithm recalculated the UE for the disrupted network, recorded the results, and immediately restored the removed edge to test the next links.
 
 \begin{algorithm}[H]
 \caption{ Edge Removal and Paradox Identification}
