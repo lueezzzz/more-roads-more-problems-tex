@@ -1,4 +1,4 @@
-\chapter{Conclusion}
+\chapter{Conclusion and Recommendations}
 \label{chap:conclusion}
 
 For this study, the researchers created a computational model as a means to detect and quantify the existence of Braess's Paradox within Iloilo City that is based on the DPWH 2024 atlas. It provided a new methodology of evaluating the traffic management system of a complex traffic network in an urban Iloilo City.
@@ -10,18 +10,6 @@ The Iloilo City traffic network was transformed into a computational model under
 The study underwent several experimental setups using the computational model. The Zonal OD pairs were implemented in the network by using centroid nodes. There are three connector topologies used in the study: uniform spatial disaggregation, unrestricted connector, and AADT-prioritized. These connector topologies were then tested with two methods of road closure: bidirectional and unidirectional.
 As a result, the computation model shows that the results reflect the existence of Braess Paradox links within the Iloilo City network. In the Price of Anarchy (PoA) recorded at 1.581, the results show that selfish routing behavior can lead to a 58.15\% increase in the Total System Travel Time (TSTT) compared to a socially optimal state. The results also identified 4627 unidirectional link closures and 3662 bidirectional link closures that mathematically improved the Total System Travel Time (TSTT) within the model. Amongst the six topologies tested, the AADT-prioritized topology with unidirectional closure has the most identified of 21 Braess Paradox links.
 
-
-\section{Limitations}
-\label{sec:limitations}
-
-The study focused on implementing a computation model to the primary arterial roads in Iloilo City. While this approach ensures that the observation of the Braess Paradox is represented in the most impactful traffic flow in the city, it substantially limits the scope of the results and may also bring about an overestimation of congestion in the primary arterial roads.
-
-All of the processes under methodology were implemented using Python. This poses a limitation of this study, as there is computation intensity used to execute the computation model. The Python-based script required approximately 27 hours of processing time to complete the results. While Python provided script customization and data integration, the execution time represents a trade-off between algorithmic complexity and computational speed. 
-
-The study also faced significant constraints of manual data integration. The geospatial coordinates for nodes and links, as well as the origin-destination matrix, were hard-coded into the system. While this ensures Iloilo City-specific data, it limits the ability of the model to scale or update in real-time.
-
-\section{Recommendations}
-\label{sec:recommendations}
 Based on the findings of the study, future research should consider different networks that have accessible and available traffic data. Utilizing other networks allows comparison of accuracy of the traffic network to the reflected traffic data. High-quality data, instead of simplified ones like zonal OD matrix, would also improve the reliability of the computational model better suited for the methodology framework used by Youn et al. (2008).
 
 Vehicles in a traffic network do not only traverse through the primary arterial roads. Further improvement of the computational modeling is to implement secondary and tertiary roads, as secondary roads will act as shortcuts. This recommendation oversees conditions where high-capacity primary roads are avoided in favor of lower-capacity secondary roads that triggers a bottleneck, therefore presenting the paradox. 

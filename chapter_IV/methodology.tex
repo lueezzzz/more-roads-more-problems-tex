@@ -1,7 +1,7 @@
 \chapter{Methodology}
 \label{chap:methodology}
 
-This chapter outlines the specific procedures and activities carried out to develop, test, and analyze the simulation model of the Braess Paradox within Iloilo City’s traffic network.
+This chapter outlines the specific procedures and activities carried out to develop, test, and analyze the simulation model of the Braess Paradox within Iloilo City's traffic network.
 
 \section{Overview Of Methodology}
 \label{sec:overview_of_methodology}
@@ -21,7 +21,7 @@ As illustrated in Figure \ref{fig:research_activities}, the researchers conducte
 The researchers identified and mapped the primary highways and intersections based on the DPWH Atlas 2024 for the Iloilo City Network (Department of Public Works and Highways, 2026). 
 The scope of the map was also limited strictly to major highways (See Figure~\ref{fig:dpwh_atlas} of Appendix~\ref{app:network_data_files}) 
 
-This process was then categorized into node identification and edge attribution to provide a digital representation of the city’s road infrastructure.  Additionally, Origin-Destination (OD) matrix pairs were identified for defining traffic demand. 
+This process was then categorized into node identification and edge attribution to provide a digital representation of the city's road infrastructure.  Additionally, Origin-Destination (OD) matrix pairs were identified for defining traffic demand. 
 
 \subsection{Node Identification}
 \label{sec:node_identification}
@@ -43,8 +43,7 @@ Here, ``\texttt{distance}'' serves as the physical length of the road from point
 
 The researchers gathered data for OD matrix pairs based on the Master Plan Study on the Strategic Road Network Development project report (Japan International Cooperation Agency, 2003). These OD matrix pairs define the volume and direction of travel demand within the Iloilo City network. The demands were derived by the Japan International Cooperation Agency (2003) based on future socio-economic projections for the year 2022 that included the population by city, employment, the vehicle ownership projection, and the Gross Regional Domestic Product (GRDP) of Region VI. The OD pairs in the Iloilo City network were partitioned into sixteen Traffic Analysis Zones (TAZs). 
 
-This socio-economic framework is used as explanatory variables for multi-step demand forecast models: traffic generation or attraction models, trip distribution models, and modal split models. For the traffic generation and attraction model, the employment variables were used to calculate the amount of passenger and cargo trips that each zone will produce and attract. For the modal split, it utilized the projection of vehicle ownership to determine how passenger trips are divided between private vehicles and public transport. It projected the future vehicle ownership rates that were derived from the GRDP growth.  The  first 15 rows and columns of the OD matrix can be found in Table {\ref{tab:od_matrix_15}} of Appendix~\ref{app:network_data_files}
-.
+This socio-economic framework is used as explanatory variables for multi-step demand forecast models: traffic generation or attraction models, trip distribution models, and modal split models. For the traffic generation and attraction model, the employment variables were used to calculate the amount of passenger and cargo trips that each zone will produce and attract. For the modal split, it utilized the projection of vehicle ownership to determine how passenger trips are divided between private vehicles and public transport. It projected the future vehicle ownership rates that were derived from the GRDP growth.  The  first 15 rows and columns of the OD matrix can be found in Table {\ref{tab:od_matrix_15}} of Appendix~\ref{app:network_data_files}.
 
 
 \subsection{The Annual Average Daily Traffic (AADT) Data}
@@ -55,7 +54,7 @@ Annual Average Daily Traffic (AADT) is a metric in transportation planning calcu
 \section{Computational Modeling}
 \label{sec:computational_modeling}
 
-This section details the utilization of the gathered data into a functional computational model. The model framework is heavily grounded in the methodology established by Youn et al. (2008). To mathematically identify Braess’s Paradox, the framework requires calculating the Price of Anarchy (PoA), which is the ratio between human selfishness and perfect system efficiency. Following this model, the travel cost for each edge during User Equilibrium (UE) was dynamically updated using the standard Bureau of Public Roads (BPR) function. Conversely, to establish the System Optimum baseline (SO), the algorithm routed traffic using the Marginal Cost function, the mathematical derivative of the BPR function, which forces vehicles to account for the systemic delay they inflict on the network.
+This section details the utilization of the gathered data into a functional computational model. The model framework is heavily grounded in the methodology established by Youn et al. (2008). To mathematically identify Braess's Paradox, the framework requires calculating the Price of Anarchy (PoA), which is the ratio between human selfishness and perfect system efficiency. Following this model, the travel cost for each edge during User Equilibrium (UE) was dynamically updated using the standard Bureau of Public Roads (BPR) function. Conversely, to establish the System Optimum baseline (SO), the algorithm routed traffic using the Marginal Cost function, the mathematical derivative of the BPR function, which forces vehicles to account for the systemic delay they inflict on the network.
 
 \subsection{Network Construction}
 \label{sec:network_construction}
@@ -79,7 +78,7 @@ Here, the \texttt{intersections.csv} file was read and each entry was added as a
 \subsection{Macroscopic Static Traffic Assignment}
 \label{sec:sta}
 
-The core computational simulation used a macroscopic Static Traffic Assignment framework to achieve Wardrop’s First Principle of User Equilibrium. The simulation used the Frank-Wolfe algorithm (see \textit{Algorithm \ref{alg:frank_wolfe}}), an iterative optimization method designed to solve the convex UE objective function. The travel cost for each edge was dynamically updated using the standard BPR function. The algorithm computed the shortest paths using Dijkstra’s algorithm, and loaded the demand matrix via an All or Nothing assignment. An exact line search was performed to find the optimal step size that minimized the objective function, recursively updating network flows until convergence is met.
+The core computational simulation used a macroscopic Static Traffic Assignment framework to achieve Wardrop's First Principle of User Equilibrium. The simulation used the Frank-Wolfe algorithm (see \textit{Algorithm \ref{alg:frank_wolfe}}), an iterative optimization method designed to solve the convex UE objective function. The travel cost for each edge was dynamically updated using the standard BPR function. The algorithm computed the shortest paths using Dijkstra's algorithm, and loaded the demand matrix via an All or Nothing assignment. An exact line search was performed to find the optimal step size that minimized the objective function, recursively updating network flows until convergence is met.
 
 \begin{algorithm}[H]
 \caption{Frank-Wolfe Algorithm for Traffic Assignment}
@@ -137,7 +136,7 @@ This was then applied to all experimental setups in Section \ref{sec:experimenta
 \subsection{Iterative Network Modification Algorithm}
 \label{sec:inm_algo}
 
-An automated script was created to systematically test for the presence of Braess’s Paradox. The algorithm (see \textit{Algorithm \ref{alg:edge_removal}}) cataloged all physical road segments (excluding virtual centroid connectors) within the network. For each identified segment, the script executed a bidirectional topological removal, effectively simulating a complete street closure. Following the removal, the algorithm recalculated the UE for the disrupted network, recorded the results, and immediately restored the removed edge to test the next links.
+An automated script was created to systematically test for the presence of Braess's Paradox. The algorithm (see \textit{Algorithm \ref{alg:edge_removal}}) catalogued all physical road segments (excluding virtual centroid connectors) within the network. For each identified segment, the script executed a bidirectional topological removal, effectively simulating a complete street closure. Following the removal, the algorithm recalculated the UE for the disrupted network, recorded the results, and immediately restored the removed edge to test the next links.
 
 \begin{algorithm}[H]
 \caption{ Edge Removal and Paradox Identification}
