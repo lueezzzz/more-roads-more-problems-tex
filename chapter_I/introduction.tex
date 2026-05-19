@@ -37,3 +37,32 @@ Moreover, the model required the generation of predefined OD pairs to distribute
  Second, the model excludes secondary, tertiary, and local roads in the creation of the network model. This limitation is due to the insufficient traffic data, such as the OD pair matrix, among the other roads. The shift of flow to the primary arteries may over-represent congestion levels on major links.
 
  Lastly, another key limitation is the exclusion of highly irregular driving behavior of jeepneys, particularly lane disruption caused by their “para” system, pedestrian crossings, traffic incidents, and weather conditions. By treating traffic as a continuous mathematical flow subject to the BPR function, the model may underrepresent highly localized, unpredictable congestion events that a physical simulation might capture.
+
+\section{Problem Statement}
+\label{sec:problem_statement}
+
+Traffic congestion poses a significant barrier to a country's economic growth, leading to environmental pollution and a decline in the quality of life (Fattah, 2022). In the Philippines, rapidly growing urban centers, including Iloilo City, have driven increased demand for transportation. According to (Landoy, 2012), as cited in (Sosuan, 2014), traffic congestion is already eminent along Iloilo City's primary roads. A common intuitive solution to congestion is to expand capacity by building new roads or adding links. However, empirical evidence from decades of traffic data across the United States shows that increasing road capacity does not necessarily alleviate congestion (Stromberg, 2014). 
+
+This global trend demonstrates that similar outcomes may also occur in developing urban centers such as Iloilo City. This counterintuitive phenomenon, known as the Braess Paradox, describes a situation in which strategically adding a new road link results in an overall increase in travel costs for all network users, rather than reducing them (Rapoport, 2009). The potential for such an outcome in Iloilo City highlights a critical gap between intuitive infrastructure planning and actual traffic network behavior. Thus, there is a pressing need for an agent-based modeling (ABM) framework that can identify such paradoxical outcomes in a local setting. This study addresses this need by developing and testing a model within a focused study area, which serves as the foundational case study for this analysis.
+
+\section{Research Objectives}
+\label{sec:research_objectives}
+
+The study aim to develop, test, and identify the existence of the Braess Paradox within Iloilo City's network, specifically the primary roads of the Iloilo City's seven districts: Villa-Arevalo, City Proper, Jaro, La Paz, Lapuz, Mandurriao, Molo. The results will provide a foundation for future city-wide analysis and contribute to more data-driven decisions in road planning and congestion management. Specifically, the study aims to:
+
+\begin{itemize}
+    \item Collect and process road network data, including road length, travel time, traffic volume, and other factors in the primary roads of the Iloilo City's seven districts: Villa-Arevalo, City Proper, Jaro, La Paz, Lapuz, Mandurriao, Molo.
+    \item Simulate various road closures to observe changes in overall travel time and traffic distribution.
+    \item Identify and analyze routes affected by the Braess Paradox, in which adding or removing a road segment can counterintuitively improve network efficiency.
+    \item Validate the developed model by comparing simulated outcomes with existing literature and real-world observations, ensuring the reliability of the algorithm and results.
+    \item Evaluate the effectiveness of road closure strategies in reducing travel time and improving traffic flow in the study area.
+\end{itemize}
+
+\section{Significance of the Study}
+\label{sec:significance_of_the_study}
+
+Addressing complex traffic networks is of paramount significance as it is crucial for growing urbanized areas such as Iloilo City (BLGF, 2025). Traffic congestion is already established along some of the primary roads in Iloilo City (Landoy, 2012), as cited in (Sosuan, 2014). This congestion serves as more than an inconvenience; as stated by the (Metropolitan Transportation Commission, 2022), traffic congestion increases travel time and leads to more unpredictable estimates of arrival. Currently, there are few to no advanced traffic management systems integrated into the development and planning of the traffic networks in the city (Conlu, 2022). Thus, the application of the Braess Paradox to these networks provides a novel way to tackle congestion by analyzing scenarios where adding road capacity might actually cause congestion to persist or worsen (Braess, 2005). 
+
+The significance of this study extends to improving the overall quality of life in the city and ensuring sustained economic growth (Fattah, 2022). For the planning and development offices of the provincial and city government, the simulation model serves as a low-cost option for testing modifications to the road network before proceeding with final physical implementations (ICPDO, 2021). For the general public and commuters, effective road closure strategies can lead to more predictable and shorter travel times, reducing the daily stress associated with traffic-congested commutes (Marve, 2016).
+
+For the local economy, an optimized transportation network helps businesses lower logistics expenses, such as delivery times, and establishes a system that can withstand the growing urbanized economic demands of the city for future investment (Onyeneke, 2018). Additionally, a more efficient traffic network leads to reduced vehicle emissions, directly contributing to the environmental sustainability and efficiency of the city  (Marve, 2016).
