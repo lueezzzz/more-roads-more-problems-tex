@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.3 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{apa/apasortcite//global/global/global}
-    \entry{abanes2017traffic}{article}{}{}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{abanes2017traffic}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=950ed61e6b1270977686db252ad86917}{%
            family={Abanes},
@@ -42,12 +42,10 @@
       }
       \strng{namehash}{987923d4b378dbb1a34a999c29aa1f1e}
       \strng{fullhash}{919c2016bac2867c0c2c8df4bb998bfe}
-      \strng{fullhashraw}{919c2016bac2867c0c2c8df4bb998bfe}
       \strng{bibnamehash}{919c2016bac2867c0c2c8df4bb998bfe}
       \strng{authorbibnamehash}{919c2016bac2867c0c2c8df4bb998bfe}
       \strng{authornamehash}{987923d4b378dbb1a34a999c29aa1f1e}
       \strng{authorfullhash}{919c2016bac2867c0c2c8df4bb998bfe}
-      \strng{authorfullhashraw}{919c2016bac2867c0c2c8df4bb998bfe}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -62,7 +60,7 @@
       \field{pages}{1\bibrangedash 6}
       \range{pages}{6}
     \endentry
-    \entry{aftabuzzaman2007measign}{article}{}{}
+    \entry{aftabuzzaman2007measign}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0467f64ea730b81b47ee127197cf4b6d}{%
            family={Aftabuzzaman},
@@ -73,12 +71,10 @@
       }
       \strng{namehash}{0467f64ea730b81b47ee127197cf4b6d}
       \strng{fullhash}{0467f64ea730b81b47ee127197cf4b6d}
-      \strng{fullhashraw}{0467f64ea730b81b47ee127197cf4b6d}
       \strng{bibnamehash}{0467f64ea730b81b47ee127197cf4b6d}
       \strng{authorbibnamehash}{0467f64ea730b81b47ee127197cf4b6d}
       \strng{authornamehash}{0467f64ea730b81b47ee127197cf4b6d}
       \strng{authorfullhash}{0467f64ea730b81b47ee127197cf4b6d}
-      \strng{authorfullhashraw}{0467f64ea730b81b47ee127197cf4b6d}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -97,7 +93,7 @@
       \verb https://australasiantransportresearchforum.org.au/wp-content/uploads/2022/03/2007_Aftabuzzaman.pdf
       \endverb
     \endentry
-    \entry{akhtar2021review}{article}{}{}
+    \entry{akhtar2021review}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ad99568a15c6cf3d30b07ae891dbd4d5}{%
            family={Akhtar},
@@ -114,12 +110,10 @@
       }
       \strng{namehash}{074d21dc23e7ea99ffbc3492ade368ee}
       \strng{fullhash}{074d21dc23e7ea99ffbc3492ade368ee}
-      \strng{fullhashraw}{074d21dc23e7ea99ffbc3492ade368ee}
       \strng{bibnamehash}{074d21dc23e7ea99ffbc3492ade368ee}
       \strng{authorbibnamehash}{074d21dc23e7ea99ffbc3492ade368ee}
       \strng{authornamehash}{074d21dc23e7ea99ffbc3492ade368ee}
       \strng{authorfullhash}{074d21dc23e7ea99ffbc3492ade368ee}
-      \strng{authorfullhashraw}{074d21dc23e7ea99ffbc3492ade368ee}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -139,7 +133,7 @@
       \verb 10.1155/2021/8878011
       \endverb
     \endentry
-    \entry{alarcon2012proposed}{article}{}{}
+    \entry{alarcon2012proposed}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=1b622354e1b8df2a7b3240ef6a31d9e3}{%
            family={Alarcon},
@@ -168,12 +162,10 @@
       }
       \strng{namehash}{3da31e3a8c9278a0952f617c4f287544}
       \strng{fullhash}{6ca3e043baaf13973cefd8970c395698}
-      \strng{fullhashraw}{6ca3e043baaf13973cefd8970c395698}
       \strng{bibnamehash}{6ca3e043baaf13973cefd8970c395698}
       \strng{authorbibnamehash}{6ca3e043baaf13973cefd8970c395698}
       \strng{authornamehash}{3da31e3a8c9278a0952f617c4f287544}
       \strng{authorfullhash}{6ca3e043baaf13973cefd8970c395698}
-      \strng{authorfullhashraw}{6ca3e043baaf13973cefd8970c395698}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -193,7 +185,7 @@
       \verb https://www.atransociety.com/resources/pdf/5thSymposiumDownloadable/FullPaper/2B/SCS12-005.pdf
       \endverb
     \endentry
-    \entry{alghamdi_2022_a}{article}{}{}
+    \entry{alghamdi_2022_a}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=27ff1b9197c81d5e750840e3ca89e94e}{%
            family={Alghamdi},
@@ -222,12 +214,10 @@
       }
       \strng{namehash}{075e29ffb896a0a73d31f7049f8372db}
       \strng{fullhash}{913a41680bdccbce16f42949e8586c0a}
-      \strng{fullhashraw}{913a41680bdccbce16f42949e8586c0a}
       \strng{bibnamehash}{913a41680bdccbce16f42949e8586c0a}
       \strng{authorbibnamehash}{913a41680bdccbce16f42949e8586c0a}
       \strng{authornamehash}{075e29ffb896a0a73d31f7049f8372db}
       \strng{authorfullhash}{913a41680bdccbce16f42949e8586c0a}
-      \strng{authorfullhashraw}{913a41680bdccbce16f42949e8586c0a}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -247,7 +237,7 @@
       \verb 10.3390/fi14100294
       \endverb
     \endentry
-    \entry{adb2012philippines}{report}{}{}
+    \entry{adb2012philippines}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=92d83ccd39e6a187466ef617c8cb8662}{%
            family={{Asian Development Bank}},
@@ -258,12 +248,10 @@
       }
       \strng{namehash}{92d83ccd39e6a187466ef617c8cb8662}
       \strng{fullhash}{92d83ccd39e6a187466ef617c8cb8662}
-      \strng{fullhashraw}{92d83ccd39e6a187466ef617c8cb8662}
       \strng{bibnamehash}{92d83ccd39e6a187466ef617c8cb8662}
       \strng{authorbibnamehash}{92d83ccd39e6a187466ef617c8cb8662}
       \strng{authornamehash}{92d83ccd39e6a187466ef617c8cb8662}
       \strng{authorfullhash}{92d83ccd39e6a187466ef617c8cb8662}
-      \strng{authorfullhashraw}{92d83ccd39e6a187466ef617c8cb8662}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -282,7 +270,7 @@
       \verb https://www.adb.org/sites/default/files/institutional-document/33700/files/philippines-transport-assessment.pdf
       \endverb
     \endentry
-    \entry{barcelo2010models}{inbook}{}{}
+    \entry{barcelo2010models}{inbook}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=af1683e841b23666d924ce88ac0c19b7}{%
            family={Barceló},
@@ -296,12 +284,10 @@
       }
       \strng{namehash}{af1683e841b23666d924ce88ac0c19b7}
       \strng{fullhash}{af1683e841b23666d924ce88ac0c19b7}
-      \strng{fullhashraw}{af1683e841b23666d924ce88ac0c19b7}
       \strng{bibnamehash}{af1683e841b23666d924ce88ac0c19b7}
       \strng{authorbibnamehash}{af1683e841b23666d924ce88ac0c19b7}
       \strng{authornamehash}{af1683e841b23666d924ce88ac0c19b7}
       \strng{authorfullhash}{af1683e841b23666d924ce88ac0c19b7}
-      \strng{authorfullhashraw}{af1683e841b23666d924ce88ac0c19b7}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -319,7 +305,7 @@
       \verb 10.1007/978-1-4419-6142-6_1
       \endverb
     \endentry
-    \entry{benito_2025_in}{misc}{}{}
+    \entry{benito_2025_in}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2b49189833386892de77b6ed289a8107}{%
            family={Benito},
@@ -333,12 +319,10 @@
       }
       \strng{namehash}{2b49189833386892de77b6ed289a8107}
       \strng{fullhash}{2b49189833386892de77b6ed289a8107}
-      \strng{fullhashraw}{2b49189833386892de77b6ed289a8107}
       \strng{bibnamehash}{2b49189833386892de77b6ed289a8107}
       \strng{authorbibnamehash}{2b49189833386892de77b6ed289a8107}
       \strng{authornamehash}{2b49189833386892de77b6ed289a8107}
       \strng{authorfullhash}{2b49189833386892de77b6ed289a8107}
-      \strng{authorfullhashraw}{2b49189833386892de77b6ed289a8107}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -361,7 +345,7 @@
       \verb https://www.linkedin.com/pulse/importance-origin-destination-matrices-traffic-benito-molina-qdrlf/
       \endverb
     \endentry
-    \entry{bloy_2007_an}{misc}{}{}
+    \entry{bloy_2007_an}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0e66468de6b60bba1fd86c25bbd674b5}{%
            family={Bloy},
@@ -375,12 +359,10 @@
       }
       \strng{namehash}{0e66468de6b60bba1fd86c25bbd674b5}
       \strng{fullhash}{0e66468de6b60bba1fd86c25bbd674b5}
-      \strng{fullhashraw}{0e66468de6b60bba1fd86c25bbd674b5}
       \strng{bibnamehash}{0e66468de6b60bba1fd86c25bbd674b5}
       \strng{authorbibnamehash}{0e66468de6b60bba1fd86c25bbd674b5}
       \strng{authornamehash}{0e66468de6b60bba1fd86c25bbd674b5}
       \strng{authorfullhash}{0e66468de6b60bba1fd86c25bbd674b5}
-      \strng{authorfullhashraw}{0e66468de6b60bba1fd86c25bbd674b5}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -402,7 +384,7 @@
       \verb https://www.ecofine.com/Articles-and-Studies-mentioning-Ecofine.com/An-Investigation-into-Braess-Paradox-by-Leslie-Arthur-Keith-Bloy.pdf?fbclid=IwY2xjawRfFoJleHRuA2FlbQIxMABicmlkETFpSHBZa2VNZG9rU2tpWFVLc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvGLOmzpQJ-PeDk5YIeent1j_MZCDiPhn-tXj8LU4dZo55l0qWSKbvU1UXBm_aem_cxflMZRYCb6EWuh0_hPixg
       \endverb
     \endentry
-    \entry{boyd2012braess}{online}{}{}
+    \entry{boyd2012braess}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=15386c1387643c71b80c0ca13af5e84f}{%
            family={Boyd},
@@ -413,12 +395,10 @@
       }
       \strng{namehash}{15386c1387643c71b80c0ca13af5e84f}
       \strng{fullhash}{15386c1387643c71b80c0ca13af5e84f}
-      \strng{fullhashraw}{15386c1387643c71b80c0ca13af5e84f}
       \strng{bibnamehash}{15386c1387643c71b80c0ca13af5e84f}
       \strng{authorbibnamehash}{15386c1387643c71b80c0ca13af5e84f}
       \strng{authornamehash}{15386c1387643c71b80c0ca13af5e84f}
       \strng{authorfullhash}{15386c1387643c71b80c0ca13af5e84f}
-      \strng{authorfullhashraw}{15386c1387643c71b80c0ca13af5e84f}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -438,7 +418,7 @@
       \verb https://engines.egr.uh.edu/episode/2814
       \endverb
     \endentry
-    \entry{braess2005paradox}{article}{}{}
+    \entry{braess2005paradox}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=737188c82948c1af02c2c760e0e6de64}{%
            family={Braess},
@@ -461,12 +441,10 @@
       }
       \strng{namehash}{eddb7d69c8bda40883a6e70b9d71f70d}
       \strng{fullhash}{ebb74147d1407fe96392a4e60c5f5e92}
-      \strng{fullhashraw}{ebb74147d1407fe96392a4e60c5f5e92}
       \strng{bibnamehash}{ebb74147d1407fe96392a4e60c5f5e92}
       \strng{authorbibnamehash}{ebb74147d1407fe96392a4e60c5f5e92}
       \strng{authornamehash}{eddb7d69c8bda40883a6e70b9d71f70d}
       \strng{authorfullhash}{ebb74147d1407fe96392a4e60c5f5e92}
-      \strng{authorfullhashraw}{ebb74147d1407fe96392a4e60c5f5e92}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -483,7 +461,7 @@
       \field{pages}{446\bibrangedash 450}
       \range{pages}{5}
     \endentry
-    \entry{blgf2025recognition}{report}{}{}
+    \entry{blgf2025recognition}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=25b4747a1f07d080eaeace768935f59b}{%
            family={{Bureau of Local Government Finance}},
@@ -494,12 +472,10 @@
       }
       \strng{namehash}{25b4747a1f07d080eaeace768935f59b}
       \strng{fullhash}{25b4747a1f07d080eaeace768935f59b}
-      \strng{fullhashraw}{25b4747a1f07d080eaeace768935f59b}
       \strng{bibnamehash}{25b4747a1f07d080eaeace768935f59b}
       \strng{authorbibnamehash}{25b4747a1f07d080eaeace768935f59b}
       \strng{authornamehash}{25b4747a1f07d080eaeace768935f59b}
       \strng{authorfullhash}{25b4747a1f07d080eaeace768935f59b}
-      \strng{authorfullhashraw}{25b4747a1f07d080eaeace768935f59b}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -519,7 +495,7 @@
       \verb https://blgf.gov.ph/wp-content/uploads/2025/10/BLGF-MC-No.-017.2025-Recognition-of-Top-Performing-LGUs-in-Strengthening-Local-Government-Finance-for-FY2024.pdf
       \endverb
     \endentry
-    \entry{burov2021detecting}{article}{}{}
+    \entry{burov2021detecting}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=0535782ef608d3732fcd06877d853c4e}{%
            family={Burov},
@@ -551,12 +527,10 @@
       }
       \strng{namehash}{06212dcf9e3da3d337b464777f8eb14c}
       \strng{fullhash}{88d3b287ae9c42b027d61ba1115ce8da}
-      \strng{fullhashraw}{88d3b287ae9c42b027d61ba1115ce8da}
       \strng{bibnamehash}{88d3b287ae9c42b027d61ba1115ce8da}
       \strng{authorbibnamehash}{88d3b287ae9c42b027d61ba1115ce8da}
       \strng{authornamehash}{06212dcf9e3da3d337b464777f8eb14c}
       \strng{authorfullhash}{88d3b287ae9c42b027d61ba1115ce8da}
-      \strng{authorfullhashraw}{88d3b287ae9c42b027d61ba1115ce8da}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -571,7 +545,7 @@
       \field{pages}{2125\bibrangedash 2130}
       \range{pages}{6}
     \endentry
-    \entry{chang2002introduction}{online}{}{}
+    \entry{chang2002introduction}{online}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=8fdfe6f233c240d6d7bbd9e0624af53d}{%
            family={Chang},
@@ -588,12 +562,10 @@
       }
       \strng{namehash}{08326fc588fbd84e98a5371f9ce65606}
       \strng{fullhash}{08326fc588fbd84e98a5371f9ce65606}
-      \strng{fullhashraw}{08326fc588fbd84e98a5371f9ce65606}
       \strng{bibnamehash}{08326fc588fbd84e98a5371f9ce65606}
       \strng{authorbibnamehash}{08326fc588fbd84e98a5371f9ce65606}
       \strng{authornamehash}{08326fc588fbd84e98a5371f9ce65606}
       \strng{authorfullhash}{08326fc588fbd84e98a5371f9ce65606}
-      \strng{authorfullhashraw}{08326fc588fbd84e98a5371f9ce65606}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -610,7 +582,7 @@
       \verb https://mathcs.pugetsound.edu/~bryans/Current/Journal_Spring_2002/presentation_nchang_Jnichols_2002.pdf
       \endverb
     \endentry
-    \entry{chang2023day}{article}{}{}
+    \entry{chang2023day}{article}{}
       \name{author}{5}{}{%
         {{un=1,uniquepart=given,hash=e20fc7aeaa2fff396554d49854fed552}{%
            family={Chang},
@@ -645,12 +617,10 @@
       }
       \strng{namehash}{a61b0c15f0f6afcd202e912f9fb64eb4}
       \strng{fullhash}{6b1d2405a6183b2b5067e8f865dd705a}
-      \strng{fullhashraw}{6b1d2405a6183b2b5067e8f865dd705a}
       \strng{bibnamehash}{6b1d2405a6183b2b5067e8f865dd705a}
       \strng{authorbibnamehash}{6b1d2405a6183b2b5067e8f865dd705a}
       \strng{authornamehash}{a61b0c15f0f6afcd202e912f9fb64eb4}
       \strng{authorfullhash}{6b1d2405a6183b2b5067e8f865dd705a}
-      \strng{authorfullhashraw}{6b1d2405a6183b2b5067e8f865dd705a}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -669,7 +639,7 @@
       \verb 10.3390/su15065440
       \endverb
     \endentry
-    \entry{chen2024understanding}{article}{}{}
+    \entry{chen2024understanding}{article}{}
       \name{author}{6}{}{%
         {{un=1,uniquepart=given,hash=d2b35c7e45b2632ab79c473df521cfc0}{%
            family={Chen},
@@ -710,12 +680,10 @@
       }
       \strng{namehash}{4161d0ec112532c88a91293724bc348f}
       \strng{fullhash}{92008994f29ff1a001e4d8a92e5d9eb6}
-      \strng{fullhashraw}{92008994f29ff1a001e4d8a92e5d9eb6}
       \strng{bibnamehash}{92008994f29ff1a001e4d8a92e5d9eb6}
       \strng{authorbibnamehash}{92008994f29ff1a001e4d8a92e5d9eb6}
       \strng{authornamehash}{4161d0ec112532c88a91293724bc348f}
       \strng{authorfullhash}{92008994f29ff1a001e4d8a92e5d9eb6}
-      \strng{authorfullhashraw}{92008994f29ff1a001e4d8a92e5d9eb6}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -733,7 +701,7 @@
       \verb 10.1016/j.tra.2024.103976
       \endverb
     \endentry
-    \entry{chen2020road}{article}{}{}
+    \entry{chen2020road}{article}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=2bdd48dc68b3d7c9d63e3844f2459fd6}{%
            family={Chen},
@@ -750,12 +718,10 @@
       }
       \strng{namehash}{d20282ad5a16823cbf991bfc36afdc77}
       \strng{fullhash}{d20282ad5a16823cbf991bfc36afdc77}
-      \strng{fullhashraw}{d20282ad5a16823cbf991bfc36afdc77}
       \strng{bibnamehash}{d20282ad5a16823cbf991bfc36afdc77}
       \strng{authorbibnamehash}{d20282ad5a16823cbf991bfc36afdc77}
       \strng{authornamehash}{d20282ad5a16823cbf991bfc36afdc77}
       \strng{authorfullhash}{d20282ad5a16823cbf991bfc36afdc77}
-      \strng{authorfullhashraw}{d20282ad5a16823cbf991bfc36afdc77}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -773,7 +739,7 @@
       \verb 10.1016/j.jeem.2020.102387
       \endverb
     \endentry
-    \entry{chowdhuryits}{online}{}{}
+    \entry{chowdhuryits}{online}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=5e1daabf0daf174d1a9405442745d128}{%
            family={Chowdhury},
@@ -793,12 +759,10 @@
       }
       \strng{namehash}{5af95a5393ca5590c2ffe339b053017d}
       \strng{fullhash}{5af95a5393ca5590c2ffe339b053017d}
-      \strng{fullhashraw}{5af95a5393ca5590c2ffe339b053017d}
       \strng{bibnamehash}{5af95a5393ca5590c2ffe339b053017d}
       \strng{authorbibnamehash}{5af95a5393ca5590c2ffe339b053017d}
       \strng{authornamehash}{5af95a5393ca5590c2ffe339b053017d}
       \strng{authorfullhash}{5af95a5393ca5590c2ffe339b053017d}
-      \strng{authorfullhashraw}{5af95a5393ca5590c2ffe339b053017d}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labeldatesource}{nodate}
@@ -814,7 +778,7 @@
       \verb https://rno-its.piarc.org/en/intelligent-transport-systems/what-its
       \endverb
     \endentry
-    \entry{correa2011wardrop}{inbook}{}{}
+    \entry{correa2011wardrop}{inbook}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=de8eb219bf1290152754f6d8538710e5}{%
            family={Correa},
@@ -834,12 +798,10 @@
       }
       \strng{namehash}{ccd1e522a3e27c2c4b9b78a28ecbd649}
       \strng{fullhash}{ccd1e522a3e27c2c4b9b78a28ecbd649}
-      \strng{fullhashraw}{ccd1e522a3e27c2c4b9b78a28ecbd649}
       \strng{bibnamehash}{ccd1e522a3e27c2c4b9b78a28ecbd649}
       \strng{authorbibnamehash}{ccd1e522a3e27c2c4b9b78a28ecbd649}
       \strng{authornamehash}{ccd1e522a3e27c2c4b9b78a28ecbd649}
       \strng{authorfullhash}{ccd1e522a3e27c2c4b9b78a28ecbd649}
-      \strng{authorfullhashraw}{ccd1e522a3e27c2c4b9b78a28ecbd649}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -855,7 +817,7 @@
       \verb 10.1002/9780470400531.eorms0962
       \endverb
     \endentry
-    \entry{cueto2024intelligent}{report}{}{}
+    \entry{cueto2024intelligent}{report}{}
       \name{editor}{4}{}{%
         {{un=0,uniquepart=base,hash=ef3107da8b8bbace42b8878e7d8f35b7}{%
            family={Cueto},
@@ -887,12 +849,10 @@
       }
       \strng{namehash}{e85433dff98b21feb473ebbb4a0799cd}
       \strng{fullhash}{b9e8231f3d18754e3e7de0e2170c0daa}
-      \strng{fullhashraw}{b9e8231f3d18754e3e7de0e2170c0daa}
       \strng{bibnamehash}{b9e8231f3d18754e3e7de0e2170c0daa}
       \strng{editorbibnamehash}{b9e8231f3d18754e3e7de0e2170c0daa}
       \strng{editornamehash}{e85433dff98b21feb473ebbb4a0799cd}
       \strng{editorfullhash}{b9e8231f3d18754e3e7de0e2170c0daa}
-      \strng{editorfullhashraw}{b9e8231f3d18754e3e7de0e2170c0daa}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -910,7 +870,7 @@
       \verb https://ncts.upd.edu.ph/tssp/wp-content/uploads/2024/12/TSSP2024-11-Revised-Paper.pdf
       \endverb
     \endentry
-    \entry{easley2010networks}{book}{}{}
+    \entry{easley2010networks}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=fe694fafd2b1b454369282e8dff07f92}{%
            family={Easley},
@@ -930,12 +890,10 @@
       }
       \strng{namehash}{1fa4ee4ecfc317c3eca648267b8f4c8f}
       \strng{fullhash}{1fa4ee4ecfc317c3eca648267b8f4c8f}
-      \strng{fullhashraw}{1fa4ee4ecfc317c3eca648267b8f4c8f}
       \strng{bibnamehash}{1fa4ee4ecfc317c3eca648267b8f4c8f}
       \strng{authorbibnamehash}{1fa4ee4ecfc317c3eca648267b8f4c8f}
       \strng{authornamehash}{1fa4ee4ecfc317c3eca648267b8f4c8f}
       \strng{authorfullhash}{1fa4ee4ecfc317c3eca648267b8f4c8f}
-      \strng{authorfullhashraw}{1fa4ee4ecfc317c3eca648267b8f4c8f}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -950,7 +908,7 @@
       \verb 10.1017/cbo9780511761942
       \endverb
     \endentry
-    \entry{faheem2024impact}{article}{}{}
+    \entry{faheem2024impact}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=a5484dffe8a5db54a117756f74a46b65}{%
            family={Faheem},
@@ -973,12 +931,10 @@
       }
       \strng{namehash}{ebc88cdb73111fc67095806175b46c13}
       \strng{fullhash}{1276f02d989cdce88eb98bbf486aff43}
-      \strng{fullhashraw}{1276f02d989cdce88eb98bbf486aff43}
       \strng{bibnamehash}{1276f02d989cdce88eb98bbf486aff43}
       \strng{authorbibnamehash}{1276f02d989cdce88eb98bbf486aff43}
       \strng{authornamehash}{ebc88cdb73111fc67095806175b46c13}
       \strng{authorfullhash}{1276f02d989cdce88eb98bbf486aff43}
-      \strng{authorfullhashraw}{1276f02d989cdce88eb98bbf486aff43}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
@@ -996,7 +952,7 @@
       \verb 10.58491/2735-4202.3191
       \endverb
     \endentry
-    \entry{fattah2022insights}{article}{}{}
+    \entry{fattah2022insights}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=1c68e85fb8d0771cd67713684fd94e04}{%
            family={Fattah},
@@ -1019,12 +975,10 @@
       }
       \strng{namehash}{9d96674b4a1e9106ac33a0349af7a06d}
       \strng{fullhash}{14a4ea386a3967595ed83da8d9a7098d}
-      \strng{fullhashraw}{14a4ea386a3967595ed83da8d9a7098d}
       \strng{bibnamehash}{14a4ea386a3967595ed83da8d9a7098d}
       \strng{authorbibnamehash}{14a4ea386a3967595ed83da8d9a7098d}
       \strng{authornamehash}{9d96674b4a1e9106ac33a0349af7a06d}
       \strng{authorfullhash}{14a4ea386a3967595ed83da8d9a7098d}
-      \strng{authorfullhashraw}{14a4ea386a3967595ed83da8d9a7098d}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
@@ -1043,7 +997,7 @@
       \verb 10.1016/j.treng.2022.100122
       \endverb
     \endentry
-    \entry{gonzalez2021understanding}{article}{}{}
+    \entry{gonzalez2021understanding}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=df9ce00ae563457e81d0e030bbe16b8e}{%
            family={González},
@@ -1066,12 +1020,10 @@
       }
       \strng{namehash}{e4746d1733d65c0521bd7180b129b8cc}
       \strng{fullhash}{088ecca8bf4178562940d5a6816b9fd1}
-      \strng{fullhashraw}{088ecca8bf4178562940d5a6816b9fd1}
       \strng{bibnamehash}{088ecca8bf4178562940d5a6816b9fd1}
       \strng{authorbibnamehash}{088ecca8bf4178562940d5a6816b9fd1}
       \strng{authornamehash}{e4746d1733d65c0521bd7180b129b8cc}
       \strng{authorfullhash}{088ecca8bf4178562940d5a6816b9fd1}
-      \strng{authorfullhashraw}{088ecca8bf4178562940d5a6816b9fd1}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -1091,7 +1043,7 @@
       \verb 10.3390/su13137500
       \endverb
     \endentry
-    \entry{googlemaps}{online}{}{}
+    \entry{googlemaps}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
            family={{Google}},
@@ -1099,12 +1051,10 @@
       }
       \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
       \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{fullhashraw}{8b36e9207c24c76e6719268e49201d94}
       \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
       \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
       \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
       \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authorfullhashraw}{8b36e9207c24c76e6719268e49201d94}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labeldatesource}{nodate}
@@ -1120,7 +1070,7 @@
       \verb https://developers.google.com/maps/documentation/routes
       \endverb
     \endentry
-    \entry{gross2018graph}{book}{}{}
+    \entry{gross2018graph}{book}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=262a8003dfe3a21fdbc9d111fe8ed2c6}{%
            family={Gross},
@@ -1147,12 +1097,10 @@
       }
       \strng{namehash}{18e3d5298dbb05f2567de72f8bf8a1ed}
       \strng{fullhash}{b28893d527baf82ee69b156103b2adb7}
-      \strng{fullhashraw}{b28893d527baf82ee69b156103b2adb7}
       \strng{bibnamehash}{b28893d527baf82ee69b156103b2adb7}
       \strng{authorbibnamehash}{b28893d527baf82ee69b156103b2adb7}
       \strng{authornamehash}{18e3d5298dbb05f2567de72f8bf8a1ed}
       \strng{authorfullhash}{b28893d527baf82ee69b156103b2adb7}
-      \strng{authorfullhashraw}{b28893d527baf82ee69b156103b2adb7}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -1167,7 +1115,7 @@
       \verb 10.1201/9780429425134
       \endverb
     \endentry
-    \entry{grynbaum2010new}{article}{}{}
+    \entry{grynbaum2010new}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=647831b18be49b9e5bf7c9b4ad09f058}{%
            family={Grynbaum},
@@ -1178,12 +1126,10 @@
       }
       \strng{namehash}{647831b18be49b9e5bf7c9b4ad09f058}
       \strng{fullhash}{647831b18be49b9e5bf7c9b4ad09f058}
-      \strng{fullhashraw}{647831b18be49b9e5bf7c9b4ad09f058}
       \strng{bibnamehash}{647831b18be49b9e5bf7c9b4ad09f058}
       \strng{authorbibnamehash}{647831b18be49b9e5bf7c9b4ad09f058}
       \strng{authornamehash}{647831b18be49b9e5bf7c9b4ad09f058}
       \strng{authorfullhash}{647831b18be49b9e5bf7c9b4ad09f058}
-      \strng{authorfullhashraw}{647831b18be49b9e5bf7c9b4ad09f058}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -1203,7 +1149,7 @@
       \verb https://www.nytimes.com/2010/02/12/nyregion/12broadway.html
       \endverb
     \endentry
-    \entry{guze2018review}{article}{}{}
+    \entry{guze2018review}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f56302ae7825d006c6b417c02590cfa1}{%
            family={Guze},
@@ -1214,12 +1160,10 @@
       }
       \strng{namehash}{f56302ae7825d006c6b417c02590cfa1}
       \strng{fullhash}{f56302ae7825d006c6b417c02590cfa1}
-      \strng{fullhashraw}{f56302ae7825d006c6b417c02590cfa1}
       \strng{bibnamehash}{f56302ae7825d006c6b417c02590cfa1}
       \strng{authorbibnamehash}{f56302ae7825d006c6b417c02590cfa1}
       \strng{authornamehash}{f56302ae7825d006c6b417c02590cfa1}
       \strng{authorfullhash}{f56302ae7825d006c6b417c02590cfa1}
-      \strng{authorfullhashraw}{f56302ae7825d006c6b417c02590cfa1}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -1238,7 +1182,7 @@
       \verb 10.26408/107.02
       \endverb
     \endentry
-    \entry{hansen1993air}{report}{}{}
+    \entry{hansen1993air}{report}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=87e0c043267d751dcecfafbf67d7c10a}{%
            family={Hansen},
@@ -1276,12 +1220,10 @@
       }
       \strng{namehash}{03de0a7c17857926ae546359587db6cc}
       \strng{fullhash}{9aab09c5724d595d86b5f348131496f3}
-      \strng{fullhashraw}{9aab09c5724d595d86b5f348131496f3}
       \strng{bibnamehash}{9aab09c5724d595d86b5f348131496f3}
       \strng{authorbibnamehash}{9aab09c5724d595d86b5f348131496f3}
       \strng{authornamehash}{03de0a7c17857926ae546359587db6cc}
       \strng{authorfullhash}{9aab09c5724d595d86b5f348131496f3}
-      \strng{authorfullhashraw}{9aab09c5724d595d86b5f348131496f3}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -1300,7 +1242,7 @@
       \verb https://escholarship.org/uc/item/6zz3k76c
       \endverb
     \endentry
-    \entry{harvard2023cheonggyecheon}{online}{}{}
+    \entry{harvard2023cheonggyecheon}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8b5893216923a7a6015137dc7f03d2b8}{%
            family={{Harvard University Graduate School of Design}},
@@ -1308,12 +1250,10 @@
       }
       \strng{namehash}{8b5893216923a7a6015137dc7f03d2b8}
       \strng{fullhash}{8b5893216923a7a6015137dc7f03d2b8}
-      \strng{fullhashraw}{8b5893216923a7a6015137dc7f03d2b8}
       \strng{bibnamehash}{8b5893216923a7a6015137dc7f03d2b8}
       \strng{authorbibnamehash}{8b5893216923a7a6015137dc7f03d2b8}
       \strng{authornamehash}{8b5893216923a7a6015137dc7f03d2b8}
       \strng{authorfullhash}{8b5893216923a7a6015137dc7f03d2b8}
-      \strng{authorfullhashraw}{8b5893216923a7a6015137dc7f03d2b8}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -1331,7 +1271,7 @@
       \verb https://udcsa.gsd.harvard.edu/projects/9
       \endverb
     \endentry
-    \entry{hwang2015classical}{article}{}{}
+    \entry{hwang2015classical}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=341248ffd4392aedfe0b2563ae036d82}{%
            family={Hwang},
@@ -1348,12 +1288,10 @@
       }
       \strng{namehash}{f526e94fc6a0311c7839f2f33d0c67eb}
       \strng{fullhash}{f526e94fc6a0311c7839f2f33d0c67eb}
-      \strng{fullhashraw}{f526e94fc6a0311c7839f2f33d0c67eb}
       \strng{bibnamehash}{f526e94fc6a0311c7839f2f33d0c67eb}
       \strng{authorbibnamehash}{f526e94fc6a0311c7839f2f33d0c67eb}
       \strng{authornamehash}{f526e94fc6a0311c7839f2f33d0c67eb}
       \strng{authorfullhash}{f526e94fc6a0311c7839f2f33d0c67eb}
-      \strng{authorfullhashraw}{f526e94fc6a0311c7839f2f33d0c67eb}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -1373,7 +1311,7 @@
       \verb 10.1007/s11067-015-9290-x
       \endverb
     \endentry
-    \entry{iloilo2021clup}{report}{}{}
+    \entry{iloilo2021clup}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a8f3e011722e456c56780b8f28d5131f}{%
            family={{Iloilo City Planning and Development Office}},
@@ -1384,12 +1322,10 @@
       }
       \strng{namehash}{a8f3e011722e456c56780b8f28d5131f}
       \strng{fullhash}{a8f3e011722e456c56780b8f28d5131f}
-      \strng{fullhashraw}{a8f3e011722e456c56780b8f28d5131f}
       \strng{bibnamehash}{a8f3e011722e456c56780b8f28d5131f}
       \strng{authorbibnamehash}{a8f3e011722e456c56780b8f28d5131f}
       \strng{authornamehash}{a8f3e011722e456c56780b8f28d5131f}
       \strng{authorfullhash}{a8f3e011722e456c56780b8f28d5131f}
-      \strng{authorfullhashraw}{a8f3e011722e456c56780b8f28d5131f}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
@@ -1401,7 +1337,7 @@
       \field{year}{2021}
       \true{nocite}
     \endentry
-    \entry{indra2014urban}{online}{}{}
+    \entry{indra2014urban}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2b3275f929db5d542ce30e27a413242e}{%
            family={{Indra}},
@@ -1409,12 +1345,10 @@
       }
       \strng{namehash}{2b3275f929db5d542ce30e27a413242e}
       \strng{fullhash}{2b3275f929db5d542ce30e27a413242e}
-      \strng{fullhashraw}{2b3275f929db5d542ce30e27a413242e}
       \strng{bibnamehash}{2b3275f929db5d542ce30e27a413242e}
       \strng{authorbibnamehash}{2b3275f929db5d542ce30e27a413242e}
       \strng{authornamehash}{2b3275f929db5d542ce30e27a413242e}
       \strng{authorfullhash}{2b3275f929db5d542ce30e27a413242e}
-      \strng{authorfullhashraw}{2b3275f929db5d542ce30e27a413242e}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
@@ -1432,7 +1366,7 @@
       \verb https://www.indracompany.com/en/urban-traffic-management-system-manila-philippines
       \endverb
     \endentry
-    \entry{jica1999mmutis}{report}{}{}
+    \entry{jica1999mmutis}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8972fea3002f27deb2f36455c531fde5}{%
            family={{Japan International Cooperation Agency}},
@@ -1443,12 +1377,10 @@
       }
       \strng{namehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{fullhash}{8972fea3002f27deb2f36455c531fde5}
-      \strng{fullhashraw}{8972fea3002f27deb2f36455c531fde5}
       \strng{bibnamehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{authorbibnamehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{authornamehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{authorfullhash}{8972fea3002f27deb2f36455c531fde5}
-      \strng{authorfullhashraw}{8972fea3002f27deb2f36455c531fde5}
       \field{extraname}{1}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
@@ -1467,7 +1399,7 @@
       \verb https://openjicareport.jica.go.jp/pdf/11580446.pdf
       \endverb
     \endentry
-    \entry{jica2004}{report}{}{}
+    \entry{jica2004}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8972fea3002f27deb2f36455c531fde5}{%
            family={{Japan International Cooperation Agency}},
@@ -1479,12 +1411,10 @@
       }
       \strng{namehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{fullhash}{8972fea3002f27deb2f36455c531fde5}
-      \strng{fullhashraw}{8972fea3002f27deb2f36455c531fde5}
       \strng{bibnamehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{authorbibnamehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{authornamehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{authorfullhash}{8972fea3002f27deb2f36455c531fde5}
-      \strng{authorfullhashraw}{8972fea3002f27deb2f36455c531fde5}
       \field{extraname}{2}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
@@ -1504,7 +1434,7 @@
       \verb https://openjicareport.jica.go.jp/614/614/614_118_11778537.html
       \endverb
     \endentry
-    \entry{jica2025jica}{online}{}{}
+    \entry{jica2025jica}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8972fea3002f27deb2f36455c531fde5}{%
            family={{Japan International Cooperation Agency}},
@@ -1512,12 +1442,10 @@
       }
       \strng{namehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{fullhash}{8972fea3002f27deb2f36455c531fde5}
-      \strng{fullhashraw}{8972fea3002f27deb2f36455c531fde5}
       \strng{bibnamehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{authorbibnamehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{authornamehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{authorfullhash}{8972fea3002f27deb2f36455c531fde5}
-      \strng{authorfullhashraw}{8972fea3002f27deb2f36455c531fde5}
       \field{extraname}{3}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
@@ -1537,7 +1465,7 @@
       \verb https://www.jica.go.jp/english/overseas/philippine/information/press/2024/rdsigningctmp02212025.html
       \endverb
     \endentry
-    \entry{jiang_2022_graph}{article}{}{}
+    \entry{jiang_2022_graph}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=7799808f676f2f50b373fb5cb7047be6}{%
            family={Jiang},
@@ -1554,12 +1482,10 @@
       }
       \strng{namehash}{096391b3d6c8fc448e1edb71dd42aadd}
       \strng{fullhash}{096391b3d6c8fc448e1edb71dd42aadd}
-      \strng{fullhashraw}{096391b3d6c8fc448e1edb71dd42aadd}
       \strng{bibnamehash}{096391b3d6c8fc448e1edb71dd42aadd}
       \strng{authorbibnamehash}{096391b3d6c8fc448e1edb71dd42aadd}
       \strng{authornamehash}{096391b3d6c8fc448e1edb71dd42aadd}
       \strng{authorfullhash}{096391b3d6c8fc448e1edb71dd42aadd}
-      \strng{authorfullhashraw}{096391b3d6c8fc448e1edb71dd42aadd}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{extradatescope}{labelyear}
@@ -1585,7 +1511,7 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0957417422011654
       \endverb
     \endentry
-    \entry{jilani2023systematic}{article}{}{}
+    \entry{jilani2023systematic}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=c1d8e5bc7ead83998adbd226c44ee99c}{%
            family={Jilani},
@@ -1623,12 +1549,10 @@
       }
       \strng{namehash}{24e340577fe98f9a1a58267ce1d3e5fc}
       \strng{fullhash}{a3063acb4264245f19b9e5706beeb4b6}
-      \strng{fullhashraw}{a3063acb4264245f19b9e5706beeb4b6}
       \strng{bibnamehash}{a3063acb4264245f19b9e5706beeb4b6}
       \strng{authorbibnamehash}{a3063acb4264245f19b9e5706beeb4b6}
       \strng{authornamehash}{24e340577fe98f9a1a58267ce1d3e5fc}
       \strng{authorfullhash}{a3063acb4264245f19b9e5706beeb4b6}
-      \strng{authorfullhashraw}{a3063acb4264245f19b9e5706beeb4b6}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{extradatescope}{labelyear}
@@ -1644,7 +1568,7 @@
       \verb 10.1007/s11277-023-10700-0
       \endverb
     \endentry
-    \entry{joseph2022applications}{article}{}{}
+    \entry{joseph2022applications}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=05a1eb55c8e77daae85e66369dd6cf6c}{%
            family={Joseph},
@@ -1655,12 +1579,10 @@
       }
       \strng{namehash}{05a1eb55c8e77daae85e66369dd6cf6c}
       \strng{fullhash}{05a1eb55c8e77daae85e66369dd6cf6c}
-      \strng{fullhashraw}{05a1eb55c8e77daae85e66369dd6cf6c}
       \strng{bibnamehash}{05a1eb55c8e77daae85e66369dd6cf6c}
       \strng{authorbibnamehash}{05a1eb55c8e77daae85e66369dd6cf6c}
       \strng{authornamehash}{05a1eb55c8e77daae85e66369dd6cf6c}
       \strng{authorfullhash}{05a1eb55c8e77daae85e66369dd6cf6c}
-      \strng{authorfullhashraw}{05a1eb55c8e77daae85e66369dd6cf6c}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{extradatescope}{labelyear}
@@ -1679,7 +1601,7 @@
       \verb https://ieeexplore.ieee.org/document/9968318
       \endverb
     \endentry
-    \entry{kiec2020impact}{article}{}{}
+    \entry{kiec2020impact}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=fb190476333445f900350ee3388bb9a4}{%
            family={Kiec},
@@ -1702,12 +1624,10 @@
       }
       \strng{namehash}{c601117712bcf405859db63a666c2893}
       \strng{fullhash}{387f7c58417dfe3226a85c5555e457c0}
-      \strng{fullhashraw}{387f7c58417dfe3226a85c5555e457c0}
       \strng{bibnamehash}{387f7c58417dfe3226a85c5555e457c0}
       \strng{authorbibnamehash}{387f7c58417dfe3226a85c5555e457c0}
       \strng{authornamehash}{c601117712bcf405859db63a666c2893}
       \strng{authorfullhash}{387f7c58417dfe3226a85c5555e457c0}
-      \strng{authorfullhashraw}{387f7c58417dfe3226a85c5555e457c0}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -1727,7 +1647,7 @@
       \verb 10.3390/s20154145
       \endverb
     \endentry
-    \entry{klein2018agent}{article}{}{}
+    \entry{klein2018agent}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=88e643836695fee0370534da329e3b43}{%
            family={Klein},
@@ -1750,12 +1670,10 @@
       }
       \strng{namehash}{1e3147a958a711d6723e77379ae9f767}
       \strng{fullhash}{576f72b56c6022852592ac4c361e64c1}
-      \strng{fullhashraw}{576f72b56c6022852592ac4c361e64c1}
       \strng{bibnamehash}{576f72b56c6022852592ac4c361e64c1}
       \strng{authorbibnamehash}{576f72b56c6022852592ac4c361e64c1}
       \strng{authornamehash}{1e3147a958a711d6723e77379ae9f767}
       \strng{authorfullhash}{576f72b56c6022852592ac4c361e64c1}
-      \strng{authorfullhashraw}{576f72b56c6022852592ac4c361e64c1}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -1774,7 +1692,7 @@
       \verb 10.1016/j.trc.2017.11.007
       \endverb
     \endentry
-    \entry{lto2023vehicles}{online}{}{}
+    \entry{lto2023vehicles}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cb9a84f5efd62df20bc1f5fbbcce5e93}{%
            family={{Land Transportation Office}},
@@ -1782,12 +1700,10 @@
       }
       \strng{namehash}{cb9a84f5efd62df20bc1f5fbbcce5e93}
       \strng{fullhash}{cb9a84f5efd62df20bc1f5fbbcce5e93}
-      \strng{fullhashraw}{cb9a84f5efd62df20bc1f5fbbcce5e93}
       \strng{bibnamehash}{cb9a84f5efd62df20bc1f5fbbcce5e93}
       \strng{authorbibnamehash}{cb9a84f5efd62df20bc1f5fbbcce5e93}
       \strng{authornamehash}{cb9a84f5efd62df20bc1f5fbbcce5e93}
       \strng{authorfullhash}{cb9a84f5efd62df20bc1f5fbbcce5e93}
-      \strng{authorfullhashraw}{cb9a84f5efd62df20bc1f5fbbcce5e93}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -1806,7 +1722,7 @@
       \verb https://www.foi.gov.ph/requests/number-of-registered-vehicles-public-and-private-in-iloilo-and-by-municipalities/
       \endverb
     \endentry
-    \entry{landoy2012establishing}{article}{}{}
+    \entry{landoy2012establishing}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=8d908b5b6923a06227a44f459759df48}{%
            family={Landoy},
@@ -1829,12 +1745,10 @@
       }
       \strng{namehash}{e71189061e049722b646aedab1ff5fe4}
       \strng{fullhash}{17574f4e5dcf402e1a413ed3f249612d}
-      \strng{fullhashraw}{17574f4e5dcf402e1a413ed3f249612d}
       \strng{bibnamehash}{17574f4e5dcf402e1a413ed3f249612d}
       \strng{authorbibnamehash}{17574f4e5dcf402e1a413ed3f249612d}
       \strng{authornamehash}{e71189061e049722b646aedab1ff5fe4}
       \strng{authorfullhash}{17574f4e5dcf402e1a413ed3f249612d}
-      \strng{authorfullhashraw}{17574f4e5dcf402e1a413ed3f249612d}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -1854,7 +1768,7 @@
       \verb https://www.atransociety.com/resources/pdf/5thSymposiumDownloadable/FullPaper/2B/SCS12-007.pdf
       \endverb
     \endentry
-    \entry{macalalag2023reflections}{online}{}{}
+    \entry{macalalag2023reflections}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=de8a37529b34cc1fd3917e0cb078c46e}{%
            family={Macalalag},
@@ -1865,12 +1779,10 @@
       }
       \strng{namehash}{de8a37529b34cc1fd3917e0cb078c46e}
       \strng{fullhash}{de8a37529b34cc1fd3917e0cb078c46e}
-      \strng{fullhashraw}{de8a37529b34cc1fd3917e0cb078c46e}
       \strng{bibnamehash}{de8a37529b34cc1fd3917e0cb078c46e}
       \strng{authorbibnamehash}{de8a37529b34cc1fd3917e0cb078c46e}
       \strng{authornamehash}{de8a37529b34cc1fd3917e0cb078c46e}
       \strng{authorfullhash}{de8a37529b34cc1fd3917e0cb078c46e}
-      \strng{authorfullhashraw}{de8a37529b34cc1fd3917e0cb078c46e}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -1890,7 +1802,7 @@
       \verb https://ilonggoengineer.com/2023/02/05/reflections-on-ungka-flyover/
       \endverb
     \endentry
-    \entry{maerivoet2005transportation}{report}{}{}
+    \entry{maerivoet2005transportation}{report}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=938f1e987a859216fb57b01257dc20b5}{%
            family={Maerivoet},
@@ -1910,12 +1822,10 @@
       }
       \strng{namehash}{dd1eb0cd1903d0cf02e4110c236806d4}
       \strng{fullhash}{dd1eb0cd1903d0cf02e4110c236806d4}
-      \strng{fullhashraw}{dd1eb0cd1903d0cf02e4110c236806d4}
       \strng{bibnamehash}{dd1eb0cd1903d0cf02e4110c236806d4}
       \strng{authorbibnamehash}{dd1eb0cd1903d0cf02e4110c236806d4}
       \strng{authornamehash}{dd1eb0cd1903d0cf02e4110c236806d4}
       \strng{authorfullhash}{dd1eb0cd1903d0cf02e4110c236806d4}
-      \strng{authorfullhashraw}{dd1eb0cd1903d0cf02e4110c236806d4}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -1934,7 +1844,7 @@
       \verb https://www.researchgate.net/publication/2173459_Transportation_Planning_and_Traffic_Flow_Models
       \endverb
     \endentry
-    \entry{marve2016survey}{article}{}{}
+    \entry{marve2016survey}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=fd472e510dab569741fe982ca6a35a9b}{%
            family={Marve},
@@ -1957,12 +1867,10 @@
       }
       \strng{namehash}{50842a87a35f235055a3305a035e7ddd}
       \strng{fullhash}{c8b1161d408310da17db95259ecfc48f}
-      \strng{fullhashraw}{c8b1161d408310da17db95259ecfc48f}
       \strng{bibnamehash}{c8b1161d408310da17db95259ecfc48f}
       \strng{authorbibnamehash}{c8b1161d408310da17db95259ecfc48f}
       \strng{authornamehash}{50842a87a35f235055a3305a035e7ddd}
       \strng{authorfullhash}{c8b1161d408310da17db95259ecfc48f}
-      \strng{authorfullhashraw}{c8b1161d408310da17db95259ecfc48f}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -1985,7 +1893,7 @@
       \verb http://www.ijste.org/articles/IJSTEV2I8054.pdf
       \endverb
     \endentry
-    \entry{marzan2025choking}{article}{}{}
+    \entry{marzan2025choking}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=014f4ecc7e02f2f72fcbd9b047bdc7db}{%
            family={Marzan},
@@ -2002,12 +1910,10 @@
       }
       \strng{namehash}{9d36532320ada5bddbd5a5047affcda9}
       \strng{fullhash}{9d36532320ada5bddbd5a5047affcda9}
-      \strng{fullhashraw}{9d36532320ada5bddbd5a5047affcda9}
       \strng{bibnamehash}{9d36532320ada5bddbd5a5047affcda9}
       \strng{authorbibnamehash}{9d36532320ada5bddbd5a5047affcda9}
       \strng{authornamehash}{9d36532320ada5bddbd5a5047affcda9}
       \strng{authorfullhash}{9d36532320ada5bddbd5a5047affcda9}
-      \strng{authorfullhashraw}{9d36532320ada5bddbd5a5047affcda9}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -2027,7 +1933,7 @@
       \verb https://dailyguardian.com.ph/choking-pains-iloilo-city-identifies-38-traffic-chokepoints-studies-options/
       \endverb
     \endentry
-    \entry{mtc2022dangers}{online}{}{}
+    \entry{mtc2022dangers}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7a6fc7aecdbb9d3c9bb76f387203832d}{%
            family={{Metropolitan Transportation Commission}},
@@ -2035,12 +1941,10 @@
       }
       \strng{namehash}{7a6fc7aecdbb9d3c9bb76f387203832d}
       \strng{fullhash}{7a6fc7aecdbb9d3c9bb76f387203832d}
-      \strng{fullhashraw}{7a6fc7aecdbb9d3c9bb76f387203832d}
       \strng{bibnamehash}{7a6fc7aecdbb9d3c9bb76f387203832d}
       \strng{authorbibnamehash}{7a6fc7aecdbb9d3c9bb76f387203832d}
       \strng{authornamehash}{7a6fc7aecdbb9d3c9bb76f387203832d}
       \strng{authorfullhash}{7a6fc7aecdbb9d3c9bb76f387203832d}
-      \strng{authorfullhashraw}{7a6fc7aecdbb9d3c9bb76f387203832d}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -2059,7 +1963,7 @@
       \verb https://mtc.ca.gov/news/dangers-traffic-congestion
       \endverb
     \endentry
-    \entry{morandi2023bridging}{article}{}{}
+    \entry{morandi2023bridging}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=28ab615162ff2b94072f2ca6ebbdf765}{%
            family={Morandi},
@@ -2070,12 +1974,10 @@
       }
       \strng{namehash}{28ab615162ff2b94072f2ca6ebbdf765}
       \strng{fullhash}{28ab615162ff2b94072f2ca6ebbdf765}
-      \strng{fullhashraw}{28ab615162ff2b94072f2ca6ebbdf765}
       \strng{bibnamehash}{28ab615162ff2b94072f2ca6ebbdf765}
       \strng{authorbibnamehash}{28ab615162ff2b94072f2ca6ebbdf765}
       \strng{authornamehash}{28ab615162ff2b94072f2ca6ebbdf765}
       \strng{authorfullhash}{28ab615162ff2b94072f2ca6ebbdf765}
-      \strng{authorfullhashraw}{28ab615162ff2b94072f2ca6ebbdf765}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -2091,7 +1993,7 @@
       \verb 10.1007/s10288-023-00540-w
       \endverb
     \endentry
-    \entry{mou_2025_braess}{misc}{}{}
+    \entry{mou_2025_braess}{misc}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b1c3f158520e8b16cbfa1409f99e618e}{%
            family={Mou},
@@ -2111,12 +2013,10 @@
       }
       \strng{namehash}{81e9ec0367bac3f31e7b57b3520e6fb0}
       \strng{fullhash}{81e9ec0367bac3f31e7b57b3520e6fb0}
-      \strng{fullhashraw}{81e9ec0367bac3f31e7b57b3520e6fb0}
       \strng{bibnamehash}{81e9ec0367bac3f31e7b57b3520e6fb0}
       \strng{authorbibnamehash}{81e9ec0367bac3f31e7b57b3520e6fb0}
       \strng{authornamehash}{81e9ec0367bac3f31e7b57b3520e6fb0}
       \strng{authorfullhash}{81e9ec0367bac3f31e7b57b3520e6fb0}
-      \strng{authorfullhashraw}{81e9ec0367bac3f31e7b57b3520e6fb0}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -2138,7 +2038,7 @@
       \verb https://arxiv.org/abs/2512.12197
       \endverb
     \endentry
-    \entry{nagurney2020braess}{online}{}{}
+    \entry{nagurney2020braess}{online}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=c0bab0c35e62f61c0107b2f0ece95014}{%
            family={Nagurney},
@@ -2158,12 +2058,10 @@
       }
       \strng{namehash}{808e2675d29fbf8e9fe9fb1414422c98}
       \strng{fullhash}{808e2675d29fbf8e9fe9fb1414422c98}
-      \strng{fullhashraw}{808e2675d29fbf8e9fe9fb1414422c98}
       \strng{bibnamehash}{808e2675d29fbf8e9fe9fb1414422c98}
       \strng{authorbibnamehash}{808e2675d29fbf8e9fe9fb1414422c98}
       \strng{authornamehash}{808e2675d29fbf8e9fe9fb1414422c98}
       \strng{authorfullhash}{808e2675d29fbf8e9fe9fb1414422c98}
-      \strng{authorfullhashraw}{808e2675d29fbf8e9fe9fb1414422c98}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
@@ -2181,7 +2079,7 @@
       \verb https://supernet.isenberg.umass.edu/articles/braess-encyc.pdf
       \endverb
     \endentry
-    \entry{onyeneke2018modeling}{article}{}{}
+    \entry{onyeneke2018modeling}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3cb12e1a2fce8784f3379ab1363e149d}{%
            family={Onyeneke},
@@ -2192,12 +2090,10 @@
       }
       \strng{namehash}{3cb12e1a2fce8784f3379ab1363e149d}
       \strng{fullhash}{3cb12e1a2fce8784f3379ab1363e149d}
-      \strng{fullhashraw}{3cb12e1a2fce8784f3379ab1363e149d}
       \strng{bibnamehash}{3cb12e1a2fce8784f3379ab1363e149d}
       \strng{authorbibnamehash}{3cb12e1a2fce8784f3379ab1363e149d}
       \strng{authornamehash}{3cb12e1a2fce8784f3379ab1363e149d}
       \strng{authorfullhash}{3cb12e1a2fce8784f3379ab1363e149d}
-      \strng{authorfullhashraw}{3cb12e1a2fce8784f3379ab1363e149d}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
@@ -2217,7 +2113,7 @@
       \verb 10.11648/j.bsi.20180302.11
       \endverb
     \endentry
-    \entry{ortigosa_2017_analysis}{article}{}{}
+    \entry{ortigosa_2017_analysis}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=62f263566ff0d925585660fe98a14ec9}{%
            family={Ortigosa},
@@ -2240,12 +2136,10 @@
       }
       \strng{namehash}{051814ca4c20742a49f8d79e57e2a749}
       \strng{fullhash}{adbc581c524c943765a2fb77df3ac62c}
-      \strng{fullhashraw}{adbc581c524c943765a2fb77df3ac62c}
       \strng{bibnamehash}{adbc581c524c943765a2fb77df3ac62c}
       \strng{authorbibnamehash}{adbc581c524c943765a2fb77df3ac62c}
       \strng{authornamehash}{051814ca4c20742a49f8d79e57e2a749}
       \strng{authorfullhash}{adbc581c524c943765a2fb77df3ac62c}
-      \strng{authorfullhashraw}{adbc581c524c943765a2fb77df3ac62c}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
@@ -2265,7 +2159,7 @@
       \verb 10.1080/21680566.2017.1337528
       \endverb
     \endentry
-    \entry{ortuzar2024modelling}{book}{}{}
+    \entry{ortuzar2024modelling}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=cb18273f22a29c9588e1b02f0b9875d4}{%
            family={Ortúzar},
@@ -2285,12 +2179,10 @@
       }
       \strng{namehash}{2e91cec9ed41df1d74a4765c405281f0}
       \strng{fullhash}{2e91cec9ed41df1d74a4765c405281f0}
-      \strng{fullhashraw}{2e91cec9ed41df1d74a4765c405281f0}
       \strng{bibnamehash}{2e91cec9ed41df1d74a4765c405281f0}
       \strng{authorbibnamehash}{2e91cec9ed41df1d74a4765c405281f0}
       \strng{authornamehash}{2e91cec9ed41df1d74a4765c405281f0}
       \strng{authorfullhash}{2e91cec9ed41df1d74a4765c405281f0}
-      \strng{authorfullhashraw}{2e91cec9ed41df1d74a4765c405281f0}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
@@ -2308,7 +2200,7 @@
       \verb https://books.google.com.ph/books?id=NTLxEAAAQBAJ
       \endverb
     \endentry
-    \entry{pna2022iloilo}{online}{}{}
+    \entry{pna2022iloilo}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ec55d61d44985269e2918a3f02ec7a5e}{%
            family={{Philippine News Agency}},
@@ -2316,12 +2208,10 @@
       }
       \strng{namehash}{ec55d61d44985269e2918a3f02ec7a5e}
       \strng{fullhash}{ec55d61d44985269e2918a3f02ec7a5e}
-      \strng{fullhashraw}{ec55d61d44985269e2918a3f02ec7a5e}
       \strng{bibnamehash}{ec55d61d44985269e2918a3f02ec7a5e}
       \strng{authorbibnamehash}{ec55d61d44985269e2918a3f02ec7a5e}
       \strng{authornamehash}{ec55d61d44985269e2918a3f02ec7a5e}
       \strng{authorfullhash}{ec55d61d44985269e2918a3f02ec7a5e}
-      \strng{authorfullhashraw}{ec55d61d44985269e2918a3f02ec7a5e}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -2339,7 +2229,7 @@
       \verb https://www.pna.gov.ph/articles/1181753
       \endverb
     \endentry
-    \entry{pragados2018traffic}{article}{}{}
+    \entry{pragados2018traffic}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b6bbe5449932fa036bf3b5af066bae11}{%
            family={Pragados},
@@ -2350,12 +2240,10 @@
       }
       \strng{namehash}{b6bbe5449932fa036bf3b5af066bae11}
       \strng{fullhash}{b6bbe5449932fa036bf3b5af066bae11}
-      \strng{fullhashraw}{b6bbe5449932fa036bf3b5af066bae11}
       \strng{bibnamehash}{b6bbe5449932fa036bf3b5af066bae11}
       \strng{authorbibnamehash}{b6bbe5449932fa036bf3b5af066bae11}
       \strng{authornamehash}{b6bbe5449932fa036bf3b5af066bae11}
       \strng{authorfullhash}{b6bbe5449932fa036bf3b5af066bae11}
-      \strng{authorfullhashraw}{b6bbe5449932fa036bf3b5af066bae11}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -2378,7 +2266,7 @@
       \verb https://hdl.handle.net/20.500.12852/2675
       \endverb
     \endentry
-    \entry{prathik2016overview}{article}{}{}
+    \entry{prathik2016overview}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=27a1b0123373b8be344e77878287d4b6}{%
            family={Prathik},
@@ -2401,12 +2289,10 @@
       }
       \strng{namehash}{8ed862513f1568435159fbd07ebfa429}
       \strng{fullhash}{a06a395d34f8132a7a1f33d7df1a9832}
-      \strng{fullhashraw}{a06a395d34f8132a7a1f33d7df1a9832}
       \strng{bibnamehash}{a06a395d34f8132a7a1f33d7df1a9832}
       \strng{authorbibnamehash}{a06a395d34f8132a7a1f33d7df1a9832}
       \strng{authornamehash}{8ed862513f1568435159fbd07ebfa429}
       \strng{authorfullhash}{a06a395d34f8132a7a1f33d7df1a9832}
-      \strng{authorfullhashraw}{a06a395d34f8132a7a1f33d7df1a9832}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -2423,7 +2309,7 @@
       \field{pages}{242\bibrangedash 248}
       \range{pages}{7}
     \endentry
-    \entry{ptvgroup2022transportation}{online}{}{}
+    \entry{ptvgroup2022transportation}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=be97ff3f41a4938c759957841a4e9179}{%
            family={{PTV Group}},
@@ -2434,12 +2320,10 @@
       }
       \strng{namehash}{be97ff3f41a4938c759957841a4e9179}
       \strng{fullhash}{be97ff3f41a4938c759957841a4e9179}
-      \strng{fullhashraw}{be97ff3f41a4938c759957841a4e9179}
       \strng{bibnamehash}{be97ff3f41a4938c759957841a4e9179}
       \strng{authorbibnamehash}{be97ff3f41a4938c759957841a4e9179}
       \strng{authornamehash}{be97ff3f41a4938c759957841a4e9179}
       \strng{authorfullhash}{be97ff3f41a4938c759957841a4e9179}
-      \strng{authorfullhashraw}{be97ff3f41a4938c759957841a4e9179}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -2457,7 +2341,7 @@
       \verb https://www.ptvgroup.com/en/application-areas/transportation-modeling
       \endverb
     \endentry
-    \entry{pucher2007urban}{article}{}{}
+    \entry{pucher2007urban}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=1c63524901f6be46fadf807fd6542ce2}{%
            family={Pucher},
@@ -2492,12 +2376,10 @@
       }
       \strng{namehash}{a5bf3e2595a4fdb748b31aadc8cbb290}
       \strng{fullhash}{c6858bd4755a015356337a5ff7edd9d4}
-      \strng{fullhashraw}{c6858bd4755a015356337a5ff7edd9d4}
       \strng{bibnamehash}{c6858bd4755a015356337a5ff7edd9d4}
       \strng{authorbibnamehash}{c6858bd4755a015356337a5ff7edd9d4}
       \strng{authornamehash}{a5bf3e2595a4fdb748b31aadc8cbb290}
       \strng{authorfullhash}{c6858bd4755a015356337a5ff7edd9d4}
-      \strng{authorfullhashraw}{c6858bd4755a015356337a5ff7edd9d4}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -2517,7 +2399,7 @@
       \verb 10.1080/01441640601089988
       \endverb
     \endentry
-    \entry{qian_2012_on}{article}{}{}
+    \entry{qian_2012_on}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=f480255c5183683b8784ad1e51adf029}{%
            family={Qian},
@@ -2537,12 +2419,10 @@
       }
       \strng{namehash}{c6e5b39f3d7690fe7a17bcc907dee11f}
       \strng{fullhash}{c6e5b39f3d7690fe7a17bcc907dee11f}
-      \strng{fullhashraw}{c6e5b39f3d7690fe7a17bcc907dee11f}
       \strng{bibnamehash}{c6e5b39f3d7690fe7a17bcc907dee11f}
       \strng{authorbibnamehash}{c6e5b39f3d7690fe7a17bcc907dee11f}
       \strng{authornamehash}{c6e5b39f3d7690fe7a17bcc907dee11f}
       \strng{authorfullhash}{c6e5b39f3d7690fe7a17bcc907dee11f}
-      \strng{authorfullhashraw}{c6e5b39f3d7690fe7a17bcc907dee11f}
       \field{sortinit}{Q}
       \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
       \field{extradatescope}{labelyear}
@@ -2566,7 +2446,7 @@
       \verb 10.1016/j.trb.2012.07.006
       \endverb
     \endentry
-    \entry{ramos2025double}{report}{}{}
+    \entry{ramos2025double}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e622fbf414dc6cf36f5e4c0fb1a74a1e}{%
            family={Ramos},
@@ -2577,12 +2457,10 @@
       }
       \strng{namehash}{e622fbf414dc6cf36f5e4c0fb1a74a1e}
       \strng{fullhash}{e622fbf414dc6cf36f5e4c0fb1a74a1e}
-      \strng{fullhashraw}{e622fbf414dc6cf36f5e4c0fb1a74a1e}
       \strng{bibnamehash}{e622fbf414dc6cf36f5e4c0fb1a74a1e}
       \strng{authorbibnamehash}{e622fbf414dc6cf36f5e4c0fb1a74a1e}
       \strng{authornamehash}{e622fbf414dc6cf36f5e4c0fb1a74a1e}
       \strng{authorfullhash}{e622fbf414dc6cf36f5e4c0fb1a74a1e}
-      \strng{authorfullhashraw}{e622fbf414dc6cf36f5e4c0fb1a74a1e}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -2597,7 +2475,7 @@
       \verb 10.13140/rg.2.2.25772.94082
       \endverb
     \endentry
-    \entry{rapoport2009choice}{article}{}{}
+    \entry{rapoport2009choice}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=fad8412750bde000e5ff479489a274db}{%
            family={Rapoport},
@@ -2626,12 +2504,10 @@
       }
       \strng{namehash}{808d554589ac67c549e3d2df36681b91}
       \strng{fullhash}{481c7a112cb217e3d96476674b476fc1}
-      \strng{fullhashraw}{481c7a112cb217e3d96476674b476fc1}
       \strng{bibnamehash}{481c7a112cb217e3d96476674b476fc1}
       \strng{authorbibnamehash}{481c7a112cb217e3d96476674b476fc1}
       \strng{authornamehash}{808d554589ac67c549e3d2df36681b91}
       \strng{authorfullhash}{481c7a112cb217e3d96476674b476fc1}
-      \strng{authorfullhashraw}{481c7a112cb217e3d96476674b476fc1}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -2651,7 +2527,7 @@
       \verb 10.1016/j.geb.2008.02.007
       \endverb
     \endentry
-    \entry{reddy2024efficient}{article}{}{}
+    \entry{reddy2024efficient}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=918cdf92e7b4639ef28fc2ca3732cb12}{%
            family={Reddy},
@@ -2680,12 +2556,10 @@
       }
       \strng{namehash}{20c895ee8e8d256435c8b4b1b3617c21}
       \strng{fullhash}{a64fee3fb4d73e22562661f32aa6dd22}
-      \strng{fullhashraw}{a64fee3fb4d73e22562661f32aa6dd22}
       \strng{bibnamehash}{a64fee3fb4d73e22562661f32aa6dd22}
       \strng{authorbibnamehash}{a64fee3fb4d73e22562661f32aa6dd22}
       \strng{authornamehash}{20c895ee8e8d256435c8b4b1b3617c21}
       \strng{authorfullhash}{a64fee3fb4d73e22562661f32aa6dd22}
-      \strng{authorfullhashraw}{a64fee3fb4d73e22562661f32aa6dd22}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -2707,7 +2581,7 @@
       \verb https://www.ijfmr.com/papers/2024/2/12831.pdf
       \endverb
     \endentry
-    \entry{regin2012implementing}{report}{}{}
+    \entry{regin2012implementing}{report}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=786fa8af14e6e1fe4519c962cbbe84b8}{%
            family={Regin},
@@ -2724,12 +2598,10 @@
       }
       \strng{namehash}{0e24102dc7a91bbc38db3539dc9eff89}
       \strng{fullhash}{0e24102dc7a91bbc38db3539dc9eff89}
-      \strng{fullhashraw}{0e24102dc7a91bbc38db3539dc9eff89}
       \strng{bibnamehash}{0e24102dc7a91bbc38db3539dc9eff89}
       \strng{authorbibnamehash}{0e24102dc7a91bbc38db3539dc9eff89}
       \strng{authornamehash}{0e24102dc7a91bbc38db3539dc9eff89}
       \strng{authorfullhash}{0e24102dc7a91bbc38db3539dc9eff89}
-      \strng{authorfullhashraw}{0e24102dc7a91bbc38db3539dc9eff89}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -2747,7 +2619,7 @@
       \verb https://d0ctrine.com/wp-content/uploads/2011/10/est-green-urbanism-20oct2011.pdf
       \endverb
     \endentry
-    \entry{rdc2018calabarzon}{report}{}{}
+    \entry{rdc2018calabarzon}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a144358803134b3c751522134d70a7f2}{%
            family={{Regional Development Council Region IV-A}},
@@ -2755,12 +2627,10 @@
       }
       \strng{namehash}{a144358803134b3c751522134d70a7f2}
       \strng{fullhash}{a144358803134b3c751522134d70a7f2}
-      \strng{fullhashraw}{a144358803134b3c751522134d70a7f2}
       \strng{bibnamehash}{a144358803134b3c751522134d70a7f2}
       \strng{authorbibnamehash}{a144358803134b3c751522134d70a7f2}
       \strng{authornamehash}{a144358803134b3c751522134d70a7f2}
       \strng{authorfullhash}{a144358803134b3c751522134d70a7f2}
-      \strng{authorfullhashraw}{a144358803134b3c751522134d70a7f2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -2778,7 +2648,7 @@
       \verb https://calabarzon.depdev.gov.ph/wp-content/uploads/2018/01/Traffic-Mgt-Plan-2018.pdf
       \endverb
     \endentry
-    \entry{reyes2024solution}{article}{}{}
+    \entry{reyes2024solution}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d70fc0db493ef22b053955041e84128a}{%
            family={Reyes},
@@ -2789,12 +2659,10 @@
       }
       \strng{namehash}{d70fc0db493ef22b053955041e84128a}
       \strng{fullhash}{d70fc0db493ef22b053955041e84128a}
-      \strng{fullhashraw}{d70fc0db493ef22b053955041e84128a}
       \strng{bibnamehash}{d70fc0db493ef22b053955041e84128a}
       \strng{authorbibnamehash}{d70fc0db493ef22b053955041e84128a}
       \strng{authornamehash}{d70fc0db493ef22b053955041e84128a}
       \strng{authorfullhash}{d70fc0db493ef22b053955041e84128a}
-      \strng{authorfullhashraw}{d70fc0db493ef22b053955041e84128a}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -2814,7 +2682,7 @@
       \verb https://www.philstar.com/business/2024/04/13/2347216/solution-mms-traffic-woes
       \endverb
     \endentry
-    \entry{rodrigue2024transportation}{online}{}{}
+    \entry{rodrigue2024transportation}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=62b044eafb7481494810e171563d160f}{%
            family={Rodrigue},
@@ -2825,12 +2693,10 @@
       }
       \strng{namehash}{62b044eafb7481494810e171563d160f}
       \strng{fullhash}{62b044eafb7481494810e171563d160f}
-      \strng{fullhashraw}{62b044eafb7481494810e171563d160f}
       \strng{bibnamehash}{62b044eafb7481494810e171563d160f}
       \strng{authorbibnamehash}{62b044eafb7481494810e171563d160f}
       \strng{authornamehash}{62b044eafb7481494810e171563d160f}
       \strng{authorfullhash}{62b044eafb7481494810e171563d160f}
-      \strng{authorfullhashraw}{62b044eafb7481494810e171563d160f}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -2850,7 +2716,7 @@
       \verb https://transportgeography.org/contents/chapter8/transportation-urban-form/
       \endverb
     \endentry
-    \entry{sosuan2014mode}{article}{}{}
+    \entry{sosuan2014mode}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=897c8d065d66cf68444ad33fc54915b0}{%
            family={Sosuan},
@@ -2867,12 +2733,10 @@
       }
       \strng{namehash}{09524f6bec28060dac31c6d95ff165df}
       \strng{fullhash}{09524f6bec28060dac31c6d95ff165df}
-      \strng{fullhashraw}{09524f6bec28060dac31c6d95ff165df}
       \strng{bibnamehash}{09524f6bec28060dac31c6d95ff165df}
       \strng{authorbibnamehash}{09524f6bec28060dac31c6d95ff165df}
       \strng{authornamehash}{09524f6bec28060dac31c6d95ff165df}
       \strng{authorfullhash}{09524f6bec28060dac31c6d95ff165df}
-      \strng{authorfullhashraw}{09524f6bec28060dac31c6d95ff165df}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -2891,7 +2755,7 @@
       \verb https://ncts.upd.edu.ph/tssp/wp-content/uploads/2018/08/Sosuan14.pdf
       \endverb
     \endentry
-    \entry{stromberg2014fundamental}{online}{}{}
+    \entry{stromberg2014fundamental}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b1a3be09b2eba476705ff4357f2ce475}{%
            family={Stromberg},
@@ -2905,12 +2769,10 @@
       }
       \strng{namehash}{b1a3be09b2eba476705ff4357f2ce475}
       \strng{fullhash}{b1a3be09b2eba476705ff4357f2ce475}
-      \strng{fullhashraw}{b1a3be09b2eba476705ff4357f2ce475}
       \strng{bibnamehash}{b1a3be09b2eba476705ff4357f2ce475}
       \strng{authorbibnamehash}{b1a3be09b2eba476705ff4357f2ce475}
       \strng{authornamehash}{b1a3be09b2eba476705ff4357f2ce475}
       \strng{authorfullhash}{b1a3be09b2eba476705ff4357f2ce475}
-      \strng{authorfullhashraw}{b1a3be09b2eba476705ff4357f2ce475}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -2929,7 +2791,7 @@
       \verb https://www.vox.com/2014/10/23/6994159/traffic-roads-induced-demand
       \endverb
     \endentry
-    \entry{suryani_2020_urban}{article}{}{}
+    \entry{suryani_2020_urban}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=9b5eb952d04de6d0b7217152d03c4766}{%
            family={Suryani},
@@ -2964,12 +2826,10 @@
       }
       \strng{namehash}{6bad17edcda12095c689a112df4682b9}
       \strng{fullhash}{984985c18e6dbf303f3a59241fb00391}
-      \strng{fullhashraw}{984985c18e6dbf303f3a59241fb00391}
       \strng{bibnamehash}{984985c18e6dbf303f3a59241fb00391}
       \strng{authorbibnamehash}{984985c18e6dbf303f3a59241fb00391}
       \strng{authornamehash}{6bad17edcda12095c689a112df4682b9}
       \strng{authorfullhash}{984985c18e6dbf303f3a59241fb00391}
-      \strng{authorfullhashraw}{984985c18e6dbf303f3a59241fb00391}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -2989,7 +2849,7 @@
       \verb 10.1108/jm2-03-2019-0055
       \endverb
     \endentry
-    \entry{dishint_2024_what}{misc}{}{}
+    \entry{dishint_2024_what}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=599bcb7a07768a262d2f55311bcb21ff}{%
            family={T},
@@ -3003,12 +2863,10 @@
       }
       \strng{namehash}{599bcb7a07768a262d2f55311bcb21ff}
       \strng{fullhash}{599bcb7a07768a262d2f55311bcb21ff}
-      \strng{fullhashraw}{599bcb7a07768a262d2f55311bcb21ff}
       \strng{bibnamehash}{599bcb7a07768a262d2f55311bcb21ff}
       \strng{authorbibnamehash}{599bcb7a07768a262d2f55311bcb21ff}
       \strng{authornamehash}{599bcb7a07768a262d2f55311bcb21ff}
       \strng{authorfullhash}{599bcb7a07768a262d2f55311bcb21ff}
-      \strng{authorfullhashraw}{599bcb7a07768a262d2f55311bcb21ff}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
@@ -3027,7 +2885,7 @@
       \verb https://altitude.geotab.com/news-and-releases/what-is-annual-average-daily-traffic-aadt/
       \endverb
     \endentry
-    \entry{thunig2016braess}{article}{}{}
+    \entry{thunig2016braess}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6ce943606fbca096bbdb01f69554c8bf}{%
            family={Thunig},
@@ -3044,12 +2902,10 @@
       }
       \strng{namehash}{82d62bd29340de323482b7ea383e46f9}
       \strng{fullhash}{82d62bd29340de323482b7ea383e46f9}
-      \strng{fullhashraw}{82d62bd29340de323482b7ea383e46f9}
       \strng{bibnamehash}{82d62bd29340de323482b7ea383e46f9}
       \strng{authorbibnamehash}{82d62bd29340de323482b7ea383e46f9}
       \strng{authornamehash}{82d62bd29340de323482b7ea383e46f9}
       \strng{authorfullhash}{82d62bd29340de323482b7ea383e46f9}
-      \strng{authorfullhashraw}{82d62bd29340de323482b7ea383e46f9}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
@@ -3068,7 +2924,7 @@
       \verb 10.1016/j.procs.2016.04.190
       \endverb
     \endentry
-    \entry{tuco2025traffic}{article}{}{}
+    \entry{tuco2025traffic}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=5c35637b9c07e2260192c43cfcc63b55}{%
            family={Tuco},
@@ -3085,12 +2941,10 @@
       }
       \strng{namehash}{704b1a761b3d8d8fb94b3e95ccd00489}
       \strng{fullhash}{704b1a761b3d8d8fb94b3e95ccd00489}
-      \strng{fullhashraw}{704b1a761b3d8d8fb94b3e95ccd00489}
       \strng{bibnamehash}{704b1a761b3d8d8fb94b3e95ccd00489}
       \strng{authorbibnamehash}{704b1a761b3d8d8fb94b3e95ccd00489}
       \strng{authornamehash}{704b1a761b3d8d8fb94b3e95ccd00489}
       \strng{authorfullhash}{704b1a761b3d8d8fb94b3e95ccd00489}
-      \strng{authorfullhashraw}{704b1a761b3d8d8fb94b3e95ccd00489}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
@@ -3111,7 +2965,7 @@
       \verb https://ijetrm.com/issues/files/May-2025-24-1748062149-MAY46.pdf
       \endverb
     \endentry
-    \entry{valmonte2025philippine}{online}{}{}
+    \entry{valmonte2025philippine}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=724e1236f9f75135bc1f94766c987f36}{%
            family={Valmonte},
@@ -3125,12 +2979,10 @@
       }
       \strng{namehash}{724e1236f9f75135bc1f94766c987f36}
       \strng{fullhash}{724e1236f9f75135bc1f94766c987f36}
-      \strng{fullhashraw}{724e1236f9f75135bc1f94766c987f36}
       \strng{bibnamehash}{724e1236f9f75135bc1f94766c987f36}
       \strng{authorbibnamehash}{724e1236f9f75135bc1f94766c987f36}
       \strng{authornamehash}{724e1236f9f75135bc1f94766c987f36}
       \strng{authorfullhash}{724e1236f9f75135bc1f94766c987f36}
-      \strng{authorfullhashraw}{724e1236f9f75135bc1f94766c987f36}
       \field{sortinit}{V}
       \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{extradatescope}{labelyear}
@@ -3149,7 +3001,7 @@
       \verb https://www.rappler.com/business/philippine-cities-worst-traffic-congestion-in-2024/
       \endverb
     \endentry
-    \entry{youn2008price}{article}{}{}
+    \entry{youn2008price}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=9393ee26139433a9e69823a2ab9265e6}{%
            family={Youn},
@@ -3172,12 +3024,10 @@
       }
       \strng{namehash}{1a69fbe4c7483b4d73b30e9168d520a3}
       \strng{fullhash}{8fb576f839cf0b3e0781c3020b91c32c}
-      \strng{fullhashraw}{8fb576f839cf0b3e0781c3020b91c32c}
       \strng{bibnamehash}{8fb576f839cf0b3e0781c3020b91c32c}
       \strng{authorbibnamehash}{8fb576f839cf0b3e0781c3020b91c32c}
       \strng{authornamehash}{1a69fbe4c7483b4d73b30e9168d520a3}
       \strng{authorfullhash}{8fb576f839cf0b3e0781c3020b91c32c}
-      \strng{authorfullhashraw}{8fb576f839cf0b3e0781c3020b91c32c}
       \field{sortinit}{Y}
       \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
       \field{extradatescope}{labelyear}
@@ -3196,8 +3046,8 @@
       \endverb
     \endentry
   \enddatalist
-  \datalist[entry]{apa/global//global/global/global}
-    \entry{abanes2017traffic}{article}{}{}
+  \datalist[entry]{apa/global//global/global}
+    \entry{abanes2017traffic}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=950ed61e6b1270977686db252ad86917}{%
            family={Abanes},
@@ -3220,12 +3070,10 @@
       }
       \strng{namehash}{987923d4b378dbb1a34a999c29aa1f1e}
       \strng{fullhash}{919c2016bac2867c0c2c8df4bb998bfe}
-      \strng{fullhashraw}{919c2016bac2867c0c2c8df4bb998bfe}
       \strng{bibnamehash}{919c2016bac2867c0c2c8df4bb998bfe}
       \strng{authorbibnamehash}{919c2016bac2867c0c2c8df4bb998bfe}
       \strng{authornamehash}{987923d4b378dbb1a34a999c29aa1f1e}
       \strng{authorfullhash}{919c2016bac2867c0c2c8df4bb998bfe}
-      \strng{authorfullhashraw}{919c2016bac2867c0c2c8df4bb998bfe}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -3240,7 +3088,7 @@
       \field{pages}{1\bibrangedash 6}
       \range{pages}{6}
     \endentry
-    \entry{aftabuzzaman2007measign}{article}{}{}
+    \entry{aftabuzzaman2007measign}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0467f64ea730b81b47ee127197cf4b6d}{%
            family={Aftabuzzaman},
@@ -3251,12 +3099,10 @@
       }
       \strng{namehash}{0467f64ea730b81b47ee127197cf4b6d}
       \strng{fullhash}{0467f64ea730b81b47ee127197cf4b6d}
-      \strng{fullhashraw}{0467f64ea730b81b47ee127197cf4b6d}
       \strng{bibnamehash}{0467f64ea730b81b47ee127197cf4b6d}
       \strng{authorbibnamehash}{0467f64ea730b81b47ee127197cf4b6d}
       \strng{authornamehash}{0467f64ea730b81b47ee127197cf4b6d}
       \strng{authorfullhash}{0467f64ea730b81b47ee127197cf4b6d}
-      \strng{authorfullhashraw}{0467f64ea730b81b47ee127197cf4b6d}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -3275,7 +3121,7 @@
       \verb https://australasiantransportresearchforum.org.au/wp-content/uploads/2022/03/2007_Aftabuzzaman.pdf
       \endverb
     \endentry
-    \entry{akhtar2021review}{article}{}{}
+    \entry{akhtar2021review}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ad99568a15c6cf3d30b07ae891dbd4d5}{%
            family={Akhtar},
@@ -3292,12 +3138,10 @@
       }
       \strng{namehash}{074d21dc23e7ea99ffbc3492ade368ee}
       \strng{fullhash}{074d21dc23e7ea99ffbc3492ade368ee}
-      \strng{fullhashraw}{074d21dc23e7ea99ffbc3492ade368ee}
       \strng{bibnamehash}{074d21dc23e7ea99ffbc3492ade368ee}
       \strng{authorbibnamehash}{074d21dc23e7ea99ffbc3492ade368ee}
       \strng{authornamehash}{074d21dc23e7ea99ffbc3492ade368ee}
       \strng{authorfullhash}{074d21dc23e7ea99ffbc3492ade368ee}
-      \strng{authorfullhashraw}{074d21dc23e7ea99ffbc3492ade368ee}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -3317,7 +3161,7 @@
       \verb 10.1155/2021/8878011
       \endverb
     \endentry
-    \entry{alarcon2012proposed}{article}{}{}
+    \entry{alarcon2012proposed}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=1b622354e1b8df2a7b3240ef6a31d9e3}{%
            family={Alarcon},
@@ -3346,12 +3190,10 @@
       }
       \strng{namehash}{3da31e3a8c9278a0952f617c4f287544}
       \strng{fullhash}{6ca3e043baaf13973cefd8970c395698}
-      \strng{fullhashraw}{6ca3e043baaf13973cefd8970c395698}
       \strng{bibnamehash}{6ca3e043baaf13973cefd8970c395698}
       \strng{authorbibnamehash}{6ca3e043baaf13973cefd8970c395698}
       \strng{authornamehash}{3da31e3a8c9278a0952f617c4f287544}
       \strng{authorfullhash}{6ca3e043baaf13973cefd8970c395698}
-      \strng{authorfullhashraw}{6ca3e043baaf13973cefd8970c395698}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -3371,7 +3213,7 @@
       \verb https://www.atransociety.com/resources/pdf/5thSymposiumDownloadable/FullPaper/2B/SCS12-005.pdf
       \endverb
     \endentry
-    \entry{alghamdi_2022_a}{article}{}{}
+    \entry{alghamdi_2022_a}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=27ff1b9197c81d5e750840e3ca89e94e}{%
            family={Alghamdi},
@@ -3400,12 +3242,10 @@
       }
       \strng{namehash}{075e29ffb896a0a73d31f7049f8372db}
       \strng{fullhash}{913a41680bdccbce16f42949e8586c0a}
-      \strng{fullhashraw}{913a41680bdccbce16f42949e8586c0a}
       \strng{bibnamehash}{913a41680bdccbce16f42949e8586c0a}
       \strng{authorbibnamehash}{913a41680bdccbce16f42949e8586c0a}
       \strng{authornamehash}{075e29ffb896a0a73d31f7049f8372db}
       \strng{authorfullhash}{913a41680bdccbce16f42949e8586c0a}
-      \strng{authorfullhashraw}{913a41680bdccbce16f42949e8586c0a}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -3425,7 +3265,7 @@
       \verb 10.3390/fi14100294
       \endverb
     \endentry
-    \entry{adb2012philippines}{report}{}{}
+    \entry{adb2012philippines}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=92d83ccd39e6a187466ef617c8cb8662}{%
            family={{Asian Development Bank}},
@@ -3436,12 +3276,10 @@
       }
       \strng{namehash}{92d83ccd39e6a187466ef617c8cb8662}
       \strng{fullhash}{92d83ccd39e6a187466ef617c8cb8662}
-      \strng{fullhashraw}{92d83ccd39e6a187466ef617c8cb8662}
       \strng{bibnamehash}{92d83ccd39e6a187466ef617c8cb8662}
       \strng{authorbibnamehash}{92d83ccd39e6a187466ef617c8cb8662}
       \strng{authornamehash}{92d83ccd39e6a187466ef617c8cb8662}
       \strng{authorfullhash}{92d83ccd39e6a187466ef617c8cb8662}
-      \strng{authorfullhashraw}{92d83ccd39e6a187466ef617c8cb8662}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -3460,7 +3298,7 @@
       \verb https://www.adb.org/sites/default/files/institutional-document/33700/files/philippines-transport-assessment.pdf
       \endverb
     \endentry
-    \entry{barcelo2010models}{inbook}{}{}
+    \entry{barcelo2010models}{inbook}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=af1683e841b23666d924ce88ac0c19b7}{%
            family={Barceló},
@@ -3474,12 +3312,10 @@
       }
       \strng{namehash}{af1683e841b23666d924ce88ac0c19b7}
       \strng{fullhash}{af1683e841b23666d924ce88ac0c19b7}
-      \strng{fullhashraw}{af1683e841b23666d924ce88ac0c19b7}
       \strng{bibnamehash}{af1683e841b23666d924ce88ac0c19b7}
       \strng{authorbibnamehash}{af1683e841b23666d924ce88ac0c19b7}
       \strng{authornamehash}{af1683e841b23666d924ce88ac0c19b7}
       \strng{authorfullhash}{af1683e841b23666d924ce88ac0c19b7}
-      \strng{authorfullhashraw}{af1683e841b23666d924ce88ac0c19b7}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -3497,7 +3333,7 @@
       \verb 10.1007/978-1-4419-6142-6_1
       \endverb
     \endentry
-    \entry{benito_2025_in}{misc}{}{}
+    \entry{benito_2025_in}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2b49189833386892de77b6ed289a8107}{%
            family={Benito},
@@ -3511,12 +3347,10 @@
       }
       \strng{namehash}{2b49189833386892de77b6ed289a8107}
       \strng{fullhash}{2b49189833386892de77b6ed289a8107}
-      \strng{fullhashraw}{2b49189833386892de77b6ed289a8107}
       \strng{bibnamehash}{2b49189833386892de77b6ed289a8107}
       \strng{authorbibnamehash}{2b49189833386892de77b6ed289a8107}
       \strng{authornamehash}{2b49189833386892de77b6ed289a8107}
       \strng{authorfullhash}{2b49189833386892de77b6ed289a8107}
-      \strng{authorfullhashraw}{2b49189833386892de77b6ed289a8107}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -3539,7 +3373,7 @@
       \verb https://www.linkedin.com/pulse/importance-origin-destination-matrices-traffic-benito-molina-qdrlf/
       \endverb
     \endentry
-    \entry{bloy_2007_an}{misc}{}{}
+    \entry{bloy_2007_an}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0e66468de6b60bba1fd86c25bbd674b5}{%
            family={Bloy},
@@ -3553,12 +3387,10 @@
       }
       \strng{namehash}{0e66468de6b60bba1fd86c25bbd674b5}
       \strng{fullhash}{0e66468de6b60bba1fd86c25bbd674b5}
-      \strng{fullhashraw}{0e66468de6b60bba1fd86c25bbd674b5}
       \strng{bibnamehash}{0e66468de6b60bba1fd86c25bbd674b5}
       \strng{authorbibnamehash}{0e66468de6b60bba1fd86c25bbd674b5}
       \strng{authornamehash}{0e66468de6b60bba1fd86c25bbd674b5}
       \strng{authorfullhash}{0e66468de6b60bba1fd86c25bbd674b5}
-      \strng{authorfullhashraw}{0e66468de6b60bba1fd86c25bbd674b5}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -3580,7 +3412,7 @@
       \verb https://www.ecofine.com/Articles-and-Studies-mentioning-Ecofine.com/An-Investigation-into-Braess-Paradox-by-Leslie-Arthur-Keith-Bloy.pdf?fbclid=IwY2xjawRfFoJleHRuA2FlbQIxMABicmlkETFpSHBZa2VNZG9rU2tpWFVLc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvGLOmzpQJ-PeDk5YIeent1j_MZCDiPhn-tXj8LU4dZo55l0qWSKbvU1UXBm_aem_cxflMZRYCb6EWuh0_hPixg
       \endverb
     \endentry
-    \entry{boyd2012braess}{online}{}{}
+    \entry{boyd2012braess}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=15386c1387643c71b80c0ca13af5e84f}{%
            family={Boyd},
@@ -3591,12 +3423,10 @@
       }
       \strng{namehash}{15386c1387643c71b80c0ca13af5e84f}
       \strng{fullhash}{15386c1387643c71b80c0ca13af5e84f}
-      \strng{fullhashraw}{15386c1387643c71b80c0ca13af5e84f}
       \strng{bibnamehash}{15386c1387643c71b80c0ca13af5e84f}
       \strng{authorbibnamehash}{15386c1387643c71b80c0ca13af5e84f}
       \strng{authornamehash}{15386c1387643c71b80c0ca13af5e84f}
       \strng{authorfullhash}{15386c1387643c71b80c0ca13af5e84f}
-      \strng{authorfullhashraw}{15386c1387643c71b80c0ca13af5e84f}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -3616,7 +3446,7 @@
       \verb https://engines.egr.uh.edu/episode/2814
       \endverb
     \endentry
-    \entry{braess2005paradox}{article}{}{}
+    \entry{braess2005paradox}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=737188c82948c1af02c2c760e0e6de64}{%
            family={Braess},
@@ -3639,12 +3469,10 @@
       }
       \strng{namehash}{eddb7d69c8bda40883a6e70b9d71f70d}
       \strng{fullhash}{ebb74147d1407fe96392a4e60c5f5e92}
-      \strng{fullhashraw}{ebb74147d1407fe96392a4e60c5f5e92}
       \strng{bibnamehash}{ebb74147d1407fe96392a4e60c5f5e92}
       \strng{authorbibnamehash}{ebb74147d1407fe96392a4e60c5f5e92}
       \strng{authornamehash}{eddb7d69c8bda40883a6e70b9d71f70d}
       \strng{authorfullhash}{ebb74147d1407fe96392a4e60c5f5e92}
-      \strng{authorfullhashraw}{ebb74147d1407fe96392a4e60c5f5e92}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -3661,7 +3489,7 @@
       \field{pages}{446\bibrangedash 450}
       \range{pages}{5}
     \endentry
-    \entry{blgf2025recognition}{report}{}{}
+    \entry{blgf2025recognition}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=25b4747a1f07d080eaeace768935f59b}{%
            family={{Bureau of Local Government Finance}},
@@ -3672,12 +3500,10 @@
       }
       \strng{namehash}{25b4747a1f07d080eaeace768935f59b}
       \strng{fullhash}{25b4747a1f07d080eaeace768935f59b}
-      \strng{fullhashraw}{25b4747a1f07d080eaeace768935f59b}
       \strng{bibnamehash}{25b4747a1f07d080eaeace768935f59b}
       \strng{authorbibnamehash}{25b4747a1f07d080eaeace768935f59b}
       \strng{authornamehash}{25b4747a1f07d080eaeace768935f59b}
       \strng{authorfullhash}{25b4747a1f07d080eaeace768935f59b}
-      \strng{authorfullhashraw}{25b4747a1f07d080eaeace768935f59b}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -3697,7 +3523,7 @@
       \verb https://blgf.gov.ph/wp-content/uploads/2025/10/BLGF-MC-No.-017.2025-Recognition-of-Top-Performing-LGUs-in-Strengthening-Local-Government-Finance-for-FY2024.pdf
       \endverb
     \endentry
-    \entry{burov2021detecting}{article}{}{}
+    \entry{burov2021detecting}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=0535782ef608d3732fcd06877d853c4e}{%
            family={Burov},
@@ -3729,12 +3555,10 @@
       }
       \strng{namehash}{06212dcf9e3da3d337b464777f8eb14c}
       \strng{fullhash}{88d3b287ae9c42b027d61ba1115ce8da}
-      \strng{fullhashraw}{88d3b287ae9c42b027d61ba1115ce8da}
       \strng{bibnamehash}{88d3b287ae9c42b027d61ba1115ce8da}
       \strng{authorbibnamehash}{88d3b287ae9c42b027d61ba1115ce8da}
       \strng{authornamehash}{06212dcf9e3da3d337b464777f8eb14c}
       \strng{authorfullhash}{88d3b287ae9c42b027d61ba1115ce8da}
-      \strng{authorfullhashraw}{88d3b287ae9c42b027d61ba1115ce8da}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -3749,7 +3573,7 @@
       \field{pages}{2125\bibrangedash 2130}
       \range{pages}{6}
     \endentry
-    \entry{chang2002introduction}{online}{}{}
+    \entry{chang2002introduction}{online}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=8fdfe6f233c240d6d7bbd9e0624af53d}{%
            family={Chang},
@@ -3766,12 +3590,10 @@
       }
       \strng{namehash}{08326fc588fbd84e98a5371f9ce65606}
       \strng{fullhash}{08326fc588fbd84e98a5371f9ce65606}
-      \strng{fullhashraw}{08326fc588fbd84e98a5371f9ce65606}
       \strng{bibnamehash}{08326fc588fbd84e98a5371f9ce65606}
       \strng{authorbibnamehash}{08326fc588fbd84e98a5371f9ce65606}
       \strng{authornamehash}{08326fc588fbd84e98a5371f9ce65606}
       \strng{authorfullhash}{08326fc588fbd84e98a5371f9ce65606}
-      \strng{authorfullhashraw}{08326fc588fbd84e98a5371f9ce65606}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -3788,7 +3610,7 @@
       \verb https://mathcs.pugetsound.edu/~bryans/Current/Journal_Spring_2002/presentation_nchang_Jnichols_2002.pdf
       \endverb
     \endentry
-    \entry{chang2023day}{article}{}{}
+    \entry{chang2023day}{article}{}
       \name{author}{5}{}{%
         {{un=1,uniquepart=given,hash=e20fc7aeaa2fff396554d49854fed552}{%
            family={Chang},
@@ -3823,12 +3645,10 @@
       }
       \strng{namehash}{a61b0c15f0f6afcd202e912f9fb64eb4}
       \strng{fullhash}{6b1d2405a6183b2b5067e8f865dd705a}
-      \strng{fullhashraw}{6b1d2405a6183b2b5067e8f865dd705a}
       \strng{bibnamehash}{6b1d2405a6183b2b5067e8f865dd705a}
       \strng{authorbibnamehash}{6b1d2405a6183b2b5067e8f865dd705a}
       \strng{authornamehash}{a61b0c15f0f6afcd202e912f9fb64eb4}
       \strng{authorfullhash}{6b1d2405a6183b2b5067e8f865dd705a}
-      \strng{authorfullhashraw}{6b1d2405a6183b2b5067e8f865dd705a}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -3847,7 +3667,7 @@
       \verb 10.3390/su15065440
       \endverb
     \endentry
-    \entry{chen2024understanding}{article}{}{}
+    \entry{chen2024understanding}{article}{}
       \name{author}{6}{}{%
         {{un=1,uniquepart=given,hash=d2b35c7e45b2632ab79c473df521cfc0}{%
            family={Chen},
@@ -3888,12 +3708,10 @@
       }
       \strng{namehash}{4161d0ec112532c88a91293724bc348f}
       \strng{fullhash}{92008994f29ff1a001e4d8a92e5d9eb6}
-      \strng{fullhashraw}{92008994f29ff1a001e4d8a92e5d9eb6}
       \strng{bibnamehash}{92008994f29ff1a001e4d8a92e5d9eb6}
       \strng{authorbibnamehash}{92008994f29ff1a001e4d8a92e5d9eb6}
       \strng{authornamehash}{4161d0ec112532c88a91293724bc348f}
       \strng{authorfullhash}{92008994f29ff1a001e4d8a92e5d9eb6}
-      \strng{authorfullhashraw}{92008994f29ff1a001e4d8a92e5d9eb6}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -3911,7 +3729,7 @@
       \verb 10.1016/j.tra.2024.103976
       \endverb
     \endentry
-    \entry{chen2020road}{article}{}{}
+    \entry{chen2020road}{article}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=2bdd48dc68b3d7c9d63e3844f2459fd6}{%
            family={Chen},
@@ -3928,12 +3746,10 @@
       }
       \strng{namehash}{d20282ad5a16823cbf991bfc36afdc77}
       \strng{fullhash}{d20282ad5a16823cbf991bfc36afdc77}
-      \strng{fullhashraw}{d20282ad5a16823cbf991bfc36afdc77}
       \strng{bibnamehash}{d20282ad5a16823cbf991bfc36afdc77}
       \strng{authorbibnamehash}{d20282ad5a16823cbf991bfc36afdc77}
       \strng{authornamehash}{d20282ad5a16823cbf991bfc36afdc77}
       \strng{authorfullhash}{d20282ad5a16823cbf991bfc36afdc77}
-      \strng{authorfullhashraw}{d20282ad5a16823cbf991bfc36afdc77}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -3951,7 +3767,7 @@
       \verb 10.1016/j.jeem.2020.102387
       \endverb
     \endentry
-    \entry{chowdhuryits}{online}{}{}
+    \entry{chowdhuryits}{online}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=5e1daabf0daf174d1a9405442745d128}{%
            family={Chowdhury},
@@ -3971,12 +3787,10 @@
       }
       \strng{namehash}{5af95a5393ca5590c2ffe339b053017d}
       \strng{fullhash}{5af95a5393ca5590c2ffe339b053017d}
-      \strng{fullhashraw}{5af95a5393ca5590c2ffe339b053017d}
       \strng{bibnamehash}{5af95a5393ca5590c2ffe339b053017d}
       \strng{authorbibnamehash}{5af95a5393ca5590c2ffe339b053017d}
       \strng{authornamehash}{5af95a5393ca5590c2ffe339b053017d}
       \strng{authorfullhash}{5af95a5393ca5590c2ffe339b053017d}
-      \strng{authorfullhashraw}{5af95a5393ca5590c2ffe339b053017d}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labeldatesource}{nodate}
@@ -3992,7 +3806,7 @@
       \verb https://rno-its.piarc.org/en/intelligent-transport-systems/what-its
       \endverb
     \endentry
-    \entry{correa2011wardrop}{inbook}{}{}
+    \entry{correa2011wardrop}{inbook}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=de8eb219bf1290152754f6d8538710e5}{%
            family={Correa},
@@ -4012,12 +3826,10 @@
       }
       \strng{namehash}{ccd1e522a3e27c2c4b9b78a28ecbd649}
       \strng{fullhash}{ccd1e522a3e27c2c4b9b78a28ecbd649}
-      \strng{fullhashraw}{ccd1e522a3e27c2c4b9b78a28ecbd649}
       \strng{bibnamehash}{ccd1e522a3e27c2c4b9b78a28ecbd649}
       \strng{authorbibnamehash}{ccd1e522a3e27c2c4b9b78a28ecbd649}
       \strng{authornamehash}{ccd1e522a3e27c2c4b9b78a28ecbd649}
       \strng{authorfullhash}{ccd1e522a3e27c2c4b9b78a28ecbd649}
-      \strng{authorfullhashraw}{ccd1e522a3e27c2c4b9b78a28ecbd649}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -4033,7 +3845,7 @@
       \verb 10.1002/9780470400531.eorms0962
       \endverb
     \endentry
-    \entry{cueto2024intelligent}{report}{}{}
+    \entry{cueto2024intelligent}{report}{}
       \name{editor}{4}{}{%
         {{un=0,uniquepart=base,hash=ef3107da8b8bbace42b8878e7d8f35b7}{%
            family={Cueto},
@@ -4065,12 +3877,10 @@
       }
       \strng{namehash}{e85433dff98b21feb473ebbb4a0799cd}
       \strng{fullhash}{b9e8231f3d18754e3e7de0e2170c0daa}
-      \strng{fullhashraw}{b9e8231f3d18754e3e7de0e2170c0daa}
       \strng{bibnamehash}{b9e8231f3d18754e3e7de0e2170c0daa}
       \strng{editorbibnamehash}{b9e8231f3d18754e3e7de0e2170c0daa}
       \strng{editornamehash}{e85433dff98b21feb473ebbb4a0799cd}
       \strng{editorfullhash}{b9e8231f3d18754e3e7de0e2170c0daa}
-      \strng{editorfullhashraw}{b9e8231f3d18754e3e7de0e2170c0daa}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -4088,7 +3898,7 @@
       \verb https://ncts.upd.edu.ph/tssp/wp-content/uploads/2024/12/TSSP2024-11-Revised-Paper.pdf
       \endverb
     \endentry
-    \entry{easley2010networks}{book}{}{}
+    \entry{easley2010networks}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=fe694fafd2b1b454369282e8dff07f92}{%
            family={Easley},
@@ -4108,12 +3918,10 @@
       }
       \strng{namehash}{1fa4ee4ecfc317c3eca648267b8f4c8f}
       \strng{fullhash}{1fa4ee4ecfc317c3eca648267b8f4c8f}
-      \strng{fullhashraw}{1fa4ee4ecfc317c3eca648267b8f4c8f}
       \strng{bibnamehash}{1fa4ee4ecfc317c3eca648267b8f4c8f}
       \strng{authorbibnamehash}{1fa4ee4ecfc317c3eca648267b8f4c8f}
       \strng{authornamehash}{1fa4ee4ecfc317c3eca648267b8f4c8f}
       \strng{authorfullhash}{1fa4ee4ecfc317c3eca648267b8f4c8f}
-      \strng{authorfullhashraw}{1fa4ee4ecfc317c3eca648267b8f4c8f}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -4128,7 +3936,7 @@
       \verb 10.1017/cbo9780511761942
       \endverb
     \endentry
-    \entry{faheem2024impact}{article}{}{}
+    \entry{faheem2024impact}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=a5484dffe8a5db54a117756f74a46b65}{%
            family={Faheem},
@@ -4151,12 +3959,10 @@
       }
       \strng{namehash}{ebc88cdb73111fc67095806175b46c13}
       \strng{fullhash}{1276f02d989cdce88eb98bbf486aff43}
-      \strng{fullhashraw}{1276f02d989cdce88eb98bbf486aff43}
       \strng{bibnamehash}{1276f02d989cdce88eb98bbf486aff43}
       \strng{authorbibnamehash}{1276f02d989cdce88eb98bbf486aff43}
       \strng{authornamehash}{ebc88cdb73111fc67095806175b46c13}
       \strng{authorfullhash}{1276f02d989cdce88eb98bbf486aff43}
-      \strng{authorfullhashraw}{1276f02d989cdce88eb98bbf486aff43}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
@@ -4174,7 +3980,7 @@
       \verb 10.58491/2735-4202.3191
       \endverb
     \endentry
-    \entry{fattah2022insights}{article}{}{}
+    \entry{fattah2022insights}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=1c68e85fb8d0771cd67713684fd94e04}{%
            family={Fattah},
@@ -4197,12 +4003,10 @@
       }
       \strng{namehash}{9d96674b4a1e9106ac33a0349af7a06d}
       \strng{fullhash}{14a4ea386a3967595ed83da8d9a7098d}
-      \strng{fullhashraw}{14a4ea386a3967595ed83da8d9a7098d}
       \strng{bibnamehash}{14a4ea386a3967595ed83da8d9a7098d}
       \strng{authorbibnamehash}{14a4ea386a3967595ed83da8d9a7098d}
       \strng{authornamehash}{9d96674b4a1e9106ac33a0349af7a06d}
       \strng{authorfullhash}{14a4ea386a3967595ed83da8d9a7098d}
-      \strng{authorfullhashraw}{14a4ea386a3967595ed83da8d9a7098d}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
@@ -4221,7 +4025,7 @@
       \verb 10.1016/j.treng.2022.100122
       \endverb
     \endentry
-    \entry{gonzalez2021understanding}{article}{}{}
+    \entry{gonzalez2021understanding}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=df9ce00ae563457e81d0e030bbe16b8e}{%
            family={González},
@@ -4244,12 +4048,10 @@
       }
       \strng{namehash}{e4746d1733d65c0521bd7180b129b8cc}
       \strng{fullhash}{088ecca8bf4178562940d5a6816b9fd1}
-      \strng{fullhashraw}{088ecca8bf4178562940d5a6816b9fd1}
       \strng{bibnamehash}{088ecca8bf4178562940d5a6816b9fd1}
       \strng{authorbibnamehash}{088ecca8bf4178562940d5a6816b9fd1}
       \strng{authornamehash}{e4746d1733d65c0521bd7180b129b8cc}
       \strng{authorfullhash}{088ecca8bf4178562940d5a6816b9fd1}
-      \strng{authorfullhashraw}{088ecca8bf4178562940d5a6816b9fd1}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -4269,7 +4071,7 @@
       \verb 10.3390/su13137500
       \endverb
     \endentry
-    \entry{googlemaps}{online}{}{}
+    \entry{googlemaps}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
            family={{Google}},
@@ -4277,12 +4079,10 @@
       }
       \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
       \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{fullhashraw}{8b36e9207c24c76e6719268e49201d94}
       \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
       \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
       \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
       \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authorfullhashraw}{8b36e9207c24c76e6719268e49201d94}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labeldatesource}{nodate}
@@ -4298,7 +4098,7 @@
       \verb https://developers.google.com/maps/documentation/routes
       \endverb
     \endentry
-    \entry{gross2018graph}{book}{}{}
+    \entry{gross2018graph}{book}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=262a8003dfe3a21fdbc9d111fe8ed2c6}{%
            family={Gross},
@@ -4325,12 +4125,10 @@
       }
       \strng{namehash}{18e3d5298dbb05f2567de72f8bf8a1ed}
       \strng{fullhash}{b28893d527baf82ee69b156103b2adb7}
-      \strng{fullhashraw}{b28893d527baf82ee69b156103b2adb7}
       \strng{bibnamehash}{b28893d527baf82ee69b156103b2adb7}
       \strng{authorbibnamehash}{b28893d527baf82ee69b156103b2adb7}
       \strng{authornamehash}{18e3d5298dbb05f2567de72f8bf8a1ed}
       \strng{authorfullhash}{b28893d527baf82ee69b156103b2adb7}
-      \strng{authorfullhashraw}{b28893d527baf82ee69b156103b2adb7}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -4345,7 +4143,7 @@
       \verb 10.1201/9780429425134
       \endverb
     \endentry
-    \entry{grynbaum2010new}{article}{}{}
+    \entry{grynbaum2010new}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=647831b18be49b9e5bf7c9b4ad09f058}{%
            family={Grynbaum},
@@ -4356,12 +4154,10 @@
       }
       \strng{namehash}{647831b18be49b9e5bf7c9b4ad09f058}
       \strng{fullhash}{647831b18be49b9e5bf7c9b4ad09f058}
-      \strng{fullhashraw}{647831b18be49b9e5bf7c9b4ad09f058}
       \strng{bibnamehash}{647831b18be49b9e5bf7c9b4ad09f058}
       \strng{authorbibnamehash}{647831b18be49b9e5bf7c9b4ad09f058}
       \strng{authornamehash}{647831b18be49b9e5bf7c9b4ad09f058}
       \strng{authorfullhash}{647831b18be49b9e5bf7c9b4ad09f058}
-      \strng{authorfullhashraw}{647831b18be49b9e5bf7c9b4ad09f058}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -4381,7 +4177,7 @@
       \verb https://www.nytimes.com/2010/02/12/nyregion/12broadway.html
       \endverb
     \endentry
-    \entry{guze2018review}{article}{}{}
+    \entry{guze2018review}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f56302ae7825d006c6b417c02590cfa1}{%
            family={Guze},
@@ -4392,12 +4188,10 @@
       }
       \strng{namehash}{f56302ae7825d006c6b417c02590cfa1}
       \strng{fullhash}{f56302ae7825d006c6b417c02590cfa1}
-      \strng{fullhashraw}{f56302ae7825d006c6b417c02590cfa1}
       \strng{bibnamehash}{f56302ae7825d006c6b417c02590cfa1}
       \strng{authorbibnamehash}{f56302ae7825d006c6b417c02590cfa1}
       \strng{authornamehash}{f56302ae7825d006c6b417c02590cfa1}
       \strng{authorfullhash}{f56302ae7825d006c6b417c02590cfa1}
-      \strng{authorfullhashraw}{f56302ae7825d006c6b417c02590cfa1}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -4416,7 +4210,7 @@
       \verb 10.26408/107.02
       \endverb
     \endentry
-    \entry{hansen1993air}{report}{}{}
+    \entry{hansen1993air}{report}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=87e0c043267d751dcecfafbf67d7c10a}{%
            family={Hansen},
@@ -4454,12 +4248,10 @@
       }
       \strng{namehash}{03de0a7c17857926ae546359587db6cc}
       \strng{fullhash}{9aab09c5724d595d86b5f348131496f3}
-      \strng{fullhashraw}{9aab09c5724d595d86b5f348131496f3}
       \strng{bibnamehash}{9aab09c5724d595d86b5f348131496f3}
       \strng{authorbibnamehash}{9aab09c5724d595d86b5f348131496f3}
       \strng{authornamehash}{03de0a7c17857926ae546359587db6cc}
       \strng{authorfullhash}{9aab09c5724d595d86b5f348131496f3}
-      \strng{authorfullhashraw}{9aab09c5724d595d86b5f348131496f3}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -4478,7 +4270,7 @@
       \verb https://escholarship.org/uc/item/6zz3k76c
       \endverb
     \endentry
-    \entry{harvard2023cheonggyecheon}{online}{}{}
+    \entry{harvard2023cheonggyecheon}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8b5893216923a7a6015137dc7f03d2b8}{%
            family={{Harvard University Graduate School of Design}},
@@ -4486,12 +4278,10 @@
       }
       \strng{namehash}{8b5893216923a7a6015137dc7f03d2b8}
       \strng{fullhash}{8b5893216923a7a6015137dc7f03d2b8}
-      \strng{fullhashraw}{8b5893216923a7a6015137dc7f03d2b8}
       \strng{bibnamehash}{8b5893216923a7a6015137dc7f03d2b8}
       \strng{authorbibnamehash}{8b5893216923a7a6015137dc7f03d2b8}
       \strng{authornamehash}{8b5893216923a7a6015137dc7f03d2b8}
       \strng{authorfullhash}{8b5893216923a7a6015137dc7f03d2b8}
-      \strng{authorfullhashraw}{8b5893216923a7a6015137dc7f03d2b8}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -4509,7 +4299,7 @@
       \verb https://udcsa.gsd.harvard.edu/projects/9
       \endverb
     \endentry
-    \entry{hwang2015classical}{article}{}{}
+    \entry{hwang2015classical}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=341248ffd4392aedfe0b2563ae036d82}{%
            family={Hwang},
@@ -4526,12 +4316,10 @@
       }
       \strng{namehash}{f526e94fc6a0311c7839f2f33d0c67eb}
       \strng{fullhash}{f526e94fc6a0311c7839f2f33d0c67eb}
-      \strng{fullhashraw}{f526e94fc6a0311c7839f2f33d0c67eb}
       \strng{bibnamehash}{f526e94fc6a0311c7839f2f33d0c67eb}
       \strng{authorbibnamehash}{f526e94fc6a0311c7839f2f33d0c67eb}
       \strng{authornamehash}{f526e94fc6a0311c7839f2f33d0c67eb}
       \strng{authorfullhash}{f526e94fc6a0311c7839f2f33d0c67eb}
-      \strng{authorfullhashraw}{f526e94fc6a0311c7839f2f33d0c67eb}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -4551,7 +4339,7 @@
       \verb 10.1007/s11067-015-9290-x
       \endverb
     \endentry
-    \entry{iloilo2021clup}{report}{}{}
+    \entry{iloilo2021clup}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a8f3e011722e456c56780b8f28d5131f}{%
            family={{Iloilo City Planning and Development Office}},
@@ -4562,12 +4350,10 @@
       }
       \strng{namehash}{a8f3e011722e456c56780b8f28d5131f}
       \strng{fullhash}{a8f3e011722e456c56780b8f28d5131f}
-      \strng{fullhashraw}{a8f3e011722e456c56780b8f28d5131f}
       \strng{bibnamehash}{a8f3e011722e456c56780b8f28d5131f}
       \strng{authorbibnamehash}{a8f3e011722e456c56780b8f28d5131f}
       \strng{authornamehash}{a8f3e011722e456c56780b8f28d5131f}
       \strng{authorfullhash}{a8f3e011722e456c56780b8f28d5131f}
-      \strng{authorfullhashraw}{a8f3e011722e456c56780b8f28d5131f}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
@@ -4579,7 +4365,7 @@
       \field{year}{2021}
       \true{nocite}
     \endentry
-    \entry{indra2014urban}{online}{}{}
+    \entry{indra2014urban}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2b3275f929db5d542ce30e27a413242e}{%
            family={{Indra}},
@@ -4587,12 +4373,10 @@
       }
       \strng{namehash}{2b3275f929db5d542ce30e27a413242e}
       \strng{fullhash}{2b3275f929db5d542ce30e27a413242e}
-      \strng{fullhashraw}{2b3275f929db5d542ce30e27a413242e}
       \strng{bibnamehash}{2b3275f929db5d542ce30e27a413242e}
       \strng{authorbibnamehash}{2b3275f929db5d542ce30e27a413242e}
       \strng{authornamehash}{2b3275f929db5d542ce30e27a413242e}
       \strng{authorfullhash}{2b3275f929db5d542ce30e27a413242e}
-      \strng{authorfullhashraw}{2b3275f929db5d542ce30e27a413242e}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
@@ -4610,7 +4394,7 @@
       \verb https://www.indracompany.com/en/urban-traffic-management-system-manila-philippines
       \endverb
     \endentry
-    \entry{jica1999mmutis}{report}{}{}
+    \entry{jica1999mmutis}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8972fea3002f27deb2f36455c531fde5}{%
            family={{Japan International Cooperation Agency}},
@@ -4621,12 +4405,10 @@
       }
       \strng{namehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{fullhash}{8972fea3002f27deb2f36455c531fde5}
-      \strng{fullhashraw}{8972fea3002f27deb2f36455c531fde5}
       \strng{bibnamehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{authorbibnamehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{authornamehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{authorfullhash}{8972fea3002f27deb2f36455c531fde5}
-      \strng{authorfullhashraw}{8972fea3002f27deb2f36455c531fde5}
       \field{extraname}{1}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
@@ -4645,7 +4427,7 @@
       \verb https://openjicareport.jica.go.jp/pdf/11580446.pdf
       \endverb
     \endentry
-    \entry{jica2004}{report}{}{}
+    \entry{jica2004}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8972fea3002f27deb2f36455c531fde5}{%
            family={{Japan International Cooperation Agency}},
@@ -4657,12 +4439,10 @@
       }
       \strng{namehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{fullhash}{8972fea3002f27deb2f36455c531fde5}
-      \strng{fullhashraw}{8972fea3002f27deb2f36455c531fde5}
       \strng{bibnamehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{authorbibnamehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{authornamehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{authorfullhash}{8972fea3002f27deb2f36455c531fde5}
-      \strng{authorfullhashraw}{8972fea3002f27deb2f36455c531fde5}
       \field{extraname}{2}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
@@ -4682,7 +4462,7 @@
       \verb https://openjicareport.jica.go.jp/614/614/614_118_11778537.html
       \endverb
     \endentry
-    \entry{jica2025jica}{online}{}{}
+    \entry{jica2025jica}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8972fea3002f27deb2f36455c531fde5}{%
            family={{Japan International Cooperation Agency}},
@@ -4690,12 +4470,10 @@
       }
       \strng{namehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{fullhash}{8972fea3002f27deb2f36455c531fde5}
-      \strng{fullhashraw}{8972fea3002f27deb2f36455c531fde5}
       \strng{bibnamehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{authorbibnamehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{authornamehash}{8972fea3002f27deb2f36455c531fde5}
       \strng{authorfullhash}{8972fea3002f27deb2f36455c531fde5}
-      \strng{authorfullhashraw}{8972fea3002f27deb2f36455c531fde5}
       \field{extraname}{3}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
@@ -4715,7 +4493,7 @@
       \verb https://www.jica.go.jp/english/overseas/philippine/information/press/2024/rdsigningctmp02212025.html
       \endverb
     \endentry
-    \entry{jiang_2022_graph}{article}{}{}
+    \entry{jiang_2022_graph}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=7799808f676f2f50b373fb5cb7047be6}{%
            family={Jiang},
@@ -4732,12 +4510,10 @@
       }
       \strng{namehash}{096391b3d6c8fc448e1edb71dd42aadd}
       \strng{fullhash}{096391b3d6c8fc448e1edb71dd42aadd}
-      \strng{fullhashraw}{096391b3d6c8fc448e1edb71dd42aadd}
       \strng{bibnamehash}{096391b3d6c8fc448e1edb71dd42aadd}
       \strng{authorbibnamehash}{096391b3d6c8fc448e1edb71dd42aadd}
       \strng{authornamehash}{096391b3d6c8fc448e1edb71dd42aadd}
       \strng{authorfullhash}{096391b3d6c8fc448e1edb71dd42aadd}
-      \strng{authorfullhashraw}{096391b3d6c8fc448e1edb71dd42aadd}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{extradatescope}{labelyear}
@@ -4763,7 +4539,7 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0957417422011654
       \endverb
     \endentry
-    \entry{jilani2023systematic}{article}{}{}
+    \entry{jilani2023systematic}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=c1d8e5bc7ead83998adbd226c44ee99c}{%
            family={Jilani},
@@ -4801,12 +4577,10 @@
       }
       \strng{namehash}{24e340577fe98f9a1a58267ce1d3e5fc}
       \strng{fullhash}{a3063acb4264245f19b9e5706beeb4b6}
-      \strng{fullhashraw}{a3063acb4264245f19b9e5706beeb4b6}
       \strng{bibnamehash}{a3063acb4264245f19b9e5706beeb4b6}
       \strng{authorbibnamehash}{a3063acb4264245f19b9e5706beeb4b6}
       \strng{authornamehash}{24e340577fe98f9a1a58267ce1d3e5fc}
       \strng{authorfullhash}{a3063acb4264245f19b9e5706beeb4b6}
-      \strng{authorfullhashraw}{a3063acb4264245f19b9e5706beeb4b6}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{extradatescope}{labelyear}
@@ -4822,7 +4596,7 @@
       \verb 10.1007/s11277-023-10700-0
       \endverb
     \endentry
-    \entry{joseph2022applications}{article}{}{}
+    \entry{joseph2022applications}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=05a1eb55c8e77daae85e66369dd6cf6c}{%
            family={Joseph},
@@ -4833,12 +4607,10 @@
       }
       \strng{namehash}{05a1eb55c8e77daae85e66369dd6cf6c}
       \strng{fullhash}{05a1eb55c8e77daae85e66369dd6cf6c}
-      \strng{fullhashraw}{05a1eb55c8e77daae85e66369dd6cf6c}
       \strng{bibnamehash}{05a1eb55c8e77daae85e66369dd6cf6c}
       \strng{authorbibnamehash}{05a1eb55c8e77daae85e66369dd6cf6c}
       \strng{authornamehash}{05a1eb55c8e77daae85e66369dd6cf6c}
       \strng{authorfullhash}{05a1eb55c8e77daae85e66369dd6cf6c}
-      \strng{authorfullhashraw}{05a1eb55c8e77daae85e66369dd6cf6c}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{extradatescope}{labelyear}
@@ -4857,7 +4629,7 @@
       \verb https://ieeexplore.ieee.org/document/9968318
       \endverb
     \endentry
-    \entry{kiec2020impact}{article}{}{}
+    \entry{kiec2020impact}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=fb190476333445f900350ee3388bb9a4}{%
            family={Kiec},
@@ -4880,12 +4652,10 @@
       }
       \strng{namehash}{c601117712bcf405859db63a666c2893}
       \strng{fullhash}{387f7c58417dfe3226a85c5555e457c0}
-      \strng{fullhashraw}{387f7c58417dfe3226a85c5555e457c0}
       \strng{bibnamehash}{387f7c58417dfe3226a85c5555e457c0}
       \strng{authorbibnamehash}{387f7c58417dfe3226a85c5555e457c0}
       \strng{authornamehash}{c601117712bcf405859db63a666c2893}
       \strng{authorfullhash}{387f7c58417dfe3226a85c5555e457c0}
-      \strng{authorfullhashraw}{387f7c58417dfe3226a85c5555e457c0}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -4905,7 +4675,7 @@
       \verb 10.3390/s20154145
       \endverb
     \endentry
-    \entry{klein2018agent}{article}{}{}
+    \entry{klein2018agent}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=88e643836695fee0370534da329e3b43}{%
            family={Klein},
@@ -4928,12 +4698,10 @@
       }
       \strng{namehash}{1e3147a958a711d6723e77379ae9f767}
       \strng{fullhash}{576f72b56c6022852592ac4c361e64c1}
-      \strng{fullhashraw}{576f72b56c6022852592ac4c361e64c1}
       \strng{bibnamehash}{576f72b56c6022852592ac4c361e64c1}
       \strng{authorbibnamehash}{576f72b56c6022852592ac4c361e64c1}
       \strng{authornamehash}{1e3147a958a711d6723e77379ae9f767}
       \strng{authorfullhash}{576f72b56c6022852592ac4c361e64c1}
-      \strng{authorfullhashraw}{576f72b56c6022852592ac4c361e64c1}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -4952,7 +4720,7 @@
       \verb 10.1016/j.trc.2017.11.007
       \endverb
     \endentry
-    \entry{lto2023vehicles}{online}{}{}
+    \entry{lto2023vehicles}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cb9a84f5efd62df20bc1f5fbbcce5e93}{%
            family={{Land Transportation Office}},
@@ -4960,12 +4728,10 @@
       }
       \strng{namehash}{cb9a84f5efd62df20bc1f5fbbcce5e93}
       \strng{fullhash}{cb9a84f5efd62df20bc1f5fbbcce5e93}
-      \strng{fullhashraw}{cb9a84f5efd62df20bc1f5fbbcce5e93}
       \strng{bibnamehash}{cb9a84f5efd62df20bc1f5fbbcce5e93}
       \strng{authorbibnamehash}{cb9a84f5efd62df20bc1f5fbbcce5e93}
       \strng{authornamehash}{cb9a84f5efd62df20bc1f5fbbcce5e93}
       \strng{authorfullhash}{cb9a84f5efd62df20bc1f5fbbcce5e93}
-      \strng{authorfullhashraw}{cb9a84f5efd62df20bc1f5fbbcce5e93}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -4984,7 +4750,7 @@
       \verb https://www.foi.gov.ph/requests/number-of-registered-vehicles-public-and-private-in-iloilo-and-by-municipalities/
       \endverb
     \endentry
-    \entry{landoy2012establishing}{article}{}{}
+    \entry{landoy2012establishing}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=8d908b5b6923a06227a44f459759df48}{%
            family={Landoy},
@@ -5007,12 +4773,10 @@
       }
       \strng{namehash}{e71189061e049722b646aedab1ff5fe4}
       \strng{fullhash}{17574f4e5dcf402e1a413ed3f249612d}
-      \strng{fullhashraw}{17574f4e5dcf402e1a413ed3f249612d}
       \strng{bibnamehash}{17574f4e5dcf402e1a413ed3f249612d}
       \strng{authorbibnamehash}{17574f4e5dcf402e1a413ed3f249612d}
       \strng{authornamehash}{e71189061e049722b646aedab1ff5fe4}
       \strng{authorfullhash}{17574f4e5dcf402e1a413ed3f249612d}
-      \strng{authorfullhashraw}{17574f4e5dcf402e1a413ed3f249612d}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -5032,7 +4796,7 @@
       \verb https://www.atransociety.com/resources/pdf/5thSymposiumDownloadable/FullPaper/2B/SCS12-007.pdf
       \endverb
     \endentry
-    \entry{macalalag2023reflections}{online}{}{}
+    \entry{macalalag2023reflections}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=de8a37529b34cc1fd3917e0cb078c46e}{%
            family={Macalalag},
@@ -5043,12 +4807,10 @@
       }
       \strng{namehash}{de8a37529b34cc1fd3917e0cb078c46e}
       \strng{fullhash}{de8a37529b34cc1fd3917e0cb078c46e}
-      \strng{fullhashraw}{de8a37529b34cc1fd3917e0cb078c46e}
       \strng{bibnamehash}{de8a37529b34cc1fd3917e0cb078c46e}
       \strng{authorbibnamehash}{de8a37529b34cc1fd3917e0cb078c46e}
       \strng{authornamehash}{de8a37529b34cc1fd3917e0cb078c46e}
       \strng{authorfullhash}{de8a37529b34cc1fd3917e0cb078c46e}
-      \strng{authorfullhashraw}{de8a37529b34cc1fd3917e0cb078c46e}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -5068,7 +4830,7 @@
       \verb https://ilonggoengineer.com/2023/02/05/reflections-on-ungka-flyover/
       \endverb
     \endentry
-    \entry{maerivoet2005transportation}{report}{}{}
+    \entry{maerivoet2005transportation}{report}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=938f1e987a859216fb57b01257dc20b5}{%
            family={Maerivoet},
@@ -5088,12 +4850,10 @@
       }
       \strng{namehash}{dd1eb0cd1903d0cf02e4110c236806d4}
       \strng{fullhash}{dd1eb0cd1903d0cf02e4110c236806d4}
-      \strng{fullhashraw}{dd1eb0cd1903d0cf02e4110c236806d4}
       \strng{bibnamehash}{dd1eb0cd1903d0cf02e4110c236806d4}
       \strng{authorbibnamehash}{dd1eb0cd1903d0cf02e4110c236806d4}
       \strng{authornamehash}{dd1eb0cd1903d0cf02e4110c236806d4}
       \strng{authorfullhash}{dd1eb0cd1903d0cf02e4110c236806d4}
-      \strng{authorfullhashraw}{dd1eb0cd1903d0cf02e4110c236806d4}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -5112,7 +4872,7 @@
       \verb https://www.researchgate.net/publication/2173459_Transportation_Planning_and_Traffic_Flow_Models
       \endverb
     \endentry
-    \entry{marve2016survey}{article}{}{}
+    \entry{marve2016survey}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=fd472e510dab569741fe982ca6a35a9b}{%
            family={Marve},
@@ -5135,12 +4895,10 @@
       }
       \strng{namehash}{50842a87a35f235055a3305a035e7ddd}
       \strng{fullhash}{c8b1161d408310da17db95259ecfc48f}
-      \strng{fullhashraw}{c8b1161d408310da17db95259ecfc48f}
       \strng{bibnamehash}{c8b1161d408310da17db95259ecfc48f}
       \strng{authorbibnamehash}{c8b1161d408310da17db95259ecfc48f}
       \strng{authornamehash}{50842a87a35f235055a3305a035e7ddd}
       \strng{authorfullhash}{c8b1161d408310da17db95259ecfc48f}
-      \strng{authorfullhashraw}{c8b1161d408310da17db95259ecfc48f}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -5163,7 +4921,7 @@
       \verb http://www.ijste.org/articles/IJSTEV2I8054.pdf
       \endverb
     \endentry
-    \entry{marzan2025choking}{article}{}{}
+    \entry{marzan2025choking}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=014f4ecc7e02f2f72fcbd9b047bdc7db}{%
            family={Marzan},
@@ -5180,12 +4938,10 @@
       }
       \strng{namehash}{9d36532320ada5bddbd5a5047affcda9}
       \strng{fullhash}{9d36532320ada5bddbd5a5047affcda9}
-      \strng{fullhashraw}{9d36532320ada5bddbd5a5047affcda9}
       \strng{bibnamehash}{9d36532320ada5bddbd5a5047affcda9}
       \strng{authorbibnamehash}{9d36532320ada5bddbd5a5047affcda9}
       \strng{authornamehash}{9d36532320ada5bddbd5a5047affcda9}
       \strng{authorfullhash}{9d36532320ada5bddbd5a5047affcda9}
-      \strng{authorfullhashraw}{9d36532320ada5bddbd5a5047affcda9}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -5205,7 +4961,7 @@
       \verb https://dailyguardian.com.ph/choking-pains-iloilo-city-identifies-38-traffic-chokepoints-studies-options/
       \endverb
     \endentry
-    \entry{mtc2022dangers}{online}{}{}
+    \entry{mtc2022dangers}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7a6fc7aecdbb9d3c9bb76f387203832d}{%
            family={{Metropolitan Transportation Commission}},
@@ -5213,12 +4969,10 @@
       }
       \strng{namehash}{7a6fc7aecdbb9d3c9bb76f387203832d}
       \strng{fullhash}{7a6fc7aecdbb9d3c9bb76f387203832d}
-      \strng{fullhashraw}{7a6fc7aecdbb9d3c9bb76f387203832d}
       \strng{bibnamehash}{7a6fc7aecdbb9d3c9bb76f387203832d}
       \strng{authorbibnamehash}{7a6fc7aecdbb9d3c9bb76f387203832d}
       \strng{authornamehash}{7a6fc7aecdbb9d3c9bb76f387203832d}
       \strng{authorfullhash}{7a6fc7aecdbb9d3c9bb76f387203832d}
-      \strng{authorfullhashraw}{7a6fc7aecdbb9d3c9bb76f387203832d}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -5237,7 +4991,7 @@
       \verb https://mtc.ca.gov/news/dangers-traffic-congestion
       \endverb
     \endentry
-    \entry{morandi2023bridging}{article}{}{}
+    \entry{morandi2023bridging}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=28ab615162ff2b94072f2ca6ebbdf765}{%
            family={Morandi},
@@ -5248,12 +5002,10 @@
       }
       \strng{namehash}{28ab615162ff2b94072f2ca6ebbdf765}
       \strng{fullhash}{28ab615162ff2b94072f2ca6ebbdf765}
-      \strng{fullhashraw}{28ab615162ff2b94072f2ca6ebbdf765}
       \strng{bibnamehash}{28ab615162ff2b94072f2ca6ebbdf765}
       \strng{authorbibnamehash}{28ab615162ff2b94072f2ca6ebbdf765}
       \strng{authornamehash}{28ab615162ff2b94072f2ca6ebbdf765}
       \strng{authorfullhash}{28ab615162ff2b94072f2ca6ebbdf765}
-      \strng{authorfullhashraw}{28ab615162ff2b94072f2ca6ebbdf765}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -5269,7 +5021,7 @@
       \verb 10.1007/s10288-023-00540-w
       \endverb
     \endentry
-    \entry{mou_2025_braess}{misc}{}{}
+    \entry{mou_2025_braess}{misc}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b1c3f158520e8b16cbfa1409f99e618e}{%
            family={Mou},
@@ -5289,12 +5041,10 @@
       }
       \strng{namehash}{81e9ec0367bac3f31e7b57b3520e6fb0}
       \strng{fullhash}{81e9ec0367bac3f31e7b57b3520e6fb0}
-      \strng{fullhashraw}{81e9ec0367bac3f31e7b57b3520e6fb0}
       \strng{bibnamehash}{81e9ec0367bac3f31e7b57b3520e6fb0}
       \strng{authorbibnamehash}{81e9ec0367bac3f31e7b57b3520e6fb0}
       \strng{authornamehash}{81e9ec0367bac3f31e7b57b3520e6fb0}
       \strng{authorfullhash}{81e9ec0367bac3f31e7b57b3520e6fb0}
-      \strng{authorfullhashraw}{81e9ec0367bac3f31e7b57b3520e6fb0}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -5316,7 +5066,7 @@
       \verb https://arxiv.org/abs/2512.12197
       \endverb
     \endentry
-    \entry{nagurney2020braess}{online}{}{}
+    \entry{nagurney2020braess}{online}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=c0bab0c35e62f61c0107b2f0ece95014}{%
            family={Nagurney},
@@ -5336,12 +5086,10 @@
       }
       \strng{namehash}{808e2675d29fbf8e9fe9fb1414422c98}
       \strng{fullhash}{808e2675d29fbf8e9fe9fb1414422c98}
-      \strng{fullhashraw}{808e2675d29fbf8e9fe9fb1414422c98}
       \strng{bibnamehash}{808e2675d29fbf8e9fe9fb1414422c98}
       \strng{authorbibnamehash}{808e2675d29fbf8e9fe9fb1414422c98}
       \strng{authornamehash}{808e2675d29fbf8e9fe9fb1414422c98}
       \strng{authorfullhash}{808e2675d29fbf8e9fe9fb1414422c98}
-      \strng{authorfullhashraw}{808e2675d29fbf8e9fe9fb1414422c98}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
@@ -5359,7 +5107,7 @@
       \verb https://supernet.isenberg.umass.edu/articles/braess-encyc.pdf
       \endverb
     \endentry
-    \entry{onyeneke2018modeling}{article}{}{}
+    \entry{onyeneke2018modeling}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3cb12e1a2fce8784f3379ab1363e149d}{%
            family={Onyeneke},
@@ -5370,12 +5118,10 @@
       }
       \strng{namehash}{3cb12e1a2fce8784f3379ab1363e149d}
       \strng{fullhash}{3cb12e1a2fce8784f3379ab1363e149d}
-      \strng{fullhashraw}{3cb12e1a2fce8784f3379ab1363e149d}
       \strng{bibnamehash}{3cb12e1a2fce8784f3379ab1363e149d}
       \strng{authorbibnamehash}{3cb12e1a2fce8784f3379ab1363e149d}
       \strng{authornamehash}{3cb12e1a2fce8784f3379ab1363e149d}
       \strng{authorfullhash}{3cb12e1a2fce8784f3379ab1363e149d}
-      \strng{authorfullhashraw}{3cb12e1a2fce8784f3379ab1363e149d}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
@@ -5395,7 +5141,7 @@
       \verb 10.11648/j.bsi.20180302.11
       \endverb
     \endentry
-    \entry{ortigosa_2017_analysis}{article}{}{}
+    \entry{ortigosa_2017_analysis}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=62f263566ff0d925585660fe98a14ec9}{%
            family={Ortigosa},
@@ -5418,12 +5164,10 @@
       }
       \strng{namehash}{051814ca4c20742a49f8d79e57e2a749}
       \strng{fullhash}{adbc581c524c943765a2fb77df3ac62c}
-      \strng{fullhashraw}{adbc581c524c943765a2fb77df3ac62c}
       \strng{bibnamehash}{adbc581c524c943765a2fb77df3ac62c}
       \strng{authorbibnamehash}{adbc581c524c943765a2fb77df3ac62c}
       \strng{authornamehash}{051814ca4c20742a49f8d79e57e2a749}
       \strng{authorfullhash}{adbc581c524c943765a2fb77df3ac62c}
-      \strng{authorfullhashraw}{adbc581c524c943765a2fb77df3ac62c}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
@@ -5443,7 +5187,7 @@
       \verb 10.1080/21680566.2017.1337528
       \endverb
     \endentry
-    \entry{ortuzar2024modelling}{book}{}{}
+    \entry{ortuzar2024modelling}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=cb18273f22a29c9588e1b02f0b9875d4}{%
            family={Ortúzar},
@@ -5463,12 +5207,10 @@
       }
       \strng{namehash}{2e91cec9ed41df1d74a4765c405281f0}
       \strng{fullhash}{2e91cec9ed41df1d74a4765c405281f0}
-      \strng{fullhashraw}{2e91cec9ed41df1d74a4765c405281f0}
       \strng{bibnamehash}{2e91cec9ed41df1d74a4765c405281f0}
       \strng{authorbibnamehash}{2e91cec9ed41df1d74a4765c405281f0}
       \strng{authornamehash}{2e91cec9ed41df1d74a4765c405281f0}
       \strng{authorfullhash}{2e91cec9ed41df1d74a4765c405281f0}
-      \strng{authorfullhashraw}{2e91cec9ed41df1d74a4765c405281f0}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
@@ -5486,7 +5228,7 @@
       \verb https://books.google.com.ph/books?id=NTLxEAAAQBAJ
       \endverb
     \endentry
-    \entry{pna2022iloilo}{online}{}{}
+    \entry{pna2022iloilo}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ec55d61d44985269e2918a3f02ec7a5e}{%
            family={{Philippine News Agency}},
@@ -5494,12 +5236,10 @@
       }
       \strng{namehash}{ec55d61d44985269e2918a3f02ec7a5e}
       \strng{fullhash}{ec55d61d44985269e2918a3f02ec7a5e}
-      \strng{fullhashraw}{ec55d61d44985269e2918a3f02ec7a5e}
       \strng{bibnamehash}{ec55d61d44985269e2918a3f02ec7a5e}
       \strng{authorbibnamehash}{ec55d61d44985269e2918a3f02ec7a5e}
       \strng{authornamehash}{ec55d61d44985269e2918a3f02ec7a5e}
       \strng{authorfullhash}{ec55d61d44985269e2918a3f02ec7a5e}
-      \strng{authorfullhashraw}{ec55d61d44985269e2918a3f02ec7a5e}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -5517,7 +5257,7 @@
       \verb https://www.pna.gov.ph/articles/1181753
       \endverb
     \endentry
-    \entry{pragados2018traffic}{article}{}{}
+    \entry{pragados2018traffic}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b6bbe5449932fa036bf3b5af066bae11}{%
            family={Pragados},
@@ -5528,12 +5268,10 @@
       }
       \strng{namehash}{b6bbe5449932fa036bf3b5af066bae11}
       \strng{fullhash}{b6bbe5449932fa036bf3b5af066bae11}
-      \strng{fullhashraw}{b6bbe5449932fa036bf3b5af066bae11}
       \strng{bibnamehash}{b6bbe5449932fa036bf3b5af066bae11}
       \strng{authorbibnamehash}{b6bbe5449932fa036bf3b5af066bae11}
       \strng{authornamehash}{b6bbe5449932fa036bf3b5af066bae11}
       \strng{authorfullhash}{b6bbe5449932fa036bf3b5af066bae11}
-      \strng{authorfullhashraw}{b6bbe5449932fa036bf3b5af066bae11}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -5556,7 +5294,7 @@
       \verb https://hdl.handle.net/20.500.12852/2675
       \endverb
     \endentry
-    \entry{prathik2016overview}{article}{}{}
+    \entry{prathik2016overview}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=27a1b0123373b8be344e77878287d4b6}{%
            family={Prathik},
@@ -5579,12 +5317,10 @@
       }
       \strng{namehash}{8ed862513f1568435159fbd07ebfa429}
       \strng{fullhash}{a06a395d34f8132a7a1f33d7df1a9832}
-      \strng{fullhashraw}{a06a395d34f8132a7a1f33d7df1a9832}
       \strng{bibnamehash}{a06a395d34f8132a7a1f33d7df1a9832}
       \strng{authorbibnamehash}{a06a395d34f8132a7a1f33d7df1a9832}
       \strng{authornamehash}{8ed862513f1568435159fbd07ebfa429}
       \strng{authorfullhash}{a06a395d34f8132a7a1f33d7df1a9832}
-      \strng{authorfullhashraw}{a06a395d34f8132a7a1f33d7df1a9832}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -5601,7 +5337,7 @@
       \field{pages}{242\bibrangedash 248}
       \range{pages}{7}
     \endentry
-    \entry{ptvgroup2022transportation}{online}{}{}
+    \entry{ptvgroup2022transportation}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=be97ff3f41a4938c759957841a4e9179}{%
            family={{PTV Group}},
@@ -5612,12 +5348,10 @@
       }
       \strng{namehash}{be97ff3f41a4938c759957841a4e9179}
       \strng{fullhash}{be97ff3f41a4938c759957841a4e9179}
-      \strng{fullhashraw}{be97ff3f41a4938c759957841a4e9179}
       \strng{bibnamehash}{be97ff3f41a4938c759957841a4e9179}
       \strng{authorbibnamehash}{be97ff3f41a4938c759957841a4e9179}
       \strng{authornamehash}{be97ff3f41a4938c759957841a4e9179}
       \strng{authorfullhash}{be97ff3f41a4938c759957841a4e9179}
-      \strng{authorfullhashraw}{be97ff3f41a4938c759957841a4e9179}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -5635,7 +5369,7 @@
       \verb https://www.ptvgroup.com/en/application-areas/transportation-modeling
       \endverb
     \endentry
-    \entry{pucher2007urban}{article}{}{}
+    \entry{pucher2007urban}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=1c63524901f6be46fadf807fd6542ce2}{%
            family={Pucher},
@@ -5670,12 +5404,10 @@
       }
       \strng{namehash}{a5bf3e2595a4fdb748b31aadc8cbb290}
       \strng{fullhash}{c6858bd4755a015356337a5ff7edd9d4}
-      \strng{fullhashraw}{c6858bd4755a015356337a5ff7edd9d4}
       \strng{bibnamehash}{c6858bd4755a015356337a5ff7edd9d4}
       \strng{authorbibnamehash}{c6858bd4755a015356337a5ff7edd9d4}
       \strng{authornamehash}{a5bf3e2595a4fdb748b31aadc8cbb290}
       \strng{authorfullhash}{c6858bd4755a015356337a5ff7edd9d4}
-      \strng{authorfullhashraw}{c6858bd4755a015356337a5ff7edd9d4}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -5695,7 +5427,7 @@
       \verb 10.1080/01441640601089988
       \endverb
     \endentry
-    \entry{qian_2012_on}{article}{}{}
+    \entry{qian_2012_on}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=f480255c5183683b8784ad1e51adf029}{%
            family={Qian},
@@ -5715,12 +5447,10 @@
       }
       \strng{namehash}{c6e5b39f3d7690fe7a17bcc907dee11f}
       \strng{fullhash}{c6e5b39f3d7690fe7a17bcc907dee11f}
-      \strng{fullhashraw}{c6e5b39f3d7690fe7a17bcc907dee11f}
       \strng{bibnamehash}{c6e5b39f3d7690fe7a17bcc907dee11f}
       \strng{authorbibnamehash}{c6e5b39f3d7690fe7a17bcc907dee11f}
       \strng{authornamehash}{c6e5b39f3d7690fe7a17bcc907dee11f}
       \strng{authorfullhash}{c6e5b39f3d7690fe7a17bcc907dee11f}
-      \strng{authorfullhashraw}{c6e5b39f3d7690fe7a17bcc907dee11f}
       \field{sortinit}{Q}
       \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
       \field{extradatescope}{labelyear}
@@ -5744,7 +5474,7 @@
       \verb 10.1016/j.trb.2012.07.006
       \endverb
     \endentry
-    \entry{ramos2025double}{report}{}{}
+    \entry{ramos2025double}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e622fbf414dc6cf36f5e4c0fb1a74a1e}{%
            family={Ramos},
@@ -5755,12 +5485,10 @@
       }
       \strng{namehash}{e622fbf414dc6cf36f5e4c0fb1a74a1e}
       \strng{fullhash}{e622fbf414dc6cf36f5e4c0fb1a74a1e}
-      \strng{fullhashraw}{e622fbf414dc6cf36f5e4c0fb1a74a1e}
       \strng{bibnamehash}{e622fbf414dc6cf36f5e4c0fb1a74a1e}
       \strng{authorbibnamehash}{e622fbf414dc6cf36f5e4c0fb1a74a1e}
       \strng{authornamehash}{e622fbf414dc6cf36f5e4c0fb1a74a1e}
       \strng{authorfullhash}{e622fbf414dc6cf36f5e4c0fb1a74a1e}
-      \strng{authorfullhashraw}{e622fbf414dc6cf36f5e4c0fb1a74a1e}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -5775,7 +5503,7 @@
       \verb 10.13140/rg.2.2.25772.94082
       \endverb
     \endentry
-    \entry{rapoport2009choice}{article}{}{}
+    \entry{rapoport2009choice}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=fad8412750bde000e5ff479489a274db}{%
            family={Rapoport},
@@ -5804,12 +5532,10 @@
       }
       \strng{namehash}{808d554589ac67c549e3d2df36681b91}
       \strng{fullhash}{481c7a112cb217e3d96476674b476fc1}
-      \strng{fullhashraw}{481c7a112cb217e3d96476674b476fc1}
       \strng{bibnamehash}{481c7a112cb217e3d96476674b476fc1}
       \strng{authorbibnamehash}{481c7a112cb217e3d96476674b476fc1}
       \strng{authornamehash}{808d554589ac67c549e3d2df36681b91}
       \strng{authorfullhash}{481c7a112cb217e3d96476674b476fc1}
-      \strng{authorfullhashraw}{481c7a112cb217e3d96476674b476fc1}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -5829,7 +5555,7 @@
       \verb 10.1016/j.geb.2008.02.007
       \endverb
     \endentry
-    \entry{reddy2024efficient}{article}{}{}
+    \entry{reddy2024efficient}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=918cdf92e7b4639ef28fc2ca3732cb12}{%
            family={Reddy},
@@ -5858,12 +5584,10 @@
       }
       \strng{namehash}{20c895ee8e8d256435c8b4b1b3617c21}
       \strng{fullhash}{a64fee3fb4d73e22562661f32aa6dd22}
-      \strng{fullhashraw}{a64fee3fb4d73e22562661f32aa6dd22}
       \strng{bibnamehash}{a64fee3fb4d73e22562661f32aa6dd22}
       \strng{authorbibnamehash}{a64fee3fb4d73e22562661f32aa6dd22}
       \strng{authornamehash}{20c895ee8e8d256435c8b4b1b3617c21}
       \strng{authorfullhash}{a64fee3fb4d73e22562661f32aa6dd22}
-      \strng{authorfullhashraw}{a64fee3fb4d73e22562661f32aa6dd22}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -5885,7 +5609,7 @@
       \verb https://www.ijfmr.com/papers/2024/2/12831.pdf
       \endverb
     \endentry
-    \entry{regin2012implementing}{report}{}{}
+    \entry{regin2012implementing}{report}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=786fa8af14e6e1fe4519c962cbbe84b8}{%
            family={Regin},
@@ -5902,12 +5626,10 @@
       }
       \strng{namehash}{0e24102dc7a91bbc38db3539dc9eff89}
       \strng{fullhash}{0e24102dc7a91bbc38db3539dc9eff89}
-      \strng{fullhashraw}{0e24102dc7a91bbc38db3539dc9eff89}
       \strng{bibnamehash}{0e24102dc7a91bbc38db3539dc9eff89}
       \strng{authorbibnamehash}{0e24102dc7a91bbc38db3539dc9eff89}
       \strng{authornamehash}{0e24102dc7a91bbc38db3539dc9eff89}
       \strng{authorfullhash}{0e24102dc7a91bbc38db3539dc9eff89}
-      \strng{authorfullhashraw}{0e24102dc7a91bbc38db3539dc9eff89}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -5925,7 +5647,7 @@
       \verb https://d0ctrine.com/wp-content/uploads/2011/10/est-green-urbanism-20oct2011.pdf
       \endverb
     \endentry
-    \entry{rdc2018calabarzon}{report}{}{}
+    \entry{rdc2018calabarzon}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a144358803134b3c751522134d70a7f2}{%
            family={{Regional Development Council Region IV-A}},
@@ -5933,12 +5655,10 @@
       }
       \strng{namehash}{a144358803134b3c751522134d70a7f2}
       \strng{fullhash}{a144358803134b3c751522134d70a7f2}
-      \strng{fullhashraw}{a144358803134b3c751522134d70a7f2}
       \strng{bibnamehash}{a144358803134b3c751522134d70a7f2}
       \strng{authorbibnamehash}{a144358803134b3c751522134d70a7f2}
       \strng{authornamehash}{a144358803134b3c751522134d70a7f2}
       \strng{authorfullhash}{a144358803134b3c751522134d70a7f2}
-      \strng{authorfullhashraw}{a144358803134b3c751522134d70a7f2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -5956,7 +5676,7 @@
       \verb https://calabarzon.depdev.gov.ph/wp-content/uploads/2018/01/Traffic-Mgt-Plan-2018.pdf
       \endverb
     \endentry
-    \entry{reyes2024solution}{article}{}{}
+    \entry{reyes2024solution}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d70fc0db493ef22b053955041e84128a}{%
            family={Reyes},
@@ -5967,12 +5687,10 @@
       }
       \strng{namehash}{d70fc0db493ef22b053955041e84128a}
       \strng{fullhash}{d70fc0db493ef22b053955041e84128a}
-      \strng{fullhashraw}{d70fc0db493ef22b053955041e84128a}
       \strng{bibnamehash}{d70fc0db493ef22b053955041e84128a}
       \strng{authorbibnamehash}{d70fc0db493ef22b053955041e84128a}
       \strng{authornamehash}{d70fc0db493ef22b053955041e84128a}
       \strng{authorfullhash}{d70fc0db493ef22b053955041e84128a}
-      \strng{authorfullhashraw}{d70fc0db493ef22b053955041e84128a}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -5992,7 +5710,7 @@
       \verb https://www.philstar.com/business/2024/04/13/2347216/solution-mms-traffic-woes
       \endverb
     \endentry
-    \entry{rodrigue2024transportation}{online}{}{}
+    \entry{rodrigue2024transportation}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=62b044eafb7481494810e171563d160f}{%
            family={Rodrigue},
@@ -6003,12 +5721,10 @@
       }
       \strng{namehash}{62b044eafb7481494810e171563d160f}
       \strng{fullhash}{62b044eafb7481494810e171563d160f}
-      \strng{fullhashraw}{62b044eafb7481494810e171563d160f}
       \strng{bibnamehash}{62b044eafb7481494810e171563d160f}
       \strng{authorbibnamehash}{62b044eafb7481494810e171563d160f}
       \strng{authornamehash}{62b044eafb7481494810e171563d160f}
       \strng{authorfullhash}{62b044eafb7481494810e171563d160f}
-      \strng{authorfullhashraw}{62b044eafb7481494810e171563d160f}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -6028,7 +5744,7 @@
       \verb https://transportgeography.org/contents/chapter8/transportation-urban-form/
       \endverb
     \endentry
-    \entry{sosuan2014mode}{article}{}{}
+    \entry{sosuan2014mode}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=897c8d065d66cf68444ad33fc54915b0}{%
            family={Sosuan},
@@ -6045,12 +5761,10 @@
       }
       \strng{namehash}{09524f6bec28060dac31c6d95ff165df}
       \strng{fullhash}{09524f6bec28060dac31c6d95ff165df}
-      \strng{fullhashraw}{09524f6bec28060dac31c6d95ff165df}
       \strng{bibnamehash}{09524f6bec28060dac31c6d95ff165df}
       \strng{authorbibnamehash}{09524f6bec28060dac31c6d95ff165df}
       \strng{authornamehash}{09524f6bec28060dac31c6d95ff165df}
       \strng{authorfullhash}{09524f6bec28060dac31c6d95ff165df}
-      \strng{authorfullhashraw}{09524f6bec28060dac31c6d95ff165df}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -6069,7 +5783,7 @@
       \verb https://ncts.upd.edu.ph/tssp/wp-content/uploads/2018/08/Sosuan14.pdf
       \endverb
     \endentry
-    \entry{stromberg2014fundamental}{online}{}{}
+    \entry{stromberg2014fundamental}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b1a3be09b2eba476705ff4357f2ce475}{%
            family={Stromberg},
@@ -6083,12 +5797,10 @@
       }
       \strng{namehash}{b1a3be09b2eba476705ff4357f2ce475}
       \strng{fullhash}{b1a3be09b2eba476705ff4357f2ce475}
-      \strng{fullhashraw}{b1a3be09b2eba476705ff4357f2ce475}
       \strng{bibnamehash}{b1a3be09b2eba476705ff4357f2ce475}
       \strng{authorbibnamehash}{b1a3be09b2eba476705ff4357f2ce475}
       \strng{authornamehash}{b1a3be09b2eba476705ff4357f2ce475}
       \strng{authorfullhash}{b1a3be09b2eba476705ff4357f2ce475}
-      \strng{authorfullhashraw}{b1a3be09b2eba476705ff4357f2ce475}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -6107,7 +5819,7 @@
       \verb https://www.vox.com/2014/10/23/6994159/traffic-roads-induced-demand
       \endverb
     \endentry
-    \entry{suryani_2020_urban}{article}{}{}
+    \entry{suryani_2020_urban}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=9b5eb952d04de6d0b7217152d03c4766}{%
            family={Suryani},
@@ -6142,12 +5854,10 @@
       }
       \strng{namehash}{6bad17edcda12095c689a112df4682b9}
       \strng{fullhash}{984985c18e6dbf303f3a59241fb00391}
-      \strng{fullhashraw}{984985c18e6dbf303f3a59241fb00391}
       \strng{bibnamehash}{984985c18e6dbf303f3a59241fb00391}
       \strng{authorbibnamehash}{984985c18e6dbf303f3a59241fb00391}
       \strng{authornamehash}{6bad17edcda12095c689a112df4682b9}
       \strng{authorfullhash}{984985c18e6dbf303f3a59241fb00391}
-      \strng{authorfullhashraw}{984985c18e6dbf303f3a59241fb00391}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -6167,7 +5877,7 @@
       \verb 10.1108/jm2-03-2019-0055
       \endverb
     \endentry
-    \entry{dishint_2024_what}{misc}{}{}
+    \entry{dishint_2024_what}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=599bcb7a07768a262d2f55311bcb21ff}{%
            family={T},
@@ -6181,12 +5891,10 @@
       }
       \strng{namehash}{599bcb7a07768a262d2f55311bcb21ff}
       \strng{fullhash}{599bcb7a07768a262d2f55311bcb21ff}
-      \strng{fullhashraw}{599bcb7a07768a262d2f55311bcb21ff}
       \strng{bibnamehash}{599bcb7a07768a262d2f55311bcb21ff}
       \strng{authorbibnamehash}{599bcb7a07768a262d2f55311bcb21ff}
       \strng{authornamehash}{599bcb7a07768a262d2f55311bcb21ff}
       \strng{authorfullhash}{599bcb7a07768a262d2f55311bcb21ff}
-      \strng{authorfullhashraw}{599bcb7a07768a262d2f55311bcb21ff}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
@@ -6205,7 +5913,7 @@
       \verb https://altitude.geotab.com/news-and-releases/what-is-annual-average-daily-traffic-aadt/
       \endverb
     \endentry
-    \entry{thunig2016braess}{article}{}{}
+    \entry{thunig2016braess}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6ce943606fbca096bbdb01f69554c8bf}{%
            family={Thunig},
@@ -6222,12 +5930,10 @@
       }
       \strng{namehash}{82d62bd29340de323482b7ea383e46f9}
       \strng{fullhash}{82d62bd29340de323482b7ea383e46f9}
-      \strng{fullhashraw}{82d62bd29340de323482b7ea383e46f9}
       \strng{bibnamehash}{82d62bd29340de323482b7ea383e46f9}
       \strng{authorbibnamehash}{82d62bd29340de323482b7ea383e46f9}
       \strng{authornamehash}{82d62bd29340de323482b7ea383e46f9}
       \strng{authorfullhash}{82d62bd29340de323482b7ea383e46f9}
-      \strng{authorfullhashraw}{82d62bd29340de323482b7ea383e46f9}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
@@ -6246,7 +5952,7 @@
       \verb 10.1016/j.procs.2016.04.190
       \endverb
     \endentry
-    \entry{tuco2025traffic}{article}{}{}
+    \entry{tuco2025traffic}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=5c35637b9c07e2260192c43cfcc63b55}{%
            family={Tuco},
@@ -6263,12 +5969,10 @@
       }
       \strng{namehash}{704b1a761b3d8d8fb94b3e95ccd00489}
       \strng{fullhash}{704b1a761b3d8d8fb94b3e95ccd00489}
-      \strng{fullhashraw}{704b1a761b3d8d8fb94b3e95ccd00489}
       \strng{bibnamehash}{704b1a761b3d8d8fb94b3e95ccd00489}
       \strng{authorbibnamehash}{704b1a761b3d8d8fb94b3e95ccd00489}
       \strng{authornamehash}{704b1a761b3d8d8fb94b3e95ccd00489}
       \strng{authorfullhash}{704b1a761b3d8d8fb94b3e95ccd00489}
-      \strng{authorfullhashraw}{704b1a761b3d8d8fb94b3e95ccd00489}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
@@ -6289,7 +5993,7 @@
       \verb https://ijetrm.com/issues/files/May-2025-24-1748062149-MAY46.pdf
       \endverb
     \endentry
-    \entry{valmonte2025philippine}{online}{}{}
+    \entry{valmonte2025philippine}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=724e1236f9f75135bc1f94766c987f36}{%
            family={Valmonte},
@@ -6303,12 +6007,10 @@
       }
       \strng{namehash}{724e1236f9f75135bc1f94766c987f36}
       \strng{fullhash}{724e1236f9f75135bc1f94766c987f36}
-      \strng{fullhashraw}{724e1236f9f75135bc1f94766c987f36}
       \strng{bibnamehash}{724e1236f9f75135bc1f94766c987f36}
       \strng{authorbibnamehash}{724e1236f9f75135bc1f94766c987f36}
       \strng{authornamehash}{724e1236f9f75135bc1f94766c987f36}
       \strng{authorfullhash}{724e1236f9f75135bc1f94766c987f36}
-      \strng{authorfullhashraw}{724e1236f9f75135bc1f94766c987f36}
       \field{sortinit}{V}
       \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{extradatescope}{labelyear}
@@ -6327,7 +6029,7 @@
       \verb https://www.rappler.com/business/philippine-cities-worst-traffic-congestion-in-2024/
       \endverb
     \endentry
-    \entry{youn2008price}{article}{}{}
+    \entry{youn2008price}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=9393ee26139433a9e69823a2ab9265e6}{%
            family={Youn},
@@ -6350,12 +6052,10 @@
       }
       \strng{namehash}{1a69fbe4c7483b4d73b30e9168d520a3}
       \strng{fullhash}{8fb576f839cf0b3e0781c3020b91c32c}
-      \strng{fullhashraw}{8fb576f839cf0b3e0781c3020b91c32c}
       \strng{bibnamehash}{8fb576f839cf0b3e0781c3020b91c32c}
       \strng{authorbibnamehash}{8fb576f839cf0b3e0781c3020b91c32c}
       \strng{authornamehash}{1a69fbe4c7483b4d73b30e9168d520a3}
       \strng{authorfullhash}{8fb576f839cf0b3e0781c3020b91c32c}
-      \strng{authorfullhashraw}{8fb576f839cf0b3e0781c3020b91c32c}
       \field{sortinit}{Y}
       \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
       \field{extradatescope}{labelyear}
