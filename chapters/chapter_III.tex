@@ -19,14 +19,14 @@ As illustrated in Figure \ref{fig:research_activities}, the researchers followed
 \label{sec:data_gathering}
 
 The researchers identified and mapped the primary highways and intersections based on the DPWH Atlas 2024 for the Iloilo City Network (Department of Public Works and Highways, 2026). 
-The scope of the map was also limited strictly to major highways (See Figure~\ref{fig:dpwh_atlas} of Appendix~\ref{app:network_data_files}) 
+The scope of the map was also limited strictly to major highways which can be found in Figure~\ref{fig:dpwh_atlas} of Appendix~\ref{app: program_snippet}
 
 This process was then categorized into node identification and edge attribution to provide a digital representation of the city's road infrastructure.  Additionally, Origin-Destination (OD) matrix pairs were identified for defining traffic demand. 
 
 \subsection{Node Identification}
 \label{sec:node_identification}
 
-During node identification,  the researchers identified key intersections within the Iloilo City network utilizing Google Maps (Google, n.d). These intersections served as nodes for the network. For each node, specific metadata was collected. The metadata structure can be found in Listing~\ref{lst:intersection_data} of Appendix~\ref{app:source_codes}.
+During node identification,  the researchers identified key intersections within the Iloilo City network utilizing Google Maps (Google, n.d). These intersections served as nodes for the network. For each node, specific metadata was collected. The metadata structure can be found in Listing~\ref{lst:intersection_data} of Appendix~\ref{app: program_snippet}.
 
 Here, ``\texttt{id}'' stands as a unique identifier for programmatic referencing, ``\texttt{latitude}'', and ``\texttt{longitude}'' as the precise geospatial coordinates of the intersection.
 
@@ -34,7 +34,7 @@ Here, ``\texttt{id}'' stands as a unique identifier for programmatic referencing
 \subsection{Edge Attribution}
 \label{sec:edge_attribution}
 
-Road segments connecting the identified nodes were defined as edges. Specific roadway characteristics were then gathered for each edge. The structure can be found in Listing~\ref{lst:road_data} of Appendix~\ref{app:source_codes}.
+Road segments connecting the identified nodes were defined as edges. Specific roadway characteristics were then gathered for each edge. The structure can be found in Listing~\ref{lst:road_data} of Appendix~\ref{app: program_snippet}.
 
 Here, ``\texttt{distance}'' serves as the physical length of the road from point $A$ to point $B$, in meters, and used as a primary parameter for calculating travel time and cost functions. ``\texttt{lanes}'' as the number of available lanes, which influences the capacity of the road, and ``\texttt{one\_way}'' as a boolean constraint applied to each edge to represent the flow of traffic accurately. To establish a standardized capacity metric across the network, a base capacity of 1,100 vehicles per hour per lane was used. This parameter is based on the standards outlined in the Highway Safety Design Standards Manual by the DPWH (2012), ensuring that the simulated capacity reflects local traffic conditions and infrastructure capabilities.
 
@@ -43,13 +43,13 @@ Here, ``\texttt{distance}'' serves as the physical length of the road from point
 
 The researchers gathered data for OD matrix pairs based on the Master Plan Study on the Strategic Road Network Development project report (Japan International Cooperation Agency, 2003). These OD matrix pairs define the volume and direction of travel demand within the Iloilo City network. The demands were derived by the Japan International Cooperation Agency (2003) based on future socio-economic projections for the year 2022 that included the population by city, employment, the vehicle ownership projection, and the Gross Regional Domestic Product (GRDP) of Region VI. The OD pairs in the Iloilo City network were partitioned into sixteen Traffic Analysis Zones (TAZs). 
 
-This socio-economic framework is used as explanatory variables for multi-step demand forecast models: traffic generation or attraction models, trip distribution models, and modal split models. For the traffic generation and attraction model, the employment variables were used to calculate the amount of passenger and cargo trips that each zone will produce and attract. For the modal split, it utilized the projection of vehicle ownership to determine how passenger trips are divided between private vehicles and public transport. It projected the future vehicle ownership rates that were derived from the GRDP growth.  The  first 15 rows and columns of the OD matrix can be found in Table {\ref{tab:od_matrix_15}} of Appendix~\ref{app:network_data_files}.
+This socio-economic framework is used as explanatory variables for multi-step demand forecast models: traffic generation or attraction models, trip distribution models, and modal split models. For the traffic generation and attraction model, the employment variables were used to calculate the amount of passenger and cargo trips that each zone will produce and attract. For the modal split, it utilized the projection of vehicle ownership to determine how passenger trips are divided between private vehicles and public transport. It projected the future vehicle ownership rates that were derived from the GRDP growth.  The  first 15 rows and columns of the OD matrix can be found in Table {\ref{tab:od_matrix_15}} of Appendix~\ref{app:supplementary_data}.
 
 
 \subsection{The Annual Average Daily Traffic (AADT) Data}
 \label {sec:aadt}
 
-Annual Average Daily Traffic (AADT) is a metric in transportation planning calculated by dividing the total annual vehicular volume on specific road segments by 365 to establish the mean daily traffic flow (Dishin, 2024). The data utilized for this study is the 2024 Annual Average Daily Traffic (AADT) obtained through a formal request to the Department of Public Works and Highways (DPWH). The AADT was then used as weights to identify primary highways. The relevant data sheets from the DPWH are provided in Figure \ref{fig:aadt-1} and \ref{fig:aadt-2} of Appendix \ref{app:network_data_files}.
+Annual Average Daily Traffic (AADT) is a metric in transportation planning calculated by dividing the total annual vehicular volume on specific road segments by 365 to establish the mean daily traffic flow (Dishin, 2024). The data utilized for this study is the 2024 Annual Average Daily Traffic (AADT) obtained through a formal request to the Department of Public Works and Highways (DPWH). The AADT was then used as weights to identify primary highways. The relevant data sheets from the DPWH are provided in Figure \ref{fig:aadt-1} and \ref{fig:aadt-2} of Appendix \ref{app:supplementary_data}.
 
 \section{Computational Modeling}
 \label{sec:computational_modeling}
@@ -58,7 +58,7 @@ This section details the utilization of the gathered data into a functional comp
 
 \subsection{Network Construction}
 \label{sec:network_construction}
-To transform the data gathered in Section \ref{sec:data_gathering} into a representation of the Iloilo City network, the researchers manually coded the network data for seven key districts: City Proper, Jaro, La Paz, Lapuz, Mandurriao, Molo, and Villa-Arevalo which was based on DPWH's Atlas for Iloilo City of year 2024. Once the data for each individual district were completed, the researchers utilized Gemini (Google, n.d) to assist in combining these district datasets into one unified network. The unified network was then converted to two Comma-Separated Values (CSV) files: \texttt{intersections.csv} and \texttt{roads.csv}. These files served as the primary input for building the network graph using the \texttt{NetworkX} Python library. The implementation can be found in Listing~\ref{lst:construction_iloilo_network} of Appendix~\ref{app:source_codes}.
+To transform the data gathered in Section \ref{sec:data_gathering} into a representation of the Iloilo City network, the researchers manually coded the network data for seven key districts: City Proper, Jaro, La Paz, Lapuz, Mandurriao, Molo, and Villa-Arevalo which was based on DPWH's Atlas for Iloilo City of year 2024. Once the data for each individual district were completed, the researchers utilized Gemini (Google, n.d) to assist in combining these district datasets into one unified network. The unified network was then converted to two Comma-Separated Values (CSV) files: \texttt{intersections.csv} and \texttt{roads.csv}. These files served as the primary input for building the network graph using the \texttt{NetworkX} Python library. The implementation can be found in Listing~\ref{lst:construction_iloilo_network} of Appendix~\ref{app: program_snippet}.
 
 
 
@@ -194,7 +194,7 @@ Across these topologies, two types of structual modifications were applied. Bidi
 
 These combinations resulted into the following six topological configurations:
 
-\subsubsection{Uniform spatial disaggregation with full bidirectional closure}
+\subsubsection{Uniform Spatial Disaggregation with Full Bidirectional Closure}
 \label{sec:setup_1}
 
 \begin{figure}[H]

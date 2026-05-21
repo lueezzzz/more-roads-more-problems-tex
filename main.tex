@@ -29,26 +29,53 @@
 
 \input{preamble}
 
+
 \begin{document}
+\linenumbers
+
+
 
 \input{front-page}
+\include{abstract}
+
+\pagenumbering{roman}
+\setcounter{page}{2}
+
+\tableofcontents
+\newpage
+
+\listoffigures
+\newpage
+
+\listoftables
+\newpage
 
 \pagenumbering{arabic}
+\setcounter{page}{1}
 
-\include{abstract}
-\tableofcontents
-\listoffigures
-\listoftables
+\input{chapters/chapter_I.tex}
+\newpage
+
+\input{chapters/chapter_II.tex}
+\newpage
+
+\input{chapters/chapter_III.tex}
+\newpage
+
+\input{chapters/chapter_IV.tex}
+\newpage
+
+\input{chapters/chapter_V.tex}
+\newpage
 
 
-\include{chapter_I/introduction}
-\include{chapter_I/scope-and-limitation}
-\include{chapter_II/review-of-related-literature}
-\include{chapter_IV/methodology}
-\include{chapter_V/results-and-discussion}
-\include{chapter_VI/conclusion-recommendations}
-\include{chapter_VII/references}
+\input{chapters/chapter_VI.tex}
 
-\include{appendix}
+\newpage
+
+\appendix
+
+\input{appendix/appendix_A.tex}
+\input{appendix/appendix_B.tex}
 
 \end{document}
