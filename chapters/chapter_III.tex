@@ -10,10 +10,12 @@ As illustrated in Figure \ref{fig:research_activities}, the researchers followed
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{figures/figure-3.png}
+    \includegraphics[scale = 0.32]{figures/figure-3.png}
     \caption{Overview Of Methodology Flowchart} 
     \label{fig:research_activities}
 \end{figure}
+
+
 
 \section{Data Gathering}
 \label{sec:data_gathering}
@@ -78,9 +80,10 @@ Here, the \texttt{intersections.csv} file was read and each entry was added as a
 \subsection{Macroscopic Static Traffic Assignment}
 \label{sec:sta}
 
-The core computational simulation used a macroscopic Static Traffic Assignment framework to achieve Wardrop's First Principle of User Equilibrium. The simulation used the Frank-Wolfe algorithm (see \textit{Algorithm \ref{alg:frank_wolfe}}), an iterative optimization method designed to solve the convex UE objective function. The travel cost for each edge was dynamically updated using the standard BPR function. The algorithm computed the shortest paths using Dijkstra's algorithm, and loaded the demand matrix via an All or Nothing assignment. An exact line search was performed to find the optimal step size that minimized the objective function, recursively updating network flows until convergence is met.
+The core computational simulation used a macroscopic Static Traffic Assignment framework to achieve Wardrop's First Principle of User Equilibrium. The simulation used the Frank-Wolfe algorithm (see \textit{Algorithm \ref{alg:frank_wolfe}}), an iterative optimization method designed to solve the convex UE objective function. The travel cost for each edge was dynamically updated using the standard BPR function. The algorithm computed the shortest paths using Dijkstra's algorithm, and loaded the demand matrix via an All or Nothing assignment. An exact line search was performed to find the optimal step size that minimized the objective function, recursively updating network flows until convergence is met. This was then applied to all experimental setups in Section \ref{sec:experimental_setup}.
 
-\begin{algorithm}[H]
+\begin{algorithm}[htbp]
+\small
 \caption{Frank-Wolfe Algorithm for Traffic Assignment}
 \label{alg:frank_wolfe}
 
@@ -130,7 +133,7 @@ $TSTT \gets 0.0$\;
 \end{algorithm}
 
 
-This was then applied to all experimental setups in Section \ref{sec:experimental_setup}.
+
 
 
 \subsection{Iterative Network Modification Algorithm}
@@ -138,7 +141,8 @@ This was then applied to all experimental setups in Section \ref{sec:experimenta
 
 An automated script was created to systematically test for the presence of Braess's Paradox. The algorithm (see \textit{Algorithm \ref{alg:edge_removal}}) catalogued all physical road segments (excluding virtual centroid connectors) within the network. For each identified segment, the script executed a bidirectional topological removal, effectively simulating a complete street closure. Following the removal, the algorithm recalculated the UE for the disrupted network, recorded the results, and immediately restored the removed edge to test the next links.
 
-\begin{algorithm}[H]
+\begin{algorithm}[htbp]
+\small
 \caption{ Edge Removal and Paradox Identification}
 \label{alg:edge_removal}
 
