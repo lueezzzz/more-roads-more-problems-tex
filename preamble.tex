@@ -13,6 +13,8 @@
 \usepackage{graphicx}
 \usepackage{verbatim}
 \usepackage{color}
+\usepackage{enumitem}
+\usepackage{geometry}
 \usepackage{adjustbox}
 \usepackage{setspace}
 \usepackage{pdflscape}
@@ -30,18 +32,20 @@
 \setcounter{biburllcpenalty}{9000} 
 \setcounter{biburlucpenalty}{9000}
 
-\addbibresource{chapter_VI/references.bib} 
+\addbibresource{references.bib} 
 
 %-- Margins & Layout
-\topmargin 0.0in
-\oddsidemargin 0.0in
-\evensidemargin 0.0in
-\voffset 0.0in
-\hoffset 0.5625in
-\textwidth 5.75in
-\textheight 8.5in
-\parskip 1em
-\parindent 0.25in
+\setlength{\topmargin}{-0.5in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\voffset}{0in}
+\setlength{\hoffset}{0.5625in}
+\setlength{\textwidth}{5.75in}
+\setlength{\textheight}{8.5in}
+
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0.25in}
+\emergencystretch=2em
 
 
 %-- Custom Commands
@@ -55,6 +59,8 @@
 \setcounter{tocdepth}{4}
 \setcounter{secnumdepth}{4}
 
+\doublespacing
+\setlistdepth{9} 
 
 %-- Load hyperref LAST
 % \usepackage[hidelinks]{ef}
