@@ -8,7 +8,7 @@ This chapter discusses the foundational theories, real-world applications, and m
 \label{sec:traffic_congestion}
 
 Traffic congestion does not have a single definition. Aftabuzzaman (2007) categorized the definitions into three groups: demand capacity, delay-travel time, and cost. This study notes the definition of congestion by Akthar \& Modipour (2021) as the imbalance between increased traffic flow and limited road capacity, with greater emphasis on demand capacity-related considerations.
-Traffic congestion can be triggered by various factors, including traffic incidents, road works, weather conditions, and special events. These causes are classified into recurring and nonrecurring congestions as shown in Figure 1 (Jilani et al., 2023).
+Traffic congestion can be triggered by various factors, including traffic incidents, road works, weather conditions, and special events. These causes are classified into recurring and nonrecurring congestions as shown in Figure \ref{fig:congestion_classification} (Jilani et al., 2023).
 
 In the Philippines, specifically in Metro Manila, the rising vehicle sales are cited as one of the factors in the increased road traffic, mainly due to inefficient public transportation systems in the metro (Japan International Cooperation Agency, 2025). As a result, traffic congestion affects components in the daily transport system. In the study of González et al. (2021), the results show that congestion is highly correlated with accidentality, with congestion having a significant effect on accidentality rates.
 
@@ -80,7 +80,7 @@ In this set-up, users act under user-optimized conditions, distributing themselv
 \begin{figure}[ht]
     \centering
     \includegraphics[scale=0.6]{figures/figure-2.png}
-    \caption{Four-Node Transportation Network before and after Link Addition. Adapted from Nagurney and Nagurney (2020)} 
+    \caption{\centering Four-Node Transportation Network before and after Link Addition. Adapted from Nagurney and Nagurney (2020)} 
     \label{fig:four_node_model}
 \end{figure}
 
@@ -91,7 +91,7 @@ When this matrix is positive semi-definite, at least one OD pair experiences a d
 \subsection{User Equilibrium (UE) and System Optimum (SO)}
 \label{chap:UE_and_SO}
 
-In transportation modeling, traffic assignment is traditionally cetogirized into two primary frameworks derived from Wardrop's principles, that is, the User Equilibrium and System Optimum (Morandi, 2023). Nagurney \& Nagurney (2020) explains that user behavior is typically described in terms of user-optimization or system-optimization, which is based on Wardrop's (1952) two principles of travel behavior. In a user-optimized network, each user “selfishly” selects the route that would minimize their own travel time. Equilibrium is reached when all used paths between an origin and destination have equal and minimal travel costs, leaving users no incentive to change routes. Conversely, in a system-optimized network, a central controller is responsible for routing traffic so that the network's travel cost is minimized. BP specifically emerges under user-optimizing conditions, where “selfish” choices lead to increased congestion and longer travel times.
+In transportation modeling, traffic assignment is traditionally cetogirized into two primary frameworks derived from Wardrop's principles, that is, the User Equilibrium and System Optimum (Morandi, 2023). In a user-optimized network, each user “selfishly” selects the route that would minimize their own travel time. Equilibrium is reached when all used paths between an origin and destination have equal and minimal travel costs, leaving users no incentive to change routes. Conversely, in a system-optimized network, a central controller is responsible for routing traffic so that the network's travel cost is minimized. BP specifically emerges under user-optimizing conditions, where “selfish” choices lead to increased congestion and longer travel times.
 
 \subsubsection{User Equilibrium (UE)}
 \label{chap:UE}
@@ -200,7 +200,7 @@ Taken together, the methodology of this study is primarily grounded in the compu
 
 Transportation Network Models (TNM) is the classical approach for traffic flow analysis, which is rooted in optimization, and treats traffic as a divisible, static flow moving through a system seeking a stable state. The primary goal is to mathematically calculate the User Equilibrium (UE) (1968, as translated by Braess et al., 2005).
 
-Following the graph-theoric framework established in Section 2.1, transportation networks are modeled as direct graphs where physical intersections are represented as vertices and road segments as edges. In the Philippine context, this graph-theoric approach has been utilized to model traffic congestions at major urban junctions, such as those along Taft Avenue in Manila, where edges are assigned weights corresponding to travel distance or traffic volume (Abanes et al., 2017). Using the graph-theoric framework, Braess (1968, as translated by Braess et al., 2005), in his seminal work, not only introduced the paradox but also provided the mathematical method for finding the “critical flow” by solving a convex optimization problem.
+Following the graph-theoric framework established in Section \ref{sec:theoretical_bp}, transportation networks are modeled as direct graphs where physical intersections are represented as vertices and road segments as edges. In the Philippine context, this graph-theoric approach has been utilized to model traffic congestions at major urban junctions, such as those along Taft Avenue in Manila, where edges are assigned weights corresponding to travel distance or traffic volume (Abanes et al., 2017). Using the graph-theoric framework, Braess (1968, as translated by Braess et al., 2005), in his seminal work, not only introduced the paradox but also provided the mathematical method for finding the “critical flow” by solving a convex optimization problem.
 
 However, while mathematically robust, this model suffers a “fidelity gap” as its simple functions fail to account for the severe, non-linear impact of real-world intersection queuing. Modern research refines this approach as seen in Burov et al. 's (2021) work, where they directly address this gap by proposing an “extended graph representation”, which introduces “phantom links”, which are virtual segments that represent queuing into the optimization model. This allows for a classical convex optimization model to account for the queuing delays, making it more accurate for detecting Braess routes in real-world networks.
 
