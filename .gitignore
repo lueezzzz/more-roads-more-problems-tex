@@ -1,5 +1,5 @@
 *.aux
-*.bbl
+*.bbl*
 *.bcf
 *.blg
 *.idx
@@ -15,3 +15,4 @@
 *.run.xml
 *.log
 *.ilg
+/signatures*
